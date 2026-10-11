@@ -128,12 +128,7 @@ nav.main a.btn-dark,nav.main a.btn-dark:hover{color:var(--on-dark)}
 .track{display:flex; gap:.9rem; width:max-content; margin:.45rem 0}
 .track span{white-space:nowrap; padding:.85rem 1.4rem; border:1px solid var(--line); border-radius:999px; font:400 1.3rem var(--serif); color:var(--teal-deep); background:var(--paper)}
 .track span.g{border-color:var(--stone); background:var(--mist)}
-@media (prefers-reduced-motion:no-preference){
-  .track{animation:slide 60s linear infinite}
-  .track.rev{animation-direction:reverse; animation-duration:70s}
-  .marquee.paused .track{animation-play-state:paused}
-}
-@keyframes slide{to{transform:translateX(-50%)}}
+.track{will-change:transform}
 .pause{display:block; margin:2rem auto 0; background:none; border:0; font:400 .82rem var(--sans); letter-spacing:.12em; text-transform:uppercase; color:var(--muted); cursor:pointer; text-decoration:underline; text-underline-offset:4px}
 @media (prefers-reduced-motion:reduce){ .pause{display:none} .track{flex-wrap:wrap; width:auto; justify-content:center; padding-inline:1rem} }
 
@@ -177,7 +172,12 @@ nav.main a.btn-dark,nav.main a.btn-dark:hover{color:var(--on-dark)}
 .about p{color:var(--muted)}
 .training{list-style:none; margin:2.25rem 0 2.5rem; padding:0; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); column-gap:2.5rem}
 .training li{padding:.7rem 0; border-top:1px solid var(--line); font-size:.93rem; line-height:1.5}
-@media (max-width:860px){ .about-grid{grid-template-columns:1fr} .portrait-wrap{max-width:380px} }
+.trusted-mob{display:none}
+@media (max-width:860px){
+  .about-grid{grid-template-columns:1fr} .portrait-wrap{max-width:380px}
+  .trusted-desk{display:none}
+  .trusted-mob{display:block; margin:0 0 1rem}
+}
 .about-grid{align-items:start}
 @media (max-width:520px){ .training{grid-template-columns:1fr} }
 
@@ -447,7 +447,7 @@ form.cf{background:var(--white); border-radius:var(--radius); padding:clamp(1.5r
           <span>Read reviews on Healthgrades &rarr;</span>
         </a>
       </div>
-      <p class="trusted">Trusted by patients across <em>Texas</em></p>
+      <p class="trusted trusted-desk">Trusted by patients across <em>Texas</em></p>
     </div>
     <div>
       <p class="eyebrow">Your practitioner</p>
@@ -466,6 +466,7 @@ form.cf{background:var(--white); border-radius:var(--radius); padding:clamp(1.5r
         <li>Hormone therapy, Dr. Rachel Rubin</li>
       </ul>
       <div class="about-reviews">
+        <p class="trusted trusted-mob">Trusted by patients across <em>Texas</em></p>
         <blockquote>
           Xenia is very thorough with her reports and recommendations, and it is wonderful the way she will answer any questions. I've gone through a fantastic transformation with her guidance.
           <footer>Bradley D. &middot; Austin, TX</footer>
@@ -693,7 +694,26 @@ function fill(el, items){
 fill(document.getElementById("t1"), SYMPTOMS_1);
 fill(document.getElementById("t2"), SYMPTOMS_2);
 const mq = document.querySelector(".marquee"), pb = document.getElementById("pauseBtn");
-pb.addEventListener("click", () => { const p = mq.classList.toggle("paused"); pb.textContent = p ? "Play motion" : "Pause motion"; });
+let paused = false;
+pb.addEventListener("click", () => { paused = !paused; pb.textContent = paused ? "Play motion" : "Pause motion"; });
+if (!matchMedia("(prefers-reduced-motion: reduce)").matches){
+  /* each row moves at a steady speed in px/second; the second row runs the other way */
+  const rows = [{ el: document.getElementById("t1"), speed: 28, dir: -1, x: 0 }, { el: document.getElementById("t2"), speed: 24, dir: 1, x: 0 }];
+  let last = performance.now();
+  const step = now => {
+    const dt = Math.min(.05, (now - last) / 1000); last = now;
+    rows.forEach(r => {
+      const half = r.el.scrollWidth / 2; if (!half) return;
+      if (!paused) r.x += r.dir * r.speed * dt;
+      if (r.x <= -half) r.x += half;
+      if (r.x > 0) r.x -= half;
+      r.el.style.transform = `translate3d(${r.x}px,0,0)`;
+    });
+    requestAnimationFrame(step);
+  };
+  rows[1].x = -rows[1].el.scrollWidth / 4;
+  requestAnimationFrame(step);
+}
 
 /* ---- contact form (Netlify Forms) ---- */
 const cf = document.getElementById("contactForm"), cfStatus = document.getElementById("cfStatus");
