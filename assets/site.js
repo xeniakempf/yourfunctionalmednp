@@ -1,4 +1,3 @@
-window.BUILT_PAGES = ["/", "/functional-medicine-austin", "/integrative-primary-care"];
 /* ===== EDIT HERE (shared by every page) ===== */
 const SITE = "https://www.yourfunctionalmednp.com";   // current site, used for pages not built yet
 const BOOKING_URL = "https://l.bttr.to/MLk8a";        // free 15-min discovery call
@@ -8,14 +7,11 @@ const ASSESSMENT_URL = "";                             // the assessment widget 
 
 /* Each page sets window.PAGE = { photos: {...}, symptoms: [[...],[...]] } before this script. */
 const PAGE = window.PAGE || {};
-const BUILT = window.BUILT_PAGES || ["/"];
-const onSite = /yourfunctionalmednp\.com$|netlify\.app$|^localhost$|^127\./.test(location.hostname);
-
-/* Links to pages that exist in the new site stay local; everything else opens the current site. */
-document.querySelectorAll('a[href^="/"]').forEach(a => {
-  const href = a.getAttribute("href"), path = href.split("#")[0] || "/";
-  if (onSite && BUILT.includes(path)) return;
-  a.href = SITE + href; a.target = "_blank"; a.rel = "noopener";
+/* On the deployed site this script loads from /assets/site.js. Netlify's _redirects file sends any page
+   that isn't built yet to the current site. In a single-file preview, links open the current site instead. */
+const deployed = !!document.querySelector('script[src$="/assets/site.js"]');
+if (!deployed) document.querySelectorAll('a[href^="/"]').forEach(a => {
+  a.href = SITE + a.getAttribute("href"); a.target = "_blank"; a.rel = "noopener";
 });
 document.querySelectorAll(".js-book").forEach(a => a.href = BOOKING_URL);
 document.querySelectorAll(".js-portal").forEach(a => a.href = PORTAL_URL);
@@ -118,7 +114,7 @@ const cf = document.getElementById("contactForm"), cfStatus = document.getElemen
 cf.addEventListener("submit", async e => {
   e.preventDefault();
   const say = (msg, err) => { cfStatus.textContent = msg; cfStatus.classList.toggle("err", !!err); cfStatus.hidden = false; };
-  if (!onSite){ say("Preview only: messages will be delivered once the site is live on Netlify."); return; }
+  if (!deployed){ say("Preview only: messages will be delivered once the site is live on Netlify."); return; }
   try {
     const r = await fetch("/", { method:"POST", headers:{ "Content-Type":"application/x-www-form-urlencoded" }, body: new URLSearchParams(new FormData(cf)).toString() });
     if (!r.ok) throw new Error(r.status);
