@@ -7,7 +7,7 @@
 <meta name="description" content="Functional medicine, integrative psychiatry, BHRT and integrative primary care with Xenia Kempf, FNP-C. In person in Austin, TX, and by secure video anywhere in Texas.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 /* Layout: full-bleed painted hero, symptom marquee, 4x2 colored service tiles, arched portrait bio, numbered visit steps, assessment card, review band, painted closing. Single light theme by design (live practice site). */
 :root{
@@ -60,15 +60,17 @@ section{padding-block:clamp(5rem,10vw,8.5rem)}
 .btn-row{display:flex; flex-wrap:wrap; gap:.8rem; align-items:center}
 
 /* header */
-header.site{position:fixed; inset:0 0 auto 0; z-index:40; padding-top:env(safe-area-inset-top,0px); color:var(--teal-deep); transition:background .4s, box-shadow .4s}
-header.site.scrolled,header.site.open-menu{background:rgba(247,248,246,.94); backdrop-filter:blur(12px); box-shadow:0 1px 0 var(--line)}
+header.site{position:fixed; inset:0 0 auto 0; z-index:40; padding-top:env(safe-area-inset-top,0px); color:var(--teal-deep); background:rgba(247,248,246,.8); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px); transition:background .4s, box-shadow .4s}
+header.site.scrolled,header.site.open-menu{background:rgba(247,248,246,.95); box-shadow:0 1px 0 var(--line)}
 .bar{display:flex; align-items:center; justify-content:space-between; gap:1rem; height:96px}
 .brand{display:block; text-decoration:none}
 .brand img{height:62px; width:auto}
 nav.main>ul{list-style:none; display:flex; gap:2rem; margin:0; padding:0; align-items:center}
-nav.main a,.drop-btn{text-decoration:none; font:300 .95rem var(--sans); letter-spacing:.04em; color:inherit}
+nav.main a,.drop-btn{text-decoration:none; font:600 .98rem var(--sans); letter-spacing:.03em; color:inherit}
+.menu li a{font-weight:500}
 nav.main a:not(.btn):hover,.drop-btn:hover{color:var(--teal)}
 nav.main .btn{padding:.85rem 1.35rem; font-size:.9rem}
+nav.main a.btn-dark,nav.main a.btn-dark:hover{color:var(--on-dark)}
 .ext::after{content:"\2197"; font-size:.8em; margin-left:.25em; opacity:.7}
 .drop{position:relative}
 .drop-btn{background:none; border:0; padding:0; cursor:pointer; display:inline-flex; align-items:center; gap:.4rem}
@@ -76,6 +78,7 @@ nav.main .btn{padding:.85rem 1.35rem; font-size:.9rem}
 .drop.open .chev{transform:rotate(225deg) translateY(-1px)}
 .menu{position:absolute; top:calc(100% + 18px); left:-1.5rem; min-width:290px; background:var(--white); border-radius:18px; padding:.75rem; list-style:none; margin:0; box-shadow:0 30px 60px -30px rgba(21,88,99,.45), 0 0 0 1px var(--line); display:none}
 .drop.open .menu{display:block}
+.menu::before{content:""; position:absolute; left:0; right:0; top:-22px; height:22px}
 .menu li a{display:flex; align-items:center; gap:.85rem; padding:.6rem .8rem; border-radius:12px; font-size:.95rem}
 .menu li a:hover{background:var(--mist); color:var(--teal-deep)}
 .menu .dot{width:10px; height:10px; border-radius:50%; flex:none}
@@ -722,8 +725,9 @@ toggle.addEventListener("click", () => {
 });
 dropBtn.addEventListener("click", e => { e.stopPropagation(); setDrop(!drop.classList.contains("open")); });
 const desktop = matchMedia("(min-width:1081px) and (hover:hover)");
-drop.addEventListener("mouseenter", () => { if (desktop.matches) setDrop(true); });
-drop.addEventListener("mouseleave", () => { if (desktop.matches) setDrop(false); });
+let dropTimer;
+drop.addEventListener("mouseenter", () => { if (desktop.matches){ clearTimeout(dropTimer); setDrop(true); } });
+drop.addEventListener("mouseleave", () => { if (desktop.matches){ clearTimeout(dropTimer); dropTimer = setTimeout(() => setDrop(false), 250); } });
 document.addEventListener("click", e => { if (!drop.contains(e.target) && desktop.matches) setDrop(false); });
 document.addEventListener("keydown", e => { if (e.key === "Escape" && drop.classList.contains("open")){ setDrop(false); dropBtn.focus(); } });
 nav.querySelectorAll("a").forEach(a => a.addEventListener("click", closeMenu));
