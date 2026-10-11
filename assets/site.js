@@ -1,3 +1,4 @@
+window.BUILT_PAGES = ["/", "/functional-medicine-austin", "/integrative-primary-care"];
 /* ===== EDIT HERE (shared by every page) ===== */
 const SITE = "https://www.yourfunctionalmednp.com";   // current site, used for pages not built yet
 const BOOKING_URL = "https://l.bttr.to/MLk8a";        // free 15-min discovery call
