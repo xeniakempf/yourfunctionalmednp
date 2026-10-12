@@ -393,3 +393,6 @@ form.cf{background:var(--white); border-radius:var(--radius); padding:clamp(1.5r
 .disc-head h4{font:400 .78rem var(--sans); letter-spacing:.18em; text-transform:uppercase; color:var(--teal-ink); margin:0 0 .5rem}
 .disc-head h4 + .after{margin-bottom:2rem}
 @media (max-width:860px){ .plans,.disc-head{grid-template-columns:1fr} .terms{grid-template-columns:1fr} }
+
+/* Mold Detox is reached from the Functional Medicine page, not the menu (hides it on pages built before this change) */
+.menu a[href="/mold-detox-in-texas"]{display:none}
