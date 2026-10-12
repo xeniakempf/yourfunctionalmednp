@@ -396,3 +396,101 @@ form.cf{background:var(--white); border-radius:var(--radius); padding:clamp(1.5r
 
 /* Mold Detox is reached from the Functional Medicine page, not the menu (hides it on pages built before this change) */
 .menu a[href="/mold-detox-in-texas"]{display:none}
+
+/* lab testing tiles */
+.lab .meta{font-size:.82rem; letter-spacing:.08em; text-transform:uppercase; color:var(--teal-ink); margin:-.25rem 0 .75rem}
+.lab p{margin-bottom:1rem}
+.lab .prices{list-style:none; margin:0 0 1.25rem; padding:0; border-top:1px solid var(--line)}
+.lab .prices li{display:flex; justify-content:space-between; gap:1rem; padding:.55rem 0; border-bottom:1px solid var(--line); font-size:.95rem}
+.lab .prices b{font:400 1.2rem var(--serif); color:var(--teal-deep); white-space:nowrap}
+.lab{display:flex; flex-direction:column; scroll-margin-top:110px}
+.lab .btn-row{margin-top:auto; gap:.5rem}
+.lab .btn{padding:.8rem 1.1rem; font-size:.85rem; letter-spacing:.03em}
+.lab .sample{display:inline-block; margin:-.5rem 0 1rem; font-size:.88rem; color:var(--teal-deep)}
+.notes{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1.5rem 2.5rem; margin-top:2.5rem}
+.notes div{border-top:1px solid var(--line); padding-top:1rem}
+.notes b{display:block; font:400 1.3rem/1.25 var(--serif); color:var(--teal-deep); margin-bottom:.35rem}
+.notes p{color:var(--muted); font-size:.95rem; margin:0}
+@media (max-width:860px){ .notes{grid-template-columns:1fr} }
+
+/* Resources page */
+.group-head{--gc:var(--teal-deep); display:flex; align-items:center; justify-content:space-between; gap:1rem; margin:3rem 0 .5rem; padding:1.3rem 1.6rem; background:var(--gc); border-radius:var(--radius); color:var(--white); box-shadow:0 20px 50px -35px rgba(21,88,99,.5)}
+.group-head:first-of-type{margin-top:.5rem}
+.group-head h3{font-size:clamp(2rem,3.4vw,2.6rem); line-height:1.1; margin:0; color:var(--white)}
+.group-head p{margin:.3rem 0 0; font-size:.95rem; color:rgba(255,255,255,.82)}
+.group-head span{flex:none; font-size:.78rem; letter-spacing:.1em; text-transform:uppercase; padding:.45rem .85rem; border:1px solid rgba(255,255,255,.45); border-radius:999px; color:var(--white)}
+.group-head.nut{--gc:var(--teal-deep)}
+.group-head.well{--gc:var(--teal-ink)}
+@media (max-width:560px){ .group-head{padding:1.1rem 1.2rem} .group-head span{display:none} }
+.guide-grid{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:0 2.5rem}
+.guide{display:flex; flex-direction:column; padding:1.25rem 0 1.4rem; border-bottom:1px solid var(--line)}
+.guide h3{font-size:1.45rem; margin:0 0 .35rem}
+.guide p{color:var(--muted); font-size:.95rem; line-height:1.55; margin:0 0 .8rem}
+.guide .dl{text-decoration:none; margin-top:auto; font-size:.86rem; letter-spacing:.04em; color:var(--teal-ink)}
+.guide .dl:hover{color:var(--teal-deep)}
+.chips{display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:.6rem}
+.chips a{text-decoration:none; display:flex; justify-content:space-between; align-items:center; gap:.5rem; padding:.85rem 1.1rem; background:var(--white); border:1px solid var(--line); border-radius:12px; font-size:.95rem; color:var(--ink); transition:border-color .2s, color .2s}
+.chips a span{color:var(--teal-ink)}
+.chips a:hover{border-color:var(--teal); color:var(--teal-deep)}
+@media (max-width:1080px){ .guide-grid{grid-template-columns:repeat(2,minmax(0,1fr))} .chips{grid-template-columns:repeat(3,minmax(0,1fr))} }
+@media (max-width:640px){ .guide-grid{grid-template-columns:1fr} .chips{grid-template-columns:repeat(2,minmax(0,1fr))} .chips a{font-size:.88rem; padding:.75rem .85rem} }
+
+/* Quizzes (Resources page) */
+[hidden]{display:none !important}
+.quiz-panel{margin-top:2rem; background:var(--white); border-radius:var(--radius); padding:clamp(1.5rem,4vw,3rem); box-shadow:0 30px 70px -45px rgba(21,88,99,.45); scroll-margin-top:100px}
+.quiz-top{display:flex; justify-content:space-between; align-items:flex-start; gap:1rem; margin-bottom:1.75rem}
+.quiz-top h2{margin:.2rem 0 .6rem}
+.quiz-top .lede{margin:0}
+.q-close{flex:none; width:44px; height:44px; border-radius:50%; border:1px solid var(--line); background:var(--paper); color:var(--teal-deep); font-size:1.6rem; line-height:1; cursor:pointer}
+.q-close:hover{border-color:var(--teal)}
+.q-steps{list-style:none; margin:0 0 2rem; padding:0; display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:.5rem; counter-reset:none}
+.q-steps li{display:flex; align-items:center; gap:.6rem; padding-top:.75rem; border-top:3px solid var(--line); font-size:.82rem; letter-spacing:.03em; color:var(--muted)}
+.q-steps li span{flex:none; display:grid; place-items:center; width:26px; height:26px; border-radius:50%; border:1px solid var(--line); font-size:.78rem}
+.q-steps li.done{border-color:var(--teal); color:var(--teal-ink)}
+.q-steps li.done span{background:var(--teal); border-color:var(--teal); color:var(--white)}
+.q-steps li.on{border-color:var(--teal-deep); color:var(--teal-deep); font-weight:600}
+.q-steps li.on span{background:var(--teal-deep); border-color:var(--teal-deep); color:var(--white)}
+.q-step{border:0; margin:0; padding:0; min-width:0}
+.q-step legend{padding:0; font:400 clamp(1.6rem,2.6vw,2rem)/1.2 var(--serif); color:var(--teal-deep)}
+.q-num{display:block; font:500 .78rem var(--sans); letter-spacing:.12em; text-transform:uppercase; color:var(--teal-ink); margin-bottom:.35rem}
+.q-hint{color:var(--muted); font-size:.95rem; margin:.6rem 0 1.25rem}
+.q-count{display:inline-block; margin-left:.5rem; padding:.15rem .6rem; border-radius:999px; background:var(--mist); color:var(--teal-deep); font-weight:500; font-size:.82rem}
+.q-opts{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:.5rem}
+.q-opt{display:flex; align-items:flex-start; gap:.6rem; padding:.65rem .8rem; border:1px solid var(--line); border-radius:10px; font-size:.93rem; line-height:1.35; cursor:pointer; transition:background .15s, border-color .15s}
+.q-opt input{flex:none; width:18px; height:18px; margin:.05rem 0 0; accent-color:var(--teal-deep)}
+.q-opt:hover{border-color:var(--teal)}
+.q-opt:has(input:checked){background:var(--mist); border-color:var(--teal); color:var(--teal-deep)}
+.q-nav{display:flex; justify-content:space-between; gap:.75rem; margin-top:1.75rem}
+.q-email{max-width:460px}
+.q-email label{display:block; font-size:.85rem; letter-spacing:.06em; text-transform:uppercase; color:var(--teal-ink); margin-bottom:.4rem}
+.q-email input{width:100%; box-sizing:border-box; padding:.9rem 1rem; border:1px solid var(--line); border-radius:10px; font:inherit; font-size:1rem; background:var(--paper); color:var(--ink)}
+.q-email input:focus{outline:2px solid var(--teal); outline-offset:1px; border-color:var(--teal)}
+.q-err{color:#9b3b3b; font-size:.9rem; margin:.5rem 0 0}
+.q-result{text-align:center; max-width:640px; margin:0 auto; padding:1rem 0}
+.q-score{display:inline-flex; flex-direction:column; align-items:center; justify-content:center; width:132px; height:132px; border-radius:50%; background:var(--mist); border:2px solid var(--teal); margin:.75rem 0 1rem}
+.q-score b{font:400 3rem/1 var(--serif); color:var(--teal-deep)}
+.q-score span{font-size:.68rem; letter-spacing:.08em; text-transform:uppercase; color:var(--teal-ink); margin-top:.3rem}
+.q-result.high .q-score{background:var(--teal-deep); border-color:var(--teal-deep)}
+.q-result.high .q-score b, .q-result.high .q-score span{color:var(--white)}
+.q-result h3{font-size:clamp(1.7rem,3vw,2.2rem); margin:0 0 .6rem; color:var(--teal-deep)}
+.q-result #mq-msg{color:var(--muted); margin:0 auto 1.5rem; max-width:52ch}
+.q-result .btn-row{justify-content:center}
+.q-link{background:none; border:0; padding:0; font:inherit; color:var(--teal-ink); text-decoration:underline; cursor:pointer}
+@media (max-width:1080px){ .q-opts{grid-template-columns:repeat(2,minmax(0,1fr))} }
+@media (max-width:640px){
+  .q-opts{grid-template-columns:1fr; gap:.4rem}
+  .q-opt{padding:.55rem .75rem}
+  .q-steps li{font-size:0; gap:0}
+  .q-steps li span{font-size:.78rem}
+  .q-nav .btn{flex:1; justify-content:center}
+}
+#quizzes .cond{display:flex; flex-direction:column}
+#quizzes .cond .btn-row{margin-top:auto !important; padding-top:1.25rem}
+.q-q{border:0; margin:0 0 1.75rem; padding:0 0 1.5rem; min-width:0; border-bottom:1px solid var(--line)}
+.q-q legend{padding:0; font:400 clamp(1.3rem,2.2vw,1.6rem)/1.3 var(--serif); color:var(--teal-deep); margin-bottom:.9rem}
+.q-q .q-opts{margin-top:.9rem}
+.q-opt input[type=radio]{border-radius:50%}
+#thyroidQuiz .q-err{margin:-.5rem 0 0}
+.quiz-panel{position:relative}
+.quiz-panel .q-close{position:absolute; top:clamp(1rem,2.5vw,1.75rem); right:clamp(1rem,2.5vw,1.75rem)}
+.quiz-top .eyebrow{padding-right:3.5rem}
