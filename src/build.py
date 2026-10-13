@@ -115,6 +115,11 @@ OLD_TO_NEW = [
     ("/functional-medicine-blog/*", "/functional-medicine-blog"), ("/blog", "/functional-medicine-blog"),
     ("/post", "/functional-medicine-blog"),
 ]
+# Old Wix PDF addresses (/_files/ugd/01b06b_<id>.pdf) -> the same file in /downloads
+_wix = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets", "downloads", "wix-files.json")
+if os.path.exists(_wix):
+    OLD_TO_NEW += [(f"/_files/ugd/01b06b_{k}.pdf", v) for k, v in sorted(json.load(open(_wix)).items())]
+
 REDIRECTS = ("# Old Wix addresses -> new pages\n"
              + "".join(f"{a:<62} {b:<52} 301\n" for a, b in OLD_TO_NEW)
              + "\n# Test site only: anything not built yet falls through to the current site.\n"
@@ -205,6 +210,11 @@ def build():
         with open(os.path.join(PREVIEW, p["slug"] + ".html"), "w", encoding="utf-8") as f:
             f.write(frag)
         print("built", p["path"])
+
+    # downloadable PDFs (guides, product lists) -> /downloads/...
+    dl = os.path.join(ASSETS, "downloads")
+    if os.path.isdir(dl):
+        shutil.copytree(dl, os.path.join(SITE, "downloads"), ignore=shutil.ignore_patterns("*.json"))
 
     # blog posts: /post/<slug>, same URLs as on Wix
     blog_img_dir = os.path.join(ASSETS, "blog")
