@@ -108,7 +108,7 @@
     <p class="small">Gut, hormones, metabolism and mood affect each other. We look at all of them together and build one plan.</p>
     <div class="btn-row" style="margin-top:2rem">
       <a class="btn btn-light js-book" href="#" target="_blank" rel="noopener">Book a free call <span class="arrow">&rarr;</span></a>
-      <a class="btn btn-ghost-light" href="#assessment">Take the free assessment</a>
+      <a class="btn btn-ghost-light" href="#assessment" data-rca-open>Take the free assessment</a>
     </div>
   </div>
 </section>
@@ -176,16 +176,25 @@
     <div class="assess-card">
       <p class="eyebrow">Free root-cause health assessment</p>
       <h2 id="assess-title">Find out what may be behind your symptoms</h2>
-      <p>Answer a short set of questions about how you feel. You'll get a summary of the systems most likely involved, sent to your inbox.</p>
+      <p>Answer 10 quick questions about how you feel. You'll see the root-cause pattern that best matches your answers, and what it often looks like, right away.</p>
       <div class="btn-row">
-        <a class="btn btn-light js-assess" href="#assessment">Start the free assessment <span class="arrow">&rarr;</span></a>
+        <button type="button" class="btn btn-light" id="rcaOpen" aria-controls="rca" aria-expanded="false">Start the free assessment <span class="arrow">&rarr;</span></button>
       </div>
     </div>
     <ul class="assess-list">
       <li><span class="check" aria-hidden="true"></span><div><b>A few minutes, from your phone</b><span class="t">Questions about energy, digestion, hormones, mood and sleep.</span></div></li>
-      <li><span class="check" aria-hidden="true"></span><div><b>Your results by email</b><span class="t">A summary you can keep and bring to your first visit.</span></div></li>
+      <li><span class="check" aria-hidden="true"></span><div><b>Your results right away</b><span class="t">Your pattern and what it often looks like, to bring to your first visit.</span></div></li>
       <li><span class="check" aria-hidden="true"></span><div><b>Optional lab analysis, from $150</b><span class="t">Order functional labs and have them reviewed through a functional medicine lens. <a class="inline" href="https://us.fullscript.com/j/xkempf" target="_blank" rel="noopener">See lab options &rarr;</a></span></div></li>
     </ul>
+  </div>
+  <div class="wrap">
+    <div class="quiz-panel rca" id="rca" hidden aria-live="polite">
+      <div class="rca-top">
+        <p class="eyebrow">Root-cause health assessment</p>
+        <button type="button" class="q-close" id="rcaClose" aria-label="Close the assessment">&times;</button>
+      </div>
+      <div id="rcaApp"></div>
+    </div>
   </div>
 </section>
 

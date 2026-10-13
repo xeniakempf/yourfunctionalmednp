@@ -632,3 +632,40 @@ form.cf{background:var(--white); border-radius:var(--radius); padding:clamp(1.5r
 .nf .nf-links{flex-wrap:wrap; gap:.55rem; margin-top:1.75rem; max-width:760px}
 .nf .nf-links .btn{padding:.65rem 1.1rem; font-size:.88rem}
 .hero.nf{min-height:clamp(620px,88svh,860px)}
+
+/* Root-cause assessment (home page) */
+.rca{max-width:760px; margin-inline:auto}
+.rca-top{display:flex; justify-content:space-between; align-items:center; gap:1rem; margin-bottom:1.25rem}
+.rca-top .eyebrow{margin:0}
+.rca-bar{display:grid; grid-template-columns:repeat(10,1fr); gap:5px; margin-bottom:1.5rem}
+.rca-bar span{height:5px; border-radius:3px; background:var(--line)}
+.rca-bar span.on{background:var(--teal-deep)}
+.rca-step{font-size:.8rem; letter-spacing:.12em; text-transform:uppercase; color:var(--teal-ink); margin:0 0 .6rem}
+.rca-q{font-size:clamp(1.6rem,3vw,2.15rem); line-height:1.2; margin:0 0 1.5rem}
+.rca-opts{display:grid; gap:.6rem}
+.rca-opt{font:inherit; text-align:left; padding:1rem 1.2rem; border:1px solid var(--line); border-radius:14px; background:var(--paper); color:var(--ink); cursor:pointer; transition:background .15s, border-color .15s}
+.rca-opt:hover{border-color:var(--teal)}
+.rca-opt.on{background:var(--mist); border-color:var(--teal-deep); color:var(--teal-deep); box-shadow:inset 0 0 0 1px var(--teal-deep)}
+.rca-nav{display:flex; justify-content:space-between; align-items:center; margin-top:1.75rem; gap:1rem}
+.rca-nav .btn[disabled]{opacity:.45; cursor:not-allowed}
+.rca-back{font:inherit; background:none; border:0; color:var(--teal-ink); cursor:pointer; padding:.5rem 0; font-size:.95rem}
+.rca-back:hover{color:var(--teal-deep); text-decoration:underline}
+.rca-sub{color:var(--muted); margin:0 0 1.25rem}
+.rca-gate{display:grid; gap:.9rem; background:var(--mist); border-radius:16px; padding:clamp(1.25rem,3vw,1.75rem)}
+.rca-gate label span{display:block; font-size:.85rem; color:var(--muted); margin-bottom:.3rem}
+.rca-gate input{width:100%; font:inherit; padding:.85rem 1rem; border:1px solid var(--line); border-radius:10px; background:var(--white); color:var(--ink)}
+.rca-gate input:focus{outline:2px solid var(--teal); outline-offset:1px}
+.rca-gate input.bad{border-color:#B4574F}
+.rca-gate .btn{justify-self:start}
+.rca-err{color:#9A3F38; margin:0; font-size:.92rem}
+.rca-fine{font-size:.82rem; color:var(--muted); margin:0}
+.rca-badge{display:inline-block; padding:.35rem .9rem; border-radius:999px; background:var(--teal-deep); color:var(--white); font-size:.75rem; letter-spacing:.12em; text-transform:uppercase}
+.rca-title{font-size:clamp(2rem,4vw,2.8rem); line-height:1.1; margin:1rem 0 1rem}
+.rca-h{font-weight:500; color:var(--teal-deep); margin:1.5rem 0 .5rem}
+.rca-list{list-style:none; padding:0; margin:0 0 1.5rem}
+.rca-list li{padding:.75rem 0 .75rem 1.5rem; border-bottom:1px solid var(--line); position:relative}
+.rca-list li::before{content:""; position:absolute; left:.2rem; top:1.3rem; width:7px; height:7px; border-radius:50%; background:var(--teal)}
+.rca-report .btn-row{flex-wrap:wrap; gap:.75rem; margin:.5rem 0 0}
+.rca-disclaimer{font-size:.82rem; color:var(--muted); border-top:1px solid var(--line); padding-top:1rem; margin:1.75rem 0 .5rem}
+.rca-top .eyebrow{min-width:0}
+@media (max-width:560px){ .rca-top .eyebrow{font-size:.7rem; letter-spacing:.14em} }
