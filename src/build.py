@@ -222,9 +222,7 @@ def build():
     # blog posts: /post/<slug>, same URLs as on Wix
     blog_img_dir = os.path.join(ASSETS, "blog")
     if os.path.isdir(blog_img_dir):
-        os.makedirs(os.path.join(SITE, "images", "blog"), exist_ok=True)
-        for fname in os.listdir(blog_img_dir):
-            shutil.copy(os.path.join(blog_img_dir, fname), os.path.join(SITE, "images", "blog", fname))
+        shutil.copytree(blog_img_dir, os.path.join(SITE, "images", "blog"), dirs_exist_ok=True)
     posts = build_posts()
     os.makedirs(os.path.join(PREVIEW, "post"), exist_ok=True)
     for p in posts:

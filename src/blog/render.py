@@ -250,10 +250,17 @@ def related(slug, topic, k=3):
     return (same + other)[:k]
 
 
+def cover_url(slug, mid):
+    """Cover image for cards: local file in src/assets/blog/covers/<slug>.webp, else the Wix original."""
+    if os.path.exists(os.path.join(LOCAL_IMG_DIR, "covers", slug + ".webp")):
+        return f"/images/blog/covers/{slug}.webp"
+    return img_url(mid, fill=(640, 480))
+
+
 def card(p):
     slug, title, d, mid, topic = p
     return f'''      <a class="post" href="/post/{slug}" style="--tc:{TOPIC_COLOR[topic]}">
-        <div class="post-img"><span>{escape(topic)}</span><img src="{img_url(mid, fill=(640, 480))}" alt="" loading="lazy" onerror="this.remove()"></div>
+        <div class="post-img"><span>{escape(topic)}</span><img src="{cover_url(slug, mid)}" alt="" loading="lazy" onerror="this.remove()"></div>
         <div class="post-body">
           <p class="post-meta"><b>{escape(topic)}</b><time datetime="{d}">{nice(d)[:3] + nice(d)[nice(d).index(' '):]}</time></p>
           <h3>{escape(title)}</h3>
