@@ -218,7 +218,7 @@ def page_graph(path, title, desc, page_html, name):
             s["offers"] = svc["offers"]
         graph.append(s)
     if path != "/":
-        wp["breadcrumb"] = crumbs([("Home", "/"), (name, path)])
+        wp["breadcrumb"] = crumbs([("Home", "/"), (re.sub(r"\s+Page$", "", name), path)])
         # every page refers to the practice; give non-home pages the core nodes too, so each page stands alone
         graph = [organization(), person(), website()] + graph
     graph.append(wp)
