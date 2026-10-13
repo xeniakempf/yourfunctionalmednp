@@ -133,14 +133,23 @@
 </section>
 
 <!-- FREE CHART -->
-<section class="clin-free" aria-labelledby="free-title">
+<section class="clin-free" id="free-chart" aria-labelledby="free-title">
   <div class="wrap"><div class="clin-free-inner">
     <div>
       <p class="eyebrow">Free download</p>
       <h2 id="free-title">Estradiol conversion <em>chart</em></h2>
       <p>One printable page: labeled dose to expected serum estradiol for every patch, gel, spray, oral and vaginal product, pulled straight from the app. For licensed prescribers.</p>
     </div>
-    <a class="btn btn-dark" href="https://learn.bhrt.app/#free-chart" target="_blank" rel="noopener">Get the free chart <span class="arrow">&rarr;</span></a>
+    <form class="chart-form" id="chartForm" novalidate>
+      <label for="chart-email" class="sr">Email address</label>
+      <div class="chart-row">
+        <input id="chart-email" name="email" type="email" autocomplete="email" placeholder="you@yourpractice.com" required>
+        <button class="btn btn-dark" type="submit">Email me the chart <span class="arrow">&rarr;</span></button>
+      </div>
+      <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <p class="chart-msg" id="chartMsg" role="status" hidden></p>
+      <p class="chart-fine">We'll email you the PDF, plus updates about the course and app now and then. Unsubscribe anytime.</p>
+    </form>
   </div></div>
 </section>
 
@@ -182,7 +191,7 @@
     <p>Start with the free estradiol chart, or enroll in the course and app today.</p>
     <div class="btn-row">
       <a class="btn btn-dark" href="#pricing">See plans &amp; enroll <span class="arrow">&rarr;</span></a>
-      <a class="btn btn-line" href="https://learn.bhrt.app/#free-chart" target="_blank" rel="noopener">Free chart</a>
+      <a class="btn btn-line" href="#free-chart">Free chart</a>
     </div>
     <p class="clin-disclaimer">For licensed prescribers. Educational content only, not a substitute for clinical judgment, current package labeling, or informed consent with your patients. Built from current society guidelines (The Menopause Society) and the teachings of A4M, the Institute for Functional Medicine, Dr. Mary Claire Haver and Dr. Rachel Rubin.</p>
   </div>

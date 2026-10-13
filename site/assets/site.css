@@ -749,3 +749,14 @@ form.cf{background:var(--white); border-radius:var(--radius); padding:clamp(1.5r
 @media (max-width:560px){ .clin-features{grid-template-columns:1fr} .clin-by{grid-template-columns:1fr} .clin-by img{width:120px; height:120px} }
 nav.main a,nav.main .drop-btn{white-space:nowrap}
 @media (max-width:1240px) and (min-width:1081px){ nav.main>ul{gap:1.35rem} nav.main a,.drop-btn{font-size:.92rem} nav.main .btn{padding:.8rem 1.1rem; font-size:.85rem} }
+.chart-form{flex:1 1 360px; max-width:480px}
+.chart-row{display:flex; gap:.6rem; flex-wrap:wrap}
+.chart-row input{flex:1 1 220px; min-width:0; font:inherit; padding:.95rem 1.15rem; border:1px solid var(--line); border-radius:999px; background:var(--white); color:var(--ink)}
+.chart-row input:focus{outline:2px solid var(--teal); outline-offset:1px}
+.chart-form .hp{position:absolute; left:-9999px; width:1px; height:1px; opacity:0}
+.chart-msg{margin:.75rem 0 0; font-size:.95rem}
+.chart-msg.ok{color:var(--teal-deep)}
+.chart-msg.err{color:#9A3F38}
+.chart-fine{margin:.75rem 0 0 !important; font-size:.82rem; color:var(--muted)}
+.chart-row{flex-direction:column; align-items:flex-start}
+.chart-row input{width:100%; flex:none}
