@@ -1,0 +1,364 @@
+{
+  "_about": "SEO and social text for every page. title = browser tab and Google result title (aim for 60 characters or fewer). desc = Google result snippet (aim for 155 or fewer). og_title / og_desc = what shows when the page is shared on Facebook, LinkedIn, texts, etc. og_image (optional) = the share picture, otherwise one is generated. index: false hides a page from search engines.",
+  "pages": {
+    "/": {
+      "title": "Your Functional Health | Functional Medicine in Austin, TX",
+      "desc": "Functional medicine, integrative psychiatry, BHRT and primary care with Xenia Kempf, FNP-C. In person in Austin and by secure video anywhere in Texas.",
+      "og_title": "Root-Cause Care in Austin & Across Texas",
+      "og_desc": "Hormones, gut health, mood and metabolism, with one provider who has time for you. In Austin and by video across Texas."
+    },
+    "/functional-medicine-austin": {
+      "title": "Functional Medicine in Austin, TX | Root-Cause Care",
+      "desc": "Root-cause care for gut health, hormones, thyroid, fatigue and autoimmunity, with advanced lab testing and a personal plan. Austin and virtual across Texas.",
+      "og_title": "Functional Medicine in Austin & Across Texas",
+      "og_desc": "Find the root cause of fatigue, gut trouble, hormone and thyroid symptoms, with advanced testing and a plan built for you."
+    },
+    "/integrative-primary-care": {
+      "title": "Direct Primary Care in Texas | From $129/month",
+      "desc": "Membership primary care for adults anywhere in Texas: same- or next-day virtual visits, unlimited messaging, urgent care and 100+ biomarkers twice a year.",
+      "og_title": "Primary Care That Has Time for You",
+      "og_desc": "Same- or next-day virtual visits, unlimited messaging and labs twice a year, from $129/month. Adults anywhere in Texas."
+    },
+    "/virtual-care-texas": {
+      "title": "Virtual Primary Care & Functional Medicine in Texas",
+      "desc": "Virtual primary care, functional medicine, BHRT and mold detox anywhere in Texas, from Midland and Odessa to Beaumont, Lubbock, Houston and Dallas.",
+      "og_title": "Care That Reaches All of Texas",
+      "og_desc": "Primary care membership, functional medicine, BHRT and mold recovery by video, from the Permian Basin to Southeast Texas."
+    },
+    "/functional-integrative-psychiatry-texas": {
+      "title": "Integrative Psychiatry in Austin, TX | Anxiety, ADHD",
+      "desc": "Metabolic and integrative psychiatry for anxiety, depression and ADHD: medication management plus labs, nutrition and lifestyle care. Austin and virtual.",
+      "og_title": "Integrative Psychiatry in Austin & Across Texas",
+      "og_desc": "Care for anxiety, depression and ADHD that looks beyond medication, to labs, nutrition, hormones and the gut."
+    },
+    "/menopause-clinic-texas": {
+      "title": "Menopause Clinic & BHRT in Austin, TX",
+      "desc": "Bioidentical hormone therapy for perimenopause and menopause, FDA-approved and pellet-free, with labs before any prescription. Austin and virtual in Texas.",
+      "og_title": "Menopause Care & Bioidentical Hormones (BHRT)",
+      "og_desc": "Hot flashes, sleep, mood, libido: perimenopause and menopause care with FDA-approved bioidentical hormones, in Austin and across Texas."
+    },
+    "/glp1-weight-loss-texas": {
+      "title": "GLP-1 Weight Loss in Texas | Semaglutide & Tirzepatide",
+      "desc": "Semaglutide or tirzepatide at the lowest effective dose, with nutrition guidance and metabolic care. $45 consult, by video anywhere in Texas.",
+      "og_title": "GLP-1 Weight Loss, Done Thoughtfully",
+      "og_desc": "Semaglutide or tirzepatide at the lowest effective dose, with nutrition guidance. $45 virtual consult, anywhere in Texas."
+    },
+    "/peptide-therapy-austin": {
+      "title": "Peptide Therapy in Austin, TX | BPC-157, Ipamorelin",
+      "desc": "Clinician-supervised peptide therapy for recovery, healthy aging, sleep and metabolic health. In person in Austin and by video across Texas.",
+      "og_title": "Peptide Therapy in Austin & Across Texas",
+      "og_desc": "Clinician-supervised peptides for recovery, healthy aging, sleep and metabolism, chosen and monitored for you."
+    },
+    "/mold-detox-in-texas": {
+      "title": "Mold Detox & Mold Illness Treatment in Texas",
+      "desc": "Mold-literate care for mold illness and mycotoxin exposure: urine mycotoxin testing, binders and a four-phase detox plan. By video anywhere in Texas.",
+      "og_title": "Recover From Mold Illness",
+      "og_desc": "Brain fog, fatigue, new sensitivities after water damage? Testing and a step-by-step mold detox plan, by video across Texas."
+    },
+    "/functional-medicine-lab-testing": {
+      "title": "Functional Lab Testing | GI-MAP, DUTCH, Mycotoxins",
+      "desc": "At-home functional lab tests with expert interpretation: gut microbiome, hormones, mycotoxins, organic acids, food sensitivities, methylation and genetics.",
+      "og_title": "Functional Lab Testing, Explained",
+      "og_desc": "Gut, hormone, mycotoxin, organic acid and genetic tests you can do at home, with a clinician to interpret them."
+    },
+    "/resources": {
+      "title": "Free Functional Medicine Guides & Health Quizzes",
+      "desc": "Free guides on sleep, gut health and anti-inflammatory eating, plus thyroid and mold illness quizzes and non-toxic product picks.",
+      "og_title": "Free Guides & Health Quizzes",
+      "og_desc": "Practical functional medicine guides, a thyroid quiz and a mold illness quiz, free to download."
+    },
+    "/store": {
+      "title": "Store | Supplements, Mira Hormone Tracking & More",
+      "desc": "Practitioner-grade supplements through Fullscript, Mira at-home hormone tracking and non-toxic home and kitchen picks recommended by Xenia Kempf, FNP-C.",
+      "og_title": "Your Functional Health Store",
+      "og_desc": "Practitioner-grade supplements, Mira hormone tracking and non-toxic picks, recommended by Xenia Kempf, FNP-C."
+    },
+    "/clinicians": {
+      "title": "BHRT Course & Clinical Reference App for Clinicians",
+      "desc": "A BHRT course and clinical reference app for NPs, PAs and other prescribers: dosing, labs, candidacy, monitoring and sample Rx pads. Free estradiol chart.",
+      "og_title": "BHRT Navigator for Clinicians",
+      "og_desc": "A practical BHRT course and clinical reference app for prescribers, plus a free estradiol dosing chart."
+    },
+    "/functional-medicine-blog": {
+      "title": "Functional Medicine Blog | Hormones, Gut & Mental Health",
+      "desc": "Articles by Xenia Kempf, FNP-C on hormones and BHRT, gut health, mental health, mold, peptides and metabolic health, from a functional medicine view.",
+      "og_title": "The Your Functional Health Blog",
+      "og_desc": "Hormones, gut health, mental health, mold and more, explained from a functional medicine perspective."
+    },
+    "/pp": {
+      "title": "Privacy Policy | Your Functional Health",
+      "desc": "How Your Functional Health (Healthify LLC) collects, uses and protects information on this website.",
+      "og_title": "Privacy Policy",
+      "og_desc": "How Your Functional Health collects, uses and protects information on this website."
+    },
+    "/terms-of-use": {
+      "title": "Terms of Use | Your Functional Health",
+      "desc": "Terms for using the Your Functional Health website, operated by Healthify LLC in Texas.",
+      "og_title": "Terms of Use",
+      "og_desc": "Terms for using the Your Functional Health website."
+    },
+    "/404": {
+      "title": "Page Not Found | Your Functional Health",
+      "desc": "This page has moved or no longer exists.",
+      "index": false
+    }
+  },
+  "posts": {
+    "why-direct-primary-care-is-the-answer": {
+      "title": "Direct Primary Care: Texas's Answer to the PCP Shortage",
+      "desc": "Direct primary care in Texas means same-day access, longer visits and a provider who knows you, without insurance hassles. Why it fits underserved areas."
+    },
+    "why-sex-can-become-painful-in-perimenopause-the-overlooked-vulvar-vestibule": {
+      "title": "Painful Sex in Perimenopause? The Vulvar Vestibule",
+      "desc": "If sex has become painful, you're not broken. How hormone shifts in perimenopause, postpartum or on birth control affect the vulvar vestibule, and what helps."
+    },
+    "why-progesterone-declines-first-in-perimenopause-and-how-that-impacts-your-body": {
+      "title": "Why Progesterone Declines First in Perimenopause",
+      "desc": "Struggling with sleep, anxiety or heavy periods? How low progesterone in perimenopause affects your body, and what can help."
+    },
+    "understanding-the-functional-medicine-approach": {
+      "title": "Understanding the Functional Medicine Approach",
+      "desc": "How functional medicine addresses chronic health issues by finding root causes and building personalized treatment plans."
+    },
+    "the-fda-removes-the-black-box-warning-on-estrogen-and-why-it-matters": {
+      "title": "FDA Removes the Estrogen Black-Box Warning: Why It Matters",
+      "desc": "The FDA has removed the black-box warning from many estrogen products. What the evidence shows and what it means for menopause hormone therapy."
+    },
+    "how-integrative-psychiatry-looks-beyond-medication-austin-tx": {
+      "title": "Integrative Psychiatry: Looking Beyond Medication",
+      "desc": "How integrative psychiatry looks beyond medication to treat anxiety, depression and burnout with whole-person, root-cause care in Austin and across Texas."
+    },
+    "nutritional-metabolic-diagnostics-the-missing-link-in-mental-health": {
+      "title": "Nutritional & Metabolic Testing for Mental Health",
+      "desc": "How nutrient and metabolic imbalances affect mood, anxiety and focus, and how functional psychiatry tests for vitamin and amino acid deficiencies."
+    },
+    "lifestyle-the-missing-piece-in-mental-health-care": {
+      "title": "Lifestyle: The Missing Piece in Mental Health Care",
+      "desc": "How daily habits, stress and relationships shape mental health, and how a lifestyle and social evaluation uncovers root causes of anxiety and burnout."
+    },
+    "genetic-testing-for-mental-health-in-functional-psychiatry": {
+      "title": "Genetic Testing for Mental Health",
+      "desc": "How genetic testing guides personalized mental health care, from medication sensitivities to biological vulnerabilities, in functional psychiatry."
+    },
+    "environmental-toxins-the-hidden-influences-on-mental-health": {
+      "title": "How Environmental Toxins Affect Mood & Mental Health",
+      "desc": "The link between environmental exposures and mental health: how toxins and pollutants can affect mood, focus and recovery."
+    },
+    "hormone-testing-mental-health": {
+      "title": "Hormones, Stress & Mental Health: The Hidden Link",
+      "desc": "How cortisol, thyroid and sex hormone imbalances affect mood, energy and cravings, and how hormone testing uncovers root causes of mental health symptoms."
+    },
+    "the-hidden-link-between-gut-health-and-mental-health": {
+      "title": "Gut Health, Inflammation & Mental Health",
+      "desc": "How gut health and inflammation affect mood, anxiety and cravings, and what the gut-brain connection means for mental wellness."
+    },
+    "top-fibers-and-foods-to-support-bile-flow-and-bind-mycotoxins-during-mold-detox": {
+      "title": "Best Fibers & Foods to Bind Mycotoxins in Mold Detox",
+      "desc": "Which fibers and foods support bile flow and bind mycotoxins naturally, with practical tips for a safer mold detox."
+    },
+    "recognizing-symptoms-of-mold-toxicity": {
+      "title": "Mold Toxicity Symptoms: How to Recognize Them",
+      "desc": "Common signs of mold exposure in Texas homes, how mold toxicity shows up in the body, and how root-cause functional medicine helps you recover."
+    },
+    "bile-and-regular-bowel-movements-are-crucial-before-mold-detox": {
+      "title": "Why Bile Flow Matters Before Mold Detox",
+      "desc": "Why supporting bile flow and regular bowel movements is essential before starting binders, and safe strategies to prepare your body for mold detox."
+    },
+    "the-role-of-testosterone-in-women-during": {
+      "title": "Testosterone for Women in Perimenopause & Menopause",
+      "desc": "How testosterone therapy supports women in perimenopause and menopause, with benefits for energy, mood, libido and vitality."
+    },
+    "estrogen-therapy-for-bone-health": {
+      "title": "Estrogen Therapy & Bone Health in Menopause",
+      "desc": "How systemic estrogen therapy protects bone during menopause, plus osteoporosis prevention and hormone replacement options for women in Austin and Texas."
+    },
+    "benefits-of-bhrt": {
+      "title": "Benefits of Bioidentical Hormones (BHRT) for Women",
+      "desc": "The benefits of bioidentical hormone replacement therapy for women: easing menopause symptoms and protecting long-term health."
+    },
+    "rethinking-glp-1s": {
+      "title": "GLP-1s, Menopause & Insulin Resistance",
+      "desc": "How GLP-1 medications support women through menopause and insulin resistance, and why pairing them with lifestyle strategies matters."
+    },
+    "the-intersection-of-nutrition-women-s-hormones": {
+      "title": "Nutrition & Women's Hormones: How They Connect",
+      "desc": "How nutrition, stress and DUTCH hormone testing reveal what's driving women's hormone symptoms, for a whole-person approach to balance."
+    },
+    "the-benefits-of-bifidobacteria-your-gut-s-secret-ally-for-immune-health-and-beyond": {
+      "title": "Bifidobacteria: Benefits for Gut & Immune Health",
+      "desc": "How Bifidobacteria support gut health, reduce inflammation and modulate immunity, plus natural ways to boost these beneficial bacteria."
+    },
+    "is-bioidentical-hormone-replacement-therapy-bhrt-safe": {
+      "title": "Is Bioidentical Hormone Therapy (BHRT) Safe?",
+      "desc": "Why bioidentical hormone therapy is safer, better tolerated and more personalized than older hormone therapy, and what the research shows."
+    },
+    "what-is-methylation": {
+      "title": "What Is Methylation, and Why Does It Matter?",
+      "desc": "What methylation is, why it's vital for detox, mood and energy, and how to support healthy methylation naturally."
+    },
+    "virtual-functional-medicine-in-texas": {
+      "title": "Virtual Functional Medicine in Texas",
+      "desc": "Personalized root-cause care by video for Austin, Dallas, Houston, San Antonio and all of Texas. How virtual functional medicine works."
+    },
+    "ipamorelin-a-safe-and-effective-peptide-for-anti-aging-muscle-support-and-metabolic-health": {
+      "title": "Ipamorelin: Benefits, Safety & Uses",
+      "desc": "How ipamorelin, a gentle growth hormone-releasing peptide, supports fat loss, sleep, muscle and healthy aging with minimal side effects."
+    },
+    "pans-and-pandas-in-children": {
+      "title": "PANS/PANDAS: A Functional Medicine Approach",
+      "desc": "Root causes, symptoms and functional medicine approaches to PANS and PANDAS in children, from immune and brain inflammation to gut health."
+    },
+    "health-benefits-of-glp-1-more-than-just-weight-loss": {
+      "title": "GLP-1 & GIP Benefits: More Than Weight Loss",
+      "desc": "How GLP-1 and GIP therapies like tirzepatide support weight loss, insulin sensitivity, brain health and metabolic health."
+    },
+    "the-power-of-snp-genetic-testing-how-your-dna-can-help-you-live-longer-healthier": {
+      "title": "SNP Genetic Testing: Using Your DNA for Longevity",
+      "desc": "How SNP genetic testing can guide your diet, supplements, hormones and longevity by turning your DNA into a personal health roadmap."
+    },
+    "the-benefits-of-low-dose-naltrexone": {
+      "title": "Low Dose Naltrexone (LDN): Benefits & Uses",
+      "desc": "How low dose naltrexone supports autoimmunity, chronic pain, MCAS and gut health through immune modulation and calming neuroinflammation."
+    },
+    "health-benefits-of-glp-1-medications": {
+      "title": "Health Benefits of GLP-1/GIP Beyond the Scale",
+      "desc": "How GLP-1/GIP medications support not just weight loss, but brain, heart, gut, liver and immune health."
+    },
+    "the-future-of-longevity-how-peptides-enhance-vitality-and-wellness": {
+      "title": "Peptides for Longevity & Healthy Aging",
+      "desc": "How peptides like BPC-157, GHK-Cu and Epitalon support longevity, energy, recovery and resilience through precision therapy."
+    },
+    "the-functional-medicine-approach-to-healing-ibs-root-causes": {
+      "title": "Healing IBS With Functional Medicine",
+      "desc": "The functional medicine approach to IBS: uncovering root causes, personalized testing and phased healing to resolve bloating, pain and gut imbalance."
+    },
+    "benefits-of-ghk-cu-peptides-the-skin-and-longevity-molecule": {
+      "title": "GHK-Cu Peptide Benefits for Skin & Longevity",
+      "desc": "The science of GHK-Cu: skin rejuvenation, wound healing, hair growth and anti-aging benefits rooted in cellular regeneration."
+    },
+    "functional-medicine-for-eczema": {
+      "title": "Functional Medicine for Eczema: Root Causes",
+      "desc": "How functional medicine uncovers the root causes of eczema, like gut issues, histamine and toxins, to help calm inflamed skin."
+    },
+    "understanding-the-link-between-mcas-and-pots": {
+      "title": "MCAS and POTS: The Link and How to Heal",
+      "desc": "The link between MCAS and POTS, and natural strategies like limbic retraining, mast cell stabilizers and low-histamine eating."
+    },
+    "the-benefits-of-bioidentical-hormone-replacement-therapy-bhrt": {
+      "title": "BHRT Benefits in Menopause and Beyond",
+      "desc": "How bioidentical hormone therapy relieves menopause symptoms and protects brain, heart, bone and metabolic health when started at the right time."
+    },
+    "perimenopause-as-early-as-your-30s": {
+      "title": "Perimenopause in Your 30s: What to Know",
+      "desc": "Yes, perimenopause can start in your 30s. The symptoms, and how functional medicine helps with energy, mood, sleep and cycles."
+    },
+    "understanding-mast-cell-activation-syndrome": {
+      "title": "Mast Cell Activation Syndrome (MCAS) Explained",
+      "desc": "What MCAS is, what causes it, and how functional medicine uncovers the root of hives, flushing, brain fog and other mast cell symptoms."
+    },
+    "sibo-vs-ibs-what-s-causing-your-bloating-and-how-to-test-it": {
+      "title": "SIBO vs. IBS: What's Causing Your Bloating?",
+      "desc": "The difference between SIBO and IBS, what's behind your bloating, and the best ways to test for each so you get the right treatment."
+    },
+    "the-hidden-link-between-gut-health-and-autoimmunity": {
+      "title": "Gut Health and Autoimmunity: The Hidden Link",
+      "desc": "How gut health affects autoimmune conditions: leaky gut, microbiome imbalance, and how to support your immune system naturally."
+    },
+    "understanding-estrogen-dominance-what-it-is-why-it-happens": {
+      "title": "Estrogen Dominance: Symptoms & Root Causes",
+      "desc": "What estrogen dominance is, its common symptoms, and the root causes behind it, from stress to gut issues to toxins."
+    },
+    "what-deficiencies-are-associated-with-carb-cravings": {
+      "title": "What Deficiencies Cause Carb Cravings?",
+      "desc": "The surprising reasons behind carb cravings, from blood sugar swings and stress to gut health and nutrient deficiencies."
+    },
+    "bioidentical-hormone-replacement-therapy-bhrt-in-women": {
+      "title": "Bioidentical Hormone Therapy (BHRT) for Women",
+      "desc": "How bioidentical hormone therapy supports women's energy, libido, mood and well-being, with a functional medicine approach."
+    },
+    "the-flexner-report-led-to-a-pharma-driven-system": {
+      "title": "The Flexner Report and the Pharma-Driven System",
+      "desc": "How the 1910 Flexner Report reshaped American medicine toward a pharma-driven system, and what that shift meant for chronic disease and holistic care."
+    },
+    "what-is-oxidative-stress-and-why-you-should-worry-about-it": {
+      "title": "What Is Oxidative Stress, and Why It Matters",
+      "desc": "How oxidative stress drives aging and chronic disease, and practical ways to reduce free radical damage."
+    },
+    "the-gut-brain-connection": {
+      "title": "The Gut-Brain Connection: A Functional View",
+      "desc": "How the gut-brain connection shapes mood, digestion and overall health, and how a functional medicine approach supports both."
+    },
+    "alzheimer-s-as-type-3-diabetes": {
+      "title": "Alzheimer's as Type 3 Diabetes: Blood Sugar & Brain",
+      "desc": "Why Alzheimer's is called type 3 diabetes, how insulin resistance affects the brain, and prevention strategies you can start now."
+    },
+    "the-link-between-depression-and-neuroinflammation": {
+      "title": "Depression and Neuroinflammation: Root Causes",
+      "desc": "How depression is linked to neuroinflammation, gut health and mitochondrial dysfunction, and how to address the root causes."
+    },
+    "the-side-effects-of-too-much-testosterone-therapy-in-men": {
+      "title": "Side Effects of Too Much Testosterone in Men",
+      "desc": "Excess testosterone therapy can cause infertility, heart risks and mood swings. How to recognize it and balance hormones for long-term health."
+    },
+    "the-gut-microbiome-influences-your-weight": {
+      "title": "How Your Gut Microbiome Affects Your Weight",
+      "desc": "How gut bacteria influence metabolism and fat storage, and how to optimize your microbiome for sustainable weight management."
+    },
+    "the-benefits-of-fasting-and-glp-1-for-weight-loss": {
+      "title": "Fasting and GLP-1 Micro-Dosing for Weight Loss",
+      "desc": "How fasting and GLP-1 micro-dosing can support weight loss and metabolic health, and how to combine them safely."
+    },
+    "epitalon-peptide-unlocking-the-science-of-anti-aging": {
+      "title": "Epitalon Peptide: Longevity & Anti-Aging Science",
+      "desc": "The science behind Epitalon, a peptide studied for telomere support, sleep and healthy aging."
+    },
+    "understanding-the-gut-brain-connection-for-mental-wellness": {
+      "title": "The Gut-Brain Connection and Mental Wellness",
+      "desc": "How gut health influences mental wellness, and how functional nutrition and holistic therapies can support your mood."
+    },
+    "the-hidden-connection-between-weight-loss-struggles-gut-health-and-metabolic-imbalances": {
+      "title": "Can't Lose Weight? Gut Health & Metabolism",
+      "desc": "Struggling to lose weight despite diet and exercise? How gut health, metabolic imbalances and hormones affect weight regulation."
+    },
+    "benefits-of-snp-testing-oxidative-stress": {
+      "title": "SNP Testing and Your Defense Against Oxidative Stress",
+      "desc": "How SNP genetic testing reveals your body's defenses against oxidative stress and your predispositions to chronic disease."
+    },
+    "the-benefits-of-bpc-157-a-powerful-peptide-for-healing-and-recovery": {
+      "title": "BPC-157 Benefits for Healing and Recovery",
+      "desc": "How BPC-157 supports healing, reduces inflammation, improves gut health and promotes tissue repair."
+    },
+    "how-functional-medicine-can-decrease-adhd-symptoms": {
+      "title": "Functional Medicine for ADHD Symptoms",
+      "desc": "How a functional medicine approach can help reduce ADHD symptoms naturally, so you're less dependent on stimulants."
+    },
+    "elevated-homocysteine-the-hidden-link-to-mental-health-disorders": {
+      "title": "High Homocysteine and Mental Health",
+      "desc": "How elevated homocysteine contributes to depression, anxiety, OCD, cognitive decline and dementia, and what lowers it."
+    },
+    "mold-toxicity-and-recovery-in-austin": {
+      "title": "Mold Toxicity Treatment & Recovery in Austin, TX",
+      "desc": "How to recover from mold toxicity: testing, detox and treatment at an Austin functional medicine practice, also available by video across Texas."
+    },
+    "the-power-9-lifestyle-in-the-blue-zones": {
+      "title": "The Power 9: Blue Zones Longevity Habits",
+      "desc": "The nine lifestyle habits shared by people in the Blue Zones, the regions where people most often live to 100 and beyond."
+    },
+    "gut-dysbiosis-and-female-hormonal-imbalances": {
+      "title": "Gut Dysbiosis and Female Hormone Imbalances",
+      "desc": "How an imbalanced gut microbiome can disrupt estrogen and other female hormones, and what you can do about it."
+    },
+    "brain-fog": {
+      "title": "Common Causes of Brain Fog: A Functional View",
+      "desc": "The most common reasons for brain fog from a functional medicine perspective, from blood sugar and hormones to gut health, toxins and sleep."
+    },
+    "main-causes-of-hair-loss": {
+      "title": "Main Causes of Hair Loss and What Helps",
+      "desc": "The main causes of hair loss from a functional medicine perspective, from thyroid and hormones to nutrients and stress, and what you can do."
+    },
+    "anxiety-and-depression": {
+      "title": "Anxiety & Depression: A Functional Medicine View",
+      "desc": "How functional and integrative medicine looks at anxiety and depression: gut health, hormones, nutrients, inflammation and lifestyle."
+    }
+  }
+}

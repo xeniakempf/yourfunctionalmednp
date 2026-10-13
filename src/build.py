@@ -170,29 +170,52 @@ VERIFY = ('<meta name="google-site-verification" content="zsnpuefPDw2QS2wUzFH67L
           '<meta name="msvalidate.01" content="4B9A14AA7A7A35629E21825BBD708E29">\n'
           '<meta name="yandex-verification" content="c5550fdd30045b26">\n')
 SITE_URL = "https://www.yourfunctionalmednp.com"
+# Page titles, descriptions and social share text (edit src/seo.json)
+SEO = json.load(open(os.path.join(SRC, "seo.json"), encoding="utf-8"))
+ICONS = ('<link rel="icon" href="/favicon.ico" sizes="any">\n'
+         '<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">\n'
+         '<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">\n'
+         '<link rel="apple-touch-icon" href="/apple-touch-icon.png">\n'
+         '<link rel="manifest" href="/site.webmanifest">\n'
+         '<meta name="theme-color" content="#155863">\n')
+INDEX = '<meta name="robots" content="index, follow, max-image-preview:large">\n'
+
+
+def esc(v):
+    return v.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;")
+
+
+def social(kind, url, title, desc, image, alt):
+    """Open Graph (Facebook, LinkedIn, iMessage, WhatsApp...) and X/Twitter share tags."""
+    return (f'<meta property="og:type" content="{kind}">\n<meta property="og:site_name" content="Your Functional Health">\n'
+            f'<meta property="og:locale" content="en_US">\n'
+            f'<meta property="og:title" content="{esc(title)}">\n<meta property="og:description" content="{esc(desc)}">\n'
+            f'<meta property="og:url" content="{url}">\n<meta property="og:image" content="{image}">\n'
+            f'<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">\n'
+            f'<meta property="og:image:alt" content="{esc(alt)}">\n'
+            f'<meta name="twitter:card" content="summary_large_image">\n<meta name="twitter:title" content="{esc(title)}">\n'
+            f'<meta name="twitter:description" content="{esc(desc)}">\n<meta name="twitter:image" content="{image}">\n')
 
 
 def page_meta(p, body):
-    """Social preview tags + schema.org data for a regular page."""
+    """Social share tags + schema.org data for a regular page."""
     url = SITE_URL + ("/" if p["path"] == "/" else p["path"])
-    img = SITE_URL + "/images/xenia.jpg"
-    js_path = os.path.join(SRC, "pages", p["slug"] + ".js")
-    if os.path.exists(js_path):
-        m = re.search(r'hero:\s*"(https://[^"]+)"', open(js_path, encoding="utf-8").read())
-        if m:
-            img = m.group(1)
-    esc = lambda v: v.replace("&", "&amp;").replace('"', "&quot;")
-    return (f'<meta property="og:type" content="website">\n<meta property="og:site_name" content="Your Functional Health">\n'
-            f'<meta property="og:title" content="{esc(p["title"])}">\n<meta property="og:description" content="{esc(p["desc"])}">\n'
-            f'<meta property="og:url" content="{url}">\n<meta property="og:image" content="{esc(img)}">\n'
-            f'<meta name="twitter:card" content="summary_large_image">\n'
-            f'<script type="application/ld+json">{schema.page_graph(p["path"], p["title"], p["desc"], body, p["name"])}</script>\n')
+    sp = SEO["pages"].get(p["path"], {})
+    img = SITE_URL + "/images/share/" + ("home" if p["path"] == "/" else p["slug"]) + ".jpg"
+    og_title = sp.get("og_title") or p["title"]
+    return (social("website", url, og_title, sp.get("og_desc") or p["desc"], img, og_title + " | Your Functional Health")
+            + f'<script type="application/ld+json">{schema.page_graph(p["path"], p["title"], p["desc"], body, p["name"])}</script>\n')
 
 
 def build():
     css, js = read("partials", "style.css"), read("partials", "script.js")
     header, footer = read("partials", "header.html"), read("partials", "footer.html")
     built = json.dumps([p["path"] for p in PAGES])
+    for p in PAGES:
+        sp = SEO["pages"].get(p["path"], {})
+        p["title"], p["desc"] = sp.get("title", p["title"]), sp.get("desc", p["desc"])
+        if sp.get("index") is False:
+            p["noindex"] = True
 
     for d in (SITE, PREVIEW):
         shutil.rmtree(d, ignore_errors=True)
@@ -210,6 +233,18 @@ def build():
     own_photos = sorted(os.listdir(photo_dir)) if os.path.isdir(photo_dir) else []
     for fname in own_photos:
         shutil.copy(os.path.join(photo_dir, fname), os.path.join(SITE, "images", fname))
+    # favicons (browser tab, Google results, phone home screens)
+    for fname in os.listdir(os.path.join(ASSETS, "icons")):
+        if fname != "tree-master.png":
+            shutil.copy(os.path.join(ASSETS, "icons", fname), os.path.join(SITE, fname))
+    with open(os.path.join(SITE, "site.webmanifest"), "w", encoding="utf-8") as f:
+        json.dump({"name": "Your Functional Health", "short_name": "Your Functional Health",
+                   "icons": [{"src": "/icon-192.png", "sizes": "192x192", "type": "image/png"},
+                             {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png"}],
+                   "theme_color": "#155863", "background_color": "#ffffff", "display": "browser"}, f)
+    # social share images (made by src/tools/make_share_images.py)
+    shutil.copytree(os.path.join(ASSETS, "share"), os.path.join(SITE, "images", "share"),
+                    ignore=shutil.ignore_patterns("_photos"))
     with open(os.path.join(SITE, "assets", "site.css"), "w", encoding="utf-8") as f:
         f.write(css)
     with open(os.path.join(SITE, "assets", "site.js"), "w", encoding="utf-8") as f:
@@ -232,12 +267,12 @@ def build():
         canonical = "https://www.yourfunctionalmednp.com" + ("" if p["path"] == "/" else p["path"])
         doc = ("<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n"
                "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n"
-               f"<title>{p['title']}</title>\n<meta name=\"description\" content=\"{p['desc']}\">\n"
-               + ("<meta name=\"robots\" content=\"noindex\">\n" if p.get("noindex") else f"<link rel=\"canonical\" href=\"{canonical}\">\n")
+               f"<title>{esc(p['title'])}</title>\n<meta name=\"description\" content=\"{esc(p['desc'])}\">\n"
+               + ("<meta name=\"robots\" content=\"noindex\">\n" if p.get("noindex") else INDEX + f"<link rel=\"canonical\" href=\"{canonical}\">\n")
                + (VERIFY if p["path"] == "/" else "")
                + ("" if p.get("noindex") else page_meta(p, body))
-               + "<link rel=\"icon\" type=\"image/png\" href=\"/images/logo.png\">\n"
-               f"{FONTS}<link rel=\"stylesheet\" href=\"/assets/site.css\">\n</head>\n<body>\n"
+               + ICONS
+               + f"{FONTS}<link rel=\"stylesheet\" href=\"/assets/site.css\">\n</head>\n<body>\n"
                f"{fill_images(content, False)}{config}<script src=\"/assets/site.js\"></script>\n</body>\n</html>\n")
         out = os.path.join(SITE, p["out"])
         os.makedirs(os.path.dirname(out), exist_ok=True)
@@ -265,18 +300,21 @@ def build():
     for p in posts:
         content = f'{header}\n<main id="top">\n{p["html"]}\n</main>\n\n{footer}\n'
         canonical = "https://www.yourfunctionalmednp.com" + p["path"]
-        esc = lambda v: v.replace("&", "&amp;").replace('"', "&quot;")
+        sp = SEO["posts"].get(p["slug"], {})
+        p["title"], p["desc"] = sp.get("title", p["title"]), sp.get("desc", p["desc"])
+        ld = json.loads(p["jsonld"])
+        ld["description"] = p["desc"]
+        p["jsonld"] = json.dumps(ld, ensure_ascii=False)
+        share = f"{SITE_URL}/images/share/post/{p['slug']}.jpg"
         doc = ("<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n"
                "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n"
                f"<title>{esc(p['title'])}</title>\n<meta name=\"description\" content=\"{esc(p['desc'])}\">\n"
-               f"<link rel=\"canonical\" href=\"{canonical}\">\n"
-               "<meta property=\"og:type\" content=\"article\">\n"
-               f"<meta property=\"og:title\" content=\"{esc(p['name'])}\">\n"
-               f"<meta property=\"og:description\" content=\"{esc(p['desc'])}\">\n"
-               f"<meta property=\"og:url\" content=\"{canonical}\">\n"
-               f"<meta property=\"og:image\" content=\"{esc(p['og_image'])}\">\n"
-               "<link rel=\"icon\" type=\"image/png\" href=\"/images/logo.png\">\n"
-               f"{FONTS}<link rel=\"stylesheet\" href=\"/assets/site.css\">\n"
+               + INDEX + f"<link rel=\"canonical\" href=\"{canonical}\">\n"
+               + social("article", canonical, p["name"], p["desc"], share, p["name"])
+               + f"<meta property=\"article:published_time\" content=\"{ld.get('datePublished', '')}\">\n"
+               "<meta property=\"article:author\" content=\"Xenia Kempf, FNP-C\">\n"
+               + ICONS
+               + f"{FONTS}<link rel=\"stylesheet\" href=\"/assets/site.css\">\n"
                f"<script type=\"application/ld+json\">{schema.post_graph(p['jsonld'], p['path'], p['name'], None)}</script>\n</head>\n<body>\n"
                f"{fill_images(content, False)}<script>window.PAGE={{photos:{{}}}};</script>\n"
                "<script src=\"/assets/site.js\"></script>\n</body>\n</html>\n")

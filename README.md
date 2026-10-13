@@ -17,6 +17,9 @@ Hosted on Netlify, which publishes the `site/` folder automatically whenever thi
 | `src/blog/render.py` | Turns the article files into article pages. |
 | `src/legal/` | Privacy Policy (`privacy.txt`) and Terms of Use (`terms.txt`) text. |
 | `src/assets/` | Logo, photos and product images used on the site. `originals/` holds unused source images (not published). |
+| `src/seo.json` | Each page's and post's Google title and description, social share title and description, and whether search engines may index it. |
+| `src/assets/share/` | Social share images (1200×630), one per page and post. Rebuild with `python3 src/tools/make_share_images.py` (add `--all` to redo every image, or a page path / post slug for just one). |
+| `src/assets/icons/` | Favicons (tree logo) for browser tabs, Google results and phone home screens. |
 | `src/schema.py` | Search-engine and AI data (schema.org): practice details, cities served, services and prices, Xenia's credentials and profiles. Update prices here too when they change. |
 | `src/build.py` | Builds `site/` from `src/`. Also holds the page list and the redirects from old Wix addresses. |
 | `src/tools/archive/` | One-time scripts that first generated some pages. Kept for reference only; the files in `src/pages/` are now the source of truth, so don't rerun these. |
