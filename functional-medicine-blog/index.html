@@ -680,6 +680,14 @@ window.PAGE = {
   });
   search.addEventListener("input", apply);
 })();
+
+/* Open a topic from the address, e.g. /functional-medicine-blog#topic-hormones (old category links redirect here) */
+(function () {
+  var m = location.hash.match(/^#topic-([a-z-]+)$/);
+  if (!m) return;
+  var chip = document.querySelector('.chips-row .chip[data-filter="' + m[1] + '"]');
+  if (chip) { chip.click(); document.getElementById("articles").scrollIntoView(); }
+})();
 </script>
 <script src="/assets/site.js"></script>
 </body>

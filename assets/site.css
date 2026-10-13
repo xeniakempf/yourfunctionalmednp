@@ -629,3 +629,6 @@ form.cf{background:var(--white); border-radius:var(--radius); padding:clamp(1.5r
 .legal-page .prose h2{font-size:clamp(1.6rem,2.8vw,2.1rem); margin-top:2.5rem}
 .legal-page .prose p.lead{font-size:1.2rem; color:var(--ink)}
 .legal-page .art-head .wrap{max-width:calc(720px + 2*clamp(18px,5vw,64px))}
+.nf .nf-links{flex-wrap:wrap; gap:.55rem; margin-top:1.75rem; max-width:760px}
+.nf .nf-links .btn{padding:.65rem 1.1rem; font-size:.88rem}
+.hero.nf{min-height:clamp(620px,88svh,860px)}
