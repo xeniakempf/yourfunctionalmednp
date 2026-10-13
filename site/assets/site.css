@@ -675,3 +675,77 @@ form.cf{background:var(--white); border-radius:var(--radius); padding:clamp(1.5r
 .foot-map{display:flex; flex-direction:column; gap:.75rem}
 .foot-map-link{font-size:.88rem}
 @media (max-width:980px){ .foot-map{grid-column:1/-1; order:3} .foot-map iframe{height:260px} }
+
+/* Clinicians page */
+.clin-hero-grid{display:grid; grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr); gap:clamp(2rem,5vw,4rem); align-items:end}
+.clin-hero h1{max-width:13ch}
+.clin-note{font-size:.88rem; color:var(--muted); margin:1.25rem 0 0}
+.phone{margin:0; border-radius:34px; padding:10px; background:#10333B; box-shadow:0 40px 80px -40px rgba(21,88,99,.55)}
+.phone img{display:block; width:100%; height:auto; border-radius:26px}
+.clin-hero-phone{max-width:290px; justify-self:center; transform:rotate(2deg)}
+.cond-head>p{max-width:30em; color:var(--muted); margin:0}
+.clin-features{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:clamp(.9rem,1.6vw,1.25rem)}
+.clin-feature{background:var(--white); border-radius:var(--radius); padding:clamp(1.5rem,2.5vw,2rem); box-shadow:0 20px 50px -35px rgba(21,88,99,.35)}
+.clin-feature .ico{display:grid; place-items:center; width:48px; height:48px; border-radius:50%; background:var(--mist); color:var(--teal-deep); font:400 1.5rem/1 var(--serif); margin-bottom:1.1rem}
+.clin-feature .ico svg{width:22px; height:22px; fill:none; stroke:currentColor; stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round}
+.clin-feature h3{font-size:1.55rem; margin:0 0 .5rem}
+.clin-feature p{margin:0; color:var(--muted)}
+.clin-app{background:var(--mist)}
+.clin-phones{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:clamp(1.25rem,3vw,2.5rem); max-width:980px; margin:0 auto}
+.clin-phones figure{margin:0}
+.clin-phones .phone{max-width:260px; margin:0 auto}
+.clin-phones figcaption{text-align:center; margin-top:1.25rem; color:var(--muted); font-size:.95rem}
+.clin-phones figcaption b{display:block; font:400 1.4rem/1.2 var(--serif); color:var(--teal-deep); margin-bottom:.25rem}
+.clin-course{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.05fr); gap:clamp(2rem,6vw,5rem); align-items:center}
+.clin-ticks{list-style:none; padding:0; margin:1.75rem 0 0}
+.clin-ticks li{padding:1rem 0 1rem 2rem; border-top:1px solid var(--line); position:relative; color:var(--muted)}
+.clin-ticks li:last-child{border-bottom:1px solid var(--line)}
+.clin-ticks li::before{content:""; position:absolute; left:.2rem; top:1.35rem; width:12px; height:7px; border-left:1.5px solid var(--teal-deep); border-bottom:1.5px solid var(--teal-deep); transform:rotate(-45deg)}
+.clin-ticks b{display:block; font:400 1.35rem/1.25 var(--serif); color:var(--teal-deep); margin-bottom:.15rem}
+.clin-pages{position:relative; display:grid; grid-template-columns:1fr 1fr; gap:1rem; align-items:start}
+.clin-pages img{width:100%; height:auto; border-radius:12px; background:var(--white); box-shadow:0 30px 60px -35px rgba(21,88,99,.5)}
+.clin-pages img:last-child{margin-top:3rem}
+.clin-how{background:var(--mist)}
+.clin-steps{list-style:none; padding:0; margin:2.5rem 0 0; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:clamp(1rem,3vw,2.5rem)}
+.clin-steps li{border-top:1px solid var(--teal); padding-top:1.25rem}
+.clin-steps .n{font-size:.85rem; letter-spacing:.12em; color:var(--teal-ink)}
+.clin-steps h3{font-size:1.8rem; margin:.5rem 0 .5rem}
+.clin-steps p{margin:0; color:var(--muted)}
+.clin-plans{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:clamp(1rem,2vw,1.5rem); max-width:980px; margin:0 auto}
+.clin-plan{position:relative; display:flex; flex-direction:column; background:var(--white); border:1px solid var(--line); border-radius:var(--radius); padding:clamp(1.75rem,3.5vw,2.5rem)}
+.clin-plan .eyebrow{margin-bottom:.75rem}
+.clin-plan .amount{font:400 clamp(3rem,5vw,4rem)/1 var(--serif); color:var(--teal-deep); margin-bottom:1rem}
+.clin-plan .amount small{font:400 1rem var(--sans); color:var(--muted)}
+.clin-plan ul{list-style:none; padding:0; margin:1rem 0 2rem; flex:1}
+.clin-plan li{padding:.55rem 0 .55rem 1.6rem; position:relative; border-top:1px solid var(--line)}
+.clin-plan li::before{content:""; position:absolute; left:.15rem; top:.95rem; width:10px; height:6px; border-left:1.5px solid currentColor; border-bottom:1.5px solid currentColor; transform:rotate(-45deg); opacity:.8}
+.clin-plan .btn{align-self:flex-start}
+.clin-plan.best{background:var(--teal-deep); color:var(--foot-ink); border-color:var(--teal-deep)}
+.clin-plan.best .eyebrow{color:var(--foot-head)}
+.clin-plan.best .amount{color:var(--white)}
+.clin-plan.best .amount small{color:var(--foot-ink)}
+.clin-plan.best li{border-color:rgba(255,255,255,.18)}
+.clin-plan .tag{position:absolute; top:1.25rem; right:1.25rem; padding:.3rem .8rem; border-radius:999px; background:var(--white); color:var(--teal-deep); font-size:.72rem; letter-spacing:.12em; text-transform:uppercase}
+.clin-fine{text-align:center; font-size:.9rem; color:var(--muted); margin:1.5rem auto 0; max-width:40em}
+.clin-free{padding-block:0}
+.clin-free-inner{display:flex; justify-content:space-between; align-items:center; gap:2rem; flex-wrap:wrap; background:var(--mist); border-radius:var(--radius); padding:clamp(1.75rem,4vw,3rem)}
+.clin-free-inner>div{max-width:36em}
+.clin-free-inner h2{font-size:clamp(2rem,3.5vw,2.8rem); margin:0 0 .75rem}
+.clin-free-inner p{margin:0; color:var(--muted)}
+.clin-by{display:grid; grid-template-columns:160px minmax(0,1fr); gap:clamp(1.5rem,4vw,3rem); align-items:center; max-width:900px}
+.clin-by img{width:160px; height:160px; border-radius:50%; object-fit:cover}
+.clin-by h2{font-size:clamp(2rem,3.5vw,2.8rem); margin:0 0 .75rem}
+.clin-by p:last-child{color:var(--muted); margin:0}
+.clin-disclaimer{font-size:.8rem !important; max-width:44em !important; margin:2rem auto 0 !important; opacity:.75}
+@media (max-width:980px){
+  .clin-hero-grid{grid-template-columns:1fr} .clin-hero-phone{display:none}
+  .clin-features{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .clin-course{grid-template-columns:1fr}
+}
+@media (max-width:760px){
+  .clin-phones{grid-template-columns:1fr} .clin-phones .phone{max-width:240px}
+  .clin-steps,.clin-plans{grid-template-columns:1fr}
+}
+@media (max-width:560px){ .clin-features{grid-template-columns:1fr} .clin-by{grid-template-columns:1fr} .clin-by img{width:120px; height:120px} }
+nav.main a,nav.main .drop-btn{white-space:nowrap}
+@media (max-width:1240px) and (min-width:1081px){ nav.main>ul{gap:1.35rem} nav.main a,.drop-btn{font-size:.92rem} nav.main .btn{padding:.8rem 1.1rem; font-size:.85rem} }
