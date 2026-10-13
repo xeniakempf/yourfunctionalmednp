@@ -146,3 +146,9 @@ drop.addEventListener("mouseleave", () => { if (desktop.matches){ clearTimeout(d
 document.addEventListener("click", e => { if (!drop.contains(e.target) && desktop.matches) setDrop(false); });
 document.addEventListener("keydown", e => { if (e.key === "Escape" && drop.classList.contains("open")){ setDrop(false); dropBtn.focus(); } });
 nav.querySelectorAll("a").forEach(a => a.addEventListener("click", closeMenu));
+
+/* Menu label: pages uploaded before the rename still say "Lab Testing" in their header */
+document.querySelectorAll('.menu a[href="/functional-medicine-lab-testing"]').forEach(a => {
+  const t = a.lastChild;
+  if (t && t.nodeType === 3 && t.textContent.trim() === "Lab Testing") t.textContent = "Functional Labs";
+});

@@ -539,3 +539,5 @@ form.cf{background:var(--white); border-radius:var(--radius); padding:clamp(1.5r
 @media (max-width:1080px){ .shop-grid{grid-template-columns:repeat(2,minmax(0,1fr))} .mini-steps.row{grid-template-columns:repeat(2,minmax(0,1fr))} }
 @media (max-width:560px){ .shop-grid{grid-template-columns:1fr} }
 .prod-img.bleed img{object-fit:cover; padding:0}
+.fs-head img{display:block; height:30px; width:auto; margin-bottom:.7rem}
+.fs-head span{display:block}
