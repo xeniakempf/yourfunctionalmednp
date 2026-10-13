@@ -623,3 +623,9 @@ form.cf{background:var(--white); border-radius:var(--radius); padding:clamp(1.5r
 .closing .svc-row{flex-wrap:wrap; gap:.6rem; max-width:860px; margin:1.25rem auto 0}
 .closing .svc-row .btn{padding:.7rem 1.2rem; font-size:.9rem}
 .closing:has(.svc-row){padding-block:clamp(3rem,6vw,4rem)}
+.legal-page .art-head{padding-bottom:clamp(1.5rem,3vw,2.25rem)}
+.legal-page .art-head h1{font-size:clamp(2.6rem,6vw,4.4rem)}
+.legal-page .prose{padding-bottom:clamp(3.5rem,7vw,6rem)}
+.legal-page .prose h2{font-size:clamp(1.6rem,2.8vw,2.1rem); margin-top:2.5rem}
+.legal-page .prose p.lead{font-size:1.2rem; color:var(--ink)}
+.legal-page .art-head .wrap{max-width:calc(720px + 2*clamp(18px,5vw,64px))}
