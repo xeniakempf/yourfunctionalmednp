@@ -1,0 +1,382 @@
+<!-- HERO -->
+<section class="hero sub" aria-labelledby="hero-title">
+  <div class="ph"><canvas class="art" data-art="mist" aria-hidden="true"></canvas><img data-photo="hero" alt=""></div>
+  <div class="wrap hero-inner">
+    <p class="eyebrow">Free resources &middot; Printable guides</p>
+    <h1 id="hero-title">Small steps, <em>real</em> change</h1>
+    <p class="lede">Free, printable guides on nutrition, sleep, stress and toxin-free living, plus two short quizzes to help you see where to start.</p>
+    <div class="btn-row actions">
+      <a class="btn btn-dark" href="#guides">Browse the guides <span class="arrow">&rarr;</span></a>
+      <a class="btn btn-line" href="#quizzes">Take a quiz</a>
+    </div>
+    <div class="stats">
+      <div><b>16 guides</b><span>Nutrition, gut and wellness</span></div>
+      <div><b>16 product lists</b><span>Safer personal care</span></div>
+      <div><b>2 quizzes</b><span>Thyroid and mold illness</span></div>
+      <div><b>Free</b><span>Printable PDFs</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- START HERE -->
+<section class="conditions" id="quizzes" aria-labelledby="start-title">
+  <div class="wrap">
+    <div class="cond-head">
+      <div>
+        <p class="eyebrow">Start here</p>
+        <h2 id="start-title">Find your <em>starting point</em></h2>
+      </div>
+      <p class="lede">Each quiz takes a few minutes and points you to the symptoms worth a closer look.</p>
+    </div>
+    <div class="cond-grid three">
+      <div class="cond">
+        <h3>Thyroid health quiz</h3>
+        <p>Tired, cold, foggy or losing hair? See whether your symptoms fit a thyroid pattern.</p>
+        <div class="btn-row" style="margin-top:1.25rem"><a class="btn btn-dark" href="#thyroid-quiz" data-open-quiz="thyroid-quiz">Take the thyroid quiz <span class="arrow">&rarr;</span></a></div>
+      </div>
+      <div class="cond">
+        <h3>Mold illness quiz</h3>
+        <p>Symptoms that started after water damage or time in a musty space? Check your exposure risk.</p>
+        <div class="btn-row" style="margin-top:1.25rem"><a class="btn btn-dark" href="#mold-quiz" data-open-quiz="mold-quiz">Take the mold quiz <span class="arrow">&rarr;</span></a></div>
+      </div>
+      <div class="cond feature">
+        <h3>Restoring gut health</h3>
+        <p>My step-by-step guide to calming bloating, rebuilding the gut lining and supporting a healthy microbiome.</p>
+        <div class="btn-row" style="margin-top:1.25rem">
+          <a class="btn btn-light" href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_295922cb96514dddaa89c8b6aee41cb6.pdf" target="_blank" rel="noopener">Open the gut guide (PDF)</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- THYROID QUIZ -->
+    <div class="quiz-panel" id="thyroid-quiz" hidden>
+      <div class="quiz-top">
+        <div>
+          <p class="eyebrow">Thyroid health quiz</p>
+          <h2>Could your symptoms be related to your <em>thyroid?</em></h2>
+          <p class="lede">Five questions, about one minute. Pick the answer that fits you best.</p>
+        </div>
+        <button type="button" class="q-close" data-close-quiz aria-label="Close the quiz">&times;</button>
+      </div>
+      <form class="quiz" id="thyroidQuiz" novalidate>
+        <fieldset class="q-q">
+          <legend><span class="q-num">Question 1 of 5</span>Do you frequently feel tired, even after a full night&#x27;s sleep?</legend>
+          <div class="q-opts"><label class="q-opt"><input type="radio" name="q1" value="A"><span>Yes, I&#x27;m often exhausted</span></label><label class="q-opt"><input type="radio" name="q1" value="B"><span>Sometimes, depending on the day</span></label><label class="q-opt"><input type="radio" name="q1" value="C"><span>No, I usually feel rested</span></label></div>
+        </fieldset>
+        <fieldset class="q-q">
+          <legend><span class="q-num">Question 2 of 5</span>Have you noticed changes in your weight despite no major diet or lifestyle changes?</legend>
+          <div class="q-opts"><label class="q-opt"><input type="radio" name="q2" value="A"><span>Yes, my weight won&#x27;t budge</span></label><label class="q-opt"><input type="radio" name="q2" value="B"><span>Somewhat, it&#x27;s been harder to manage</span></label><label class="q-opt"><input type="radio" name="q2" value="C"><span>No, my weight is stable</span></label></div>
+        </fieldset>
+        <fieldset class="q-q">
+          <legend><span class="q-num">Question 3 of 5</span>Do you struggle with cold hands and feet, or feel cold when others don&#x27;t?</legend>
+          <div class="q-opts"><label class="q-opt"><input type="radio" name="q3" value="A"><span>Yes, I&#x27;m often cold</span></label><label class="q-opt"><input type="radio" name="q3" value="B"><span>Occasionally</span></label><label class="q-opt"><input type="radio" name="q3" value="C"><span>Rarely or never</span></label></div>
+        </fieldset>
+        <fieldset class="q-q">
+          <legend><span class="q-num">Question 4 of 5</span>Are you experiencing hair thinning, hair loss or dry skin?</legend>
+          <div class="q-opts"><label class="q-opt"><input type="radio" name="q4" value="A"><span>Yes, it&#x27;s noticeable</span></label><label class="q-opt"><input type="radio" name="q4" value="B"><span>A little</span></label><label class="q-opt"><input type="radio" name="q4" value="C"><span>No, not at all</span></label></div>
+        </fieldset>
+        <fieldset class="q-q">
+          <legend><span class="q-num">Question 5 of 5</span>Do you have trouble focusing or remembering things, or feel mentally foggy?</legend>
+          <div class="q-opts"><label class="q-opt"><input type="radio" name="q5" value="A"><span>Yes, very often</span></label><label class="q-opt"><input type="radio" name="q5" value="B"><span>Sometimes</span></label><label class="q-opt"><input type="radio" name="q5" value="C"><span>No, my focus is fine</span></label></div>
+        </fieldset>
+        <p class="q-err" id="tq-err" hidden>Please answer all five questions.</p>
+        <div class="q-nav"><span></span><button type="submit" class="btn btn-dark">Get my results <span class="arrow">&rarr;</span></button></div>
+      </form>
+      <div class="q-result" id="tq-result" hidden aria-live="polite">
+        <p class="eyebrow">Your results</p>
+        <h3 id="tq-level"></h3>
+        <p id="tq-msg"></p>
+        <div class="btn-row">
+          <a class="btn btn-dark js-book" href="#" target="_blank" rel="noopener">Book a free call <span class="arrow">&rarr;</span></a>
+          <a class="btn btn-line" href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_e18cf4990be04b488cc07fe72a192bf7.pdf" target="_blank" rel="noopener">Thyroid health guide (PDF)</a>
+          <a class="btn btn-line" href="/functional-medicine-austin">Functional medicine</a>
+        </div>
+        <p class="fine">This quiz is a screening tool, not a diagnosis. <button type="button" class="q-link" data-q="restart">Retake the quiz</button></p>
+      </div>
+    </div>
+
+    <!-- MOLD QUIZ -->
+    <div class="quiz-panel" id="mold-quiz" hidden>
+      <div class="quiz-top">
+        <div>
+          <p class="eyebrow">Mold illness quiz</p>
+          <h2>Could <em>mold</em> be behind your symptoms?</h2>
+          <p class="lede">Three short checklists, about 5 minutes. Check what applies, then see your mold risk score.</p>
+        </div>
+        <button type="button" class="q-close" data-close-quiz aria-label="Close the quiz">&times;</button>
+      </div>
+      <form class="quiz" id="moldQuiz" novalidate>
+        <ol class="q-steps" aria-hidden="true"><li data-i="0"><span>1</span>General &amp; respiratory symptoms</li><li data-i="1"><span>2</span>Digestive, immune &amp; nervous system</li><li data-i="2"><span>3</span>Medical &amp; exposure history</li><li data-i="3"><span>4</span>Your results</li></ol>
+        <fieldset class="q-step" data-step="0">
+          <legend><span class="q-num">Step 1 of 4</span>General &amp; respiratory symptoms</legend>
+          <p class="q-hint">Check everything you experience regularly. <b class="q-count">0 selected</b></p>
+          <div class="q-opts">
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Brain fog"><span>Brain fog</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Feel tired all the time"><span>Feel tired all the time</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Frequent runny nose"><span>Frequent runny nose</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Blow your nose often"><span>Blow your nose often</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Sneezing"><span>Sneezing</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Sinusitis"><span>Sinusitis</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Post-nasal drip"><span>Post-nasal drip</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Nose bleeds"><span>Nose bleeds</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Swollen glands"><span>Swollen glands</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Shortness of breath"><span>Shortness of breath</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Frequent yawning or sighing"><span>Frequent yawning or sighing</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Heart palpitations"><span>Heart palpitations</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Headaches"><span>Headaches</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Hay fever"><span>Hay fever</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Eye irritation"><span>Eye irritation</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Blurry vision"><span>Blurry vision</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Frequent change in vision"><span>Frequent change in vision</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Allergies"><span>Allergies</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Dark circles under eyes"><span>Dark circles under eyes</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Sensitivity to sunlight"><span>Sensitivity to sunlight</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Nervousness/can’t settle"><span>Nervousness/can’t settle</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Low mood or depressed"><span>Low mood or depressed</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Feeling overwhelmed"><span>Feeling overwhelmed</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Episodic/chronic dry cough"><span>Episodic/chronic dry cough</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Irritated lungs"><span>Irritated lungs</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Blood-streaked mucus"><span>Blood-streaked mucus</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Nasal polyps"><span>Nasal polyps</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Coated tongue"><span>Coated tongue</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Sores in the mouth"><span>Sores in the mouth</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Bumps on back of throat"><span>Bumps on back of throat</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Thrush"><span>Thrush</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Sore or itchy ear canals"><span>Sore or itchy ear canals</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Ringing in the ears"><span>Ringing in the ears</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Bothered by loud noises"><span>Bothered by loud noises</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Skin rash"><span>Skin rash</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Burning or itchy skin"><span>Burning or itchy skin</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Easy bruising"><span>Easy bruising</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Spider veins"><span>Spider veins</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Bothered by tags/seams on clothing"><span>Bothered by tags/seams on clothing</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Anemia"><span>Anemia</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Protruding veins on limbs"><span>Protruding veins on limbs</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Lower extremity edema"><span>Lower extremity edema</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat1" value="Clear your throat often"><span>Clear your throat often</span></label>
+          </div>
+          <div class="q-nav"><span></span><button type="button" class="btn btn-dark" data-q="next">Next <span class="arrow">&rarr;</span></button></div>
+        </fieldset>
+        <fieldset class="q-step" data-step="1" hidden>
+          <legend><span class="q-num">Step 2 of 4</span>Digestive, immune &amp; nervous system</legend>
+          <p class="q-hint">Check everything you experience regularly. <b class="q-count">0 selected</b></p>
+          <div class="q-opts">
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Sore throat"><span>Sore throat</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Frequent colds"><span>Frequent colds</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Delayed recovery from colds"><span>Delayed recovery from colds</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Exhausted from exercise"><span>Exhausted from exercise</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Frequent static shocks"><span>Frequent static shocks</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Increased thirst"><span>Increased thirst</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Trouble sleeping"><span>Trouble sleeping</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Feeling of internal vibration"><span>Feeling of internal vibration</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Dizziness"><span>Dizziness</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Vertigo"><span>Vertigo</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Drunken feeling"><span>Drunken feeling</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Frequent urination"><span>Frequent urination</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Yeast infection"><span>Yeast infection</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Change in appetite"><span>Change in appetite</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Intestinal gas"><span>Intestinal gas</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Nausea"><span>Nausea</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Feeling bloated"><span>Feeling bloated</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Constipation"><span>Constipation</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Crave sweets"><span>Crave sweets</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Crave alcohol"><span>Crave alcohol</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Wheezing"><span>Wheezing</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Asthma"><span>Asthma</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Burning lungs"><span>Burning lungs</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Recurrent respiratory infections"><span>Recurrent respiratory infections</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Migraine"><span>Migraine</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Allergies not well controlled by medication"><span>Allergies not well controlled by medication</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Voice sounds nasally"><span>Voice sounds nasally</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Plugged/clogged ears"><span>Plugged/clogged ears</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Chronic sinusitis"><span>Chronic sinusitis</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Vomiting"><span>Vomiting</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Alternating constipation/diarrhea"><span>Alternating constipation/diarrhea</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Diarrhea"><span>Diarrhea</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Irritable bowel"><span>Irritable bowel</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Food sensitivities"><span>Food sensitivities</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Chemical sensitivities"><span>Chemical sensitivities</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Abnormal reaction to antibiotics"><span>Abnormal reaction to antibiotics</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Epstein-Barr virus"><span>Epstein-Barr virus</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Recurrent yeast infections"><span>Recurrent yeast infections</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Bacterial vaginosis"><span>Bacterial vaginosis</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Recurrent athlete’s foot, jock itch, or toenail fungus"><span>Recurrent athlete’s foot, jock itch, or toenail fungus</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Peeling/sloughing skin"><span>Peeling/sloughing skin</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Episodes of fast heart rate"><span>Episodes of fast heart rate</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Chest pain"><span>Chest pain</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Raynaud’s syndrome"><span>Raynaud’s syndrome</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Non-obstructive sleep apnea"><span>Non-obstructive sleep apnea</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Difficulty thinking clearly"><span>Difficulty thinking clearly</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Disorientation"><span>Disorientation</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Balance issues"><span>Balance issues</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Slow reflexes"><span>Slow reflexes</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Incoordination"><span>Incoordination</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Numbness or tingling"><span>Numbness or tingling</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Nerve pains"><span>Nerve pains</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Unexplained menstrual changes"><span>Unexplained menstrual changes</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Overactive bladder"><span>Overactive bladder</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="Bladder infection"><span>Bladder infection</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat2" value="React to musty spaces"><span>React to musty spaces</span></label>
+          </div>
+          <div class="q-nav"><button type="button" class="btn btn-line" data-q="back">&larr; Back</button><button type="button" class="btn btn-dark" data-q="next">Next <span class="arrow">&rarr;</span></button></div>
+        </fieldset>
+        <fieldset class="q-step" data-step="2" hidden>
+          <legend><span class="q-num">Step 3 of 4</span>Medical &amp; exposure history</legend>
+          <p class="q-hint">Check any conditions you've been diagnosed with and any known exposures. <b class="q-count">0 selected</b></p>
+          <div class="q-opts">
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Daily use of sinus spray, prescription, or Neti pot"><span>Daily use of sinus spray, prescription, or Neti pot</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Sinus surgery at any time in your life"><span>Sinus surgery at any time in your life</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Chronic inflammatory response syndrome (CIRS)"><span>Chronic inflammatory response syndrome (CIRS)</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="MARCoNS"><span>MARCoNS</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Peanut allergy"><span>Peanut allergy</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Chronic fatigue syndrome"><span>Chronic fatigue syndrome</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Difficulty walking"><span>Difficulty walking</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Dysautonomia"><span>Dysautonomia</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Postural Tachycardia Syndrome (PoTS)"><span>Postural Tachycardia Syndrome (PoTS)</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Hearing loss"><span>Hearing loss</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Confusion"><span>Confusion</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Dementia"><span>Dementia</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Memory loss"><span>Memory loss</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Tremors"><span>Tremors</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Sarcoidosis"><span>Sarcoidosis</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Asthma that’s difficult to control with medication"><span>Asthma that’s difficult to control with medication</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Idiopathic pneumonitis"><span>Idiopathic pneumonitis</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Lung scarring or nodules"><span>Lung scarring or nodules</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Respiratory distress"><span>Respiratory distress</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Aspergillosis"><span>Aspergillosis</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Arrhythmia"><span>Arrhythmia</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Coagulation abnormalities"><span>Coagulation abnormalities</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Arteriovenous abnormalities"><span>Arteriovenous abnormalities</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Churg Strauss Syndrome"><span>Churg Strauss Syndrome</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Histamine intolerance"><span>Histamine intolerance</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Erythema nodosum"><span>Erythema nodosum</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Eosinophilic esophagitis"><span>Eosinophilic esophagitis</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Ulcer"><span>Ulcer</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Non-celiac intestinal disease"><span>Non-celiac intestinal disease</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Blood in stool"><span>Blood in stool</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Cyclical vomiting syndrome"><span>Cyclical vomiting syndrome</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Liver pain or swelling"><span>Liver pain or swelling</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Fatty liver"><span>Fatty liver</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Non-alcoholic steatohepatitis (NASH)"><span>Non-alcoholic steatohepatitis (NASH)</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Interstitial cystitis"><span>Interstitial cystitis</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Kidney pain or swelling"><span>Kidney pain or swelling</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Kidney disease"><span>Kidney disease</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Nephritis"><span>Nephritis</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Chronic pelvic pain"><span>Chronic pelvic pain</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Infertility"><span>Infertility</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Hepatocellular carcinoma"><span>Hepatocellular carcinoma</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Previous or current cancer diagnosis"><span>Previous or current cancer diagnosis</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Mast cell activation syndrome (MCAS)"><span>Mast cell activation syndrome (MCAS)</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Exposure to water-damaged building any time in your life"><span>Exposure to water-damaged building any time in your life</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Exposure to mold"><span>Exposure to mold</span></label>
+            <label class="q-opt"><input type="checkbox" name="cat3" value="Positive Shoemaker tests"><span>Positive Shoemaker tests</span></label>
+          </div>
+          <div class="q-nav"><button type="button" class="btn btn-line" data-q="back">&larr; Back</button><button type="button" class="btn btn-dark" data-q="next">Next <span class="arrow">&rarr;</span></button></div>
+        </fieldset>
+        <fieldset class="q-step" data-step="3" hidden>
+          <legend><span class="q-num">Step 4 of 4</span>Where should we send your results?</legend>
+          <p class="q-hint">Your score shows right away. A copy of your answers goes to Xenia so she can follow up if you'd like.</p>
+          <div class="q-email">
+            <label for="mq-email">Email</label>
+            <input type="email" id="mq-email" name="email" autocomplete="email" placeholder="you@email.com" required>
+            <p class="q-err" id="mq-err" hidden>Please enter a valid email address.</p>
+          </div>
+          <div class="q-nav"><button type="button" class="btn btn-line" data-q="back">&larr; Back</button><button type="submit" class="btn btn-dark">See my results <span class="arrow">&rarr;</span></button></div>
+        </fieldset>
+      </form>
+      <div class="q-result" id="mq-result" hidden aria-live="polite">
+        <p class="eyebrow">Your results</p>
+        <div class="q-score"><b id="mq-score">0</b><span>Risk score</span></div>
+        <h3 id="mq-level"></h3>
+        <p id="mq-msg"></p>
+        <div class="btn-row">
+          <a class="btn btn-dark" href="https://l.bttr.to/7uRty" target="_blank" rel="noopener">Book a mold detox consult <span class="arrow">&rarr;</span></a>
+          <a class="btn btn-line" href="/functional-medicine-lab-testing#mycotoxin">Order a mycotoxin test</a>
+          <a class="btn btn-line js-book" href="#" target="_blank" rel="noopener">Book a free call</a>
+        </div>
+        <p class="fine" id="mq-note" hidden></p>
+        <p class="fine">This quiz is a screening tool, not a diagnosis. <button type="button" class="q-link" data-q="restart">Retake the quiz</button></p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- GUIDES -->
+<section id="guides" aria-labelledby="guides-title">
+  <div class="wrap">
+    <div class="cond-head">
+      <div>
+        <p class="eyebrow">Guides</p>
+        <h2 id="guides-title">Printable <em>guides</em></h2>
+      </div>
+      <p class="lede">Each guide opens as a PDF you can save or print.</p>
+    </div>
+    <div class="group-head nut" id="nutrition"><div><h3>Nutrition</h3><p>Eat to lower inflammation, steady blood sugar and absorb more.</p></div><span>6 guides</span></div>
+    <div class="guide-grid">
+      <div class="guide"><h3>Anti-Inflammatory Guide</h3><p>Foods, supplements and daily habits that calm inflammation.</p><a class="dl" href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_df83d6558b874defa53f04fcddf9d29b.pdf" target="_blank" rel="noopener">Open guide (PDF) &rarr;</a></div>
+      <div class="guide"><h3>Antioxidants Guide</h3><p>Antioxidant-rich foods, spices and supplements that counter free radicals.</p><a class="dl" href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_e277130e80aa4acfaf1d3c09b41f3a8e.pdf" target="_blank" rel="noopener">Open guide (PDF) &rarr;</a></div>
+      <div class="guide"><h3>Approved Food Brands</h3><p>Brands I trust, because quality varies and labels can mislead.</p><a class="dl" href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_440e64283f3849c8981fa9d4d4c86eb1.pdf" target="_blank" rel="noopener">Open guide (PDF) &rarr;</a></div>
+      <div class="guide"><h3>Intermittent Fasting for Beginners</h3><p>The basics of time-restricted eating and how to start gently.</p><a class="dl" href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_944efbdcbf2245078555f15d14564c57.pdf" target="_blank" rel="noopener">Open guide (PDF) &rarr;</a></div>
+      <div class="guide"><h3>Improving Bioavailability</h3><p>Food pairings and cooking methods that help you absorb more nutrients.</p><a class="dl" href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_743a9a5a948b4e4aaeb113f69210f57c.pdf" target="_blank" rel="noopener">Open guide (PDF) &rarr;</a></div>
+      <div class="guide"><h3>Control Your Cravings</h3><p>Read hunger cues, steady blood sugar and choose with confidence.</p><a class="dl" href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_5f1b97ecdd524af5850b8ccdc688c670.pdf" target="_blank" rel="noopener">Open guide (PDF) &rarr;</a></div>
+    </div>
+    <div class="group-head well" id="wellness"><div><h3>Wellness</h3><p>Sleep, stress, mindset and a calmer nervous system.</p></div><span>9 guides</span></div>
+    <div class="guide-grid">
+      <div class="guide"><h3>Nervous System Regulation</h3><p>Simple tools to calm and balance your nervous system.</p><a class="dl" href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_7de31b9a95714aeaa93ebfe28199f0ca.pdf" target="_blank" rel="noopener">Open guide (PDF) &rarr;</a></div>
+      <div class="guide"><h3>Sleep Optimization</h3><p>Habits and routines for deeper, more refreshing sleep.</p><a class="dl" href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_0327698a57a14e91992b77b238a497d0.pdf" target="_blank" rel="noopener">Open guide (PDF) &rarr;</a></div>
+      <div class="guide"><h3>Thyroid Health Guide</h3><p>Everyday support for healthy thyroid function.</p><a class="dl" href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_e18cf4990be04b488cc07fe72a192bf7.pdf" target="_blank" rel="noopener">Open guide (PDF) &rarr;</a></div>
+      <div class="guide"><h3>Toxin-Free Living</h3><p>Practical ways to lower your toxin burden at home.</p><a class="dl" href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_1bfe35b954c94282a2704a0c41ad8475.pdf" target="_blank" rel="noopener">Open guide (PDF) &rarr;</a></div>
+      <div class="guide"><h3>Mindfulness Challenge</h3><p>A short daily practice to stay present and find calm.</p><a class="dl" href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_d496015804b348199d38c41d0f087dca.pdf" target="_blank" rel="noopener">Open guide (PDF) &rarr;</a></div>
+      <div class="guide"><h3>Digital Detox</h3><p>Break the screen habit and take back your attention.</p><a class="dl" href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_9993188028864e1bb5c0ea4fa39b1712.pdf" target="_blank" rel="noopener">Open guide (PDF) &rarr;</a></div>
+      <div class="guide"><h3>Mindset Mastery</h3><p>Identify and move past the beliefs that hold you back.</p><a class="dl" href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_c211683876de4e68a4e19b605af11e75.pdf" target="_blank" rel="noopener">Open guide (PDF) &rarr;</a></div>
+      <div class="guide"><h3>Life Purpose Guide</h3><p>Clarify what matters and set goals that fit.</p><a class="dl" href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_4493c59eb3cd424b87703cedc47276a9.pdf" target="_blank" rel="noopener">Open guide (PDF) &rarr;</a></div>
+      <div class="guide"><h3>Deepen Your Connection</h3><p>Build stronger relationships and emotional connection.</p><a class="dl" href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_67ade875f8fd461d9a2701e4c6e1943d.pdf" target="_blank" rel="noopener">Open guide (PDF) &rarr;</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- SAFER PRODUCTS -->
+<section class="conditions" id="products" aria-labelledby="prod-title">
+  <div class="wrap">
+    <div class="cond-head">
+      <div>
+        <p class="eyebrow">Toxin-free living</p>
+        <h2 id="prod-title">Safer <em>personal care</em></h2>
+      </div>
+      <p class="lede">"Natural" on a label doesn't mean safe. These lists name cleaner options by category. Each opens as a PDF.</p>
+    </div>
+    <div class="chips">
+      <a href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_6fef797b3ec3457cbf355782cce08cf3.pdf" target="_blank" rel="noopener">Face Cream <span aria-hidden="true">&rarr;</span></a>
+      <a href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_512356847202408fadbc484b2effc63d.pdf" target="_blank" rel="noopener">Facial Cleanser &amp; Scrub <span aria-hidden="true">&rarr;</span></a>
+      <a href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_f3d6b843d8e540c8bf7a04ac539bea63.pdf" target="_blank" rel="noopener">Makeup Remover <span aria-hidden="true">&rarr;</span></a>
+      <a href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_51eb484de6dd4e11abfbf801c087e8ef.pdf" target="_blank" rel="noopener">Foundation <span aria-hidden="true">&rarr;</span></a>
+      <a href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_851bf7e952334114a9b9deedafeefef6.pdf" target="_blank" rel="noopener">Blush <span aria-hidden="true">&rarr;</span></a>
+      <a href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_f405b7ed53af4c16a863f5470581c112.pdf" target="_blank" rel="noopener">Bronzer <span aria-hidden="true">&rarr;</span></a>
+      <a href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_189a482eb43b41b59fdde3dbde5f5604.pdf" target="_blank" rel="noopener">Mascara <span aria-hidden="true">&rarr;</span></a>
+      <a href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_aab5fda2dfed48cf98ec7e049fdafa16.pdf" target="_blank" rel="noopener">Shampoo &amp; Conditioner <span aria-hidden="true">&rarr;</span></a>
+      <a href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_5c295bcbf0cd4345b61c827bd67c03c2.pdf" target="_blank" rel="noopener">Body Wash <span aria-hidden="true">&rarr;</span></a>
+      <a href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_20c4d3f7035449809f01ebfd4e2aeffc.pdf" target="_blank" rel="noopener">Soap Bar <span aria-hidden="true">&rarr;</span></a>
+      <a href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_798108a46959434b8a00cfb504b7ccc8.pdf" target="_blank" rel="noopener">Hand Soap <span aria-hidden="true">&rarr;</span></a>
+      <a href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_755400d3bc5248db9e2a5297be8b26b6.pdf" target="_blank" rel="noopener">Body Lotion <span aria-hidden="true">&rarr;</span></a>
+      <a href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_f60cf25be0e74b158fb6c692d84cfac6.pdf" target="_blank" rel="noopener">Hand Cream <span aria-hidden="true">&rarr;</span></a>
+      <a href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_d57d20f5049648a690faa074942598fd.pdf" target="_blank" rel="noopener">Deodorant <span aria-hidden="true">&rarr;</span></a>
+      <a href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_0a1ac3fb38934dbcb8b9f03e029f63e1.pdf" target="_blank" rel="noopener">Toothpaste <span aria-hidden="true">&rarr;</span></a>
+      <a href="https://www.yourfunctionalmednp.com/_files/ugd/01b06b_af58684bf4734122a13018076f664898.pdf" target="_blank" rel="noopener">Baby &amp; Child <span aria-hidden="true">&rarr;</span></a>
+    </div>
+    <p class="fine" style="margin-top:1.5rem">These lists are a starting point, not an endorsement, and not every safe product is included. To check a product yourself, search the <a href="https://www.ewg.org/skindeep/" target="_blank" rel="noopener">EWG Skin Deep database</a>.</p>
+  </div>
+</section>
+
+<!-- CLOSING -->
+<section class="closing" aria-labelledby="closing-title">
+  <div class="ph"><canvas class="art" data-art="mist" aria-hidden="true"></canvas><img data-photo="closing" alt="" loading="lazy"></div>
+  <div class="wrap">
+    <h2 id="closing-title">Ready for a plan built <em>for you?</em></h2>
+    <p>Guides are a great start. For answers specific to your body, book a free 15-minute call.</p>
+    <div class="btn-row">
+      <a class="btn btn-dark js-book" href="#" target="_blank" rel="noopener">Book a free call <span class="arrow">&rarr;</span></a>
+      <a class="btn btn-line" href="/functional-medicine-austin">Functional medicine</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,4 @@
+# Netlify publishes only the finished pages in site/. The source in src/ is never served.
+[build]
+  publish = "site"
+  command = ""
