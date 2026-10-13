@@ -6,6 +6,7 @@ Run: python3 src/build.py
 import base64, json, os, shutil, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "blog"))
 from render import build_posts
+from blog_posts import POSTS
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "src")
@@ -72,6 +73,9 @@ PAGES = [
 
 # Old Wix addresses -> where that content lives now (permanent 301s; works on any domain).
 OLD_TO_NEW = [
+    # Wix's sitemap files (search engines have these on record)
+    ("/blog-posts-sitemap.xml", "/sitemap.xml"), ("/blog-categories-sitemap.xml", "/sitemap.xml"),
+    ("/pricing-plans-sitemap.xml", "/sitemap.xml"), ("/pages-sitemap.xml", "/sitemap.xml"),
     # services hub, booking and pricing pages
     ("/services-functional-medicine", "/#services"), ("/fees", "/#services"), ("/book-today", "/#services"),
     ("/pricing-plans/*", "/#services"), ("/plan-customization", "/#services"), ("/wellness-coaching", "/#services"),
@@ -154,6 +158,15 @@ def fill_images(html, inline):
     return html
 
 
+# Search-engine ownership tags carried over from the Wix site (Google, Pinterest, Bing, Yandex). Home page only.
+VERIFY = ('<meta name="google-site-verification" content="zsnpuefPDw2QS2wUzFH67LZiZw0TM5LHiUMeHxZt4IM">\n'
+          '<meta name="google-site-verification" content="LUKz2flSeiWMTerEvatBwjprpFbjcmmUHVW4cN_Cyq4">\n'
+          '<meta name="p:domain_verify" content="05b5f6126281e3dd69f3eab43902cb96">\n'
+          '<meta name="msvalidate.01" content="4B9A14AA7A7A35629E21825BBD708E29">\n'
+          '<meta name="yandex-verification" content="c5550fdd30045b26">\n')
+SITE_URL = "https://www.yourfunctionalmednp.com"
+
+
 def build():
     css, js = read("partials", "style.css"), read("partials", "script.js")
     header, footer = read("partials", "header.html"), read("partials", "footer.html")
@@ -199,6 +212,7 @@ def build():
                "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n"
                f"<title>{p['title']}</title>\n<meta name=\"description\" content=\"{p['desc']}\">\n"
                + ("<meta name=\"robots\" content=\"noindex\">\n" if p.get("noindex") else f"<link rel=\"canonical\" href=\"{canonical}\">\n")
+               + (VERIFY if p["path"] == "/" else "")
                + "<link rel=\"icon\" type=\"image/png\" href=\"/images/logo.png\">\n"
                f"{FONTS}<link rel=\"stylesheet\" href=\"/assets/site.css\">\n</head>\n<body>\n"
                f"{fill_images(content, False)}{config}<script src=\"/assets/site.js\"></script>\n</body>\n</html>\n")
@@ -252,6 +266,19 @@ def build():
         with open(os.path.join(PREVIEW, "post", p["slug"] + ".html"), "w", encoding="utf-8") as f:
             f.write(frag)
     print("built", len(posts), "blog posts")
+
+    # sitemap.xml + robots.txt
+    dates = {q[0]: q[2][:10] for q in POSTS}
+    urls = [(SITE_URL + ("/" if p["path"] == "/" else p["path"]), None) for p in PAGES if not p.get("noindex")]
+    urls += [(SITE_URL + p["path"], dates.get(p["slug"])) for p in posts]
+    with open(os.path.join(SITE, "sitemap.xml"), "w", encoding="utf-8") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
+        for u, d in urls:
+            f.write(f"  <url><loc>{u}</loc>" + (f"<lastmod>{d}</lastmod>" if d else "") + "</url>\n")
+        f.write("</urlset>\n")
+    with open(os.path.join(SITE, "robots.txt"), "w", encoding="utf-8") as f:
+        f.write(f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}/sitemap.xml\n")
+    print("sitemap:", len(urls), "URLs")
 
 
 if __name__ == "__main__":

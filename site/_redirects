@@ -1,4 +1,8 @@
 # Old Wix addresses -> new pages
+/blog-posts-sitemap.xml                                        /sitemap.xml                                         301
+/blog-categories-sitemap.xml                                   /sitemap.xml                                         301
+/pricing-plans-sitemap.xml                                     /sitemap.xml                                         301
+/pages-sitemap.xml                                             /sitemap.xml                                         301
 /services-functional-medicine                                  /#services                                           301
 /fees                                                          /#services                                           301
 /book-today                                                    /#services                                           301
