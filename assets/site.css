@@ -617,3 +617,6 @@ form.cf{background:var(--white); border-radius:var(--radius); padding:clamp(1.5r
 @media (max-width:560px){ .author-box{grid-template-columns:1fr} .prose{font-size:1.06rem} }
 .art-cover:has(+ .art-cap){margin-bottom:0}
 .art-cap{max-width:1040px; margin:0 auto clamp(2.5rem,5vw,4rem); padding-top:.8rem; font-size:.9rem; color:var(--muted); text-align:center}
+.svc-links{max-width:720px; margin:clamp(2.5rem,5vw,3.5rem) auto 0; padding-top:clamp(1.75rem,3.5vw,2.25rem); border-top:1px solid var(--line)}
+.svc-links .eyebrow{margin:0 0 1rem}
+.svc-links .btn-row{flex-wrap:wrap; gap:.75rem}
