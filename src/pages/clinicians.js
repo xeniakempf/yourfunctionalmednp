@@ -28,32 +28,48 @@ window.PAGE = {
   });
 })();
 
-/* Course sample pages: magnifying lens on hover (mouse), full-size viewer on click/tap */
+/* Course sample pages: on hover (mouse) the whole page enlarges to 125% of the printed page size;
+   on click/tap it opens full size in a viewer. */
 (function () {
   var items = document.querySelectorAll(".zoomable"), dlg = document.getElementById("pageViewer");
-  if (!items.length || !dlg) return;
-  var dImg = dlg.querySelector("img");
+  if (!items.length) return;
+  var PAGE_W = 816 * 1.25;          // a US-letter PDF page is 816 CSS px wide at 100%; show it at 125%
+  var big = document.createElement("img");
+  big.className = "page-magnified"; big.alt = ""; big.setAttribute("aria-hidden", "true");
+  document.body.appendChild(big);
+  var active = null;
+
+  function place(e) {
+    if (!active) return;
+    var r = active.getBoundingClientRect(), vw = innerWidth, vh = innerHeight, pad = 16;
+    var w = Math.min(PAGE_W, vw - pad * 2), h = w * (active.naturalHeight / active.naturalWidth);
+    var left = Math.min(Math.max(r.left + r.width / 2 - w / 2, pad), vw - w - pad);
+    var top;
+    if (h <= vh - pad * 2) top = Math.min(Math.max(r.top + r.height / 2 - h / 2, pad), vh - h - pad);
+    else {                            // taller than the screen: pan with the mouse
+      var fy = Math.min(Math.max((e.clientY - r.top) / r.height, 0), 1);
+      top = pad - (h - (vh - pad * 2)) * fy;
+    }
+    big.style.width = w + "px"; big.style.left = left + "px"; big.style.top = top + "px";
+  }
   items.forEach(function (btn) {
-    var img = btn.querySelector("img"), lens = btn.querySelector(".lens");
-    btn.addEventListener("pointermove", function (e) {
+    var img = btn.querySelector("img");
+    btn.addEventListener("pointerenter", function (e) {
       if (e.pointerType !== "mouse" || !img.naturalWidth) return;
-      var r = img.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top;
-      if (x < 0 || y < 0 || x > r.width || y > r.height) { lens.style.opacity = 0; return; }
-      var z = Math.max(2, img.naturalWidth / r.width);           // show the page at its real size
-      var lw = lens.offsetWidth, lh = lens.offsetHeight;
-      lens.style.backgroundImage = "url(" + img.currentSrc + ")";
-      lens.style.backgroundSize = (r.width * z) + "px " + (r.height * z) + "px";
-      lens.style.backgroundPosition = (lw / 2 - x * z) + "px " + (lh / 2 - y * z) + "px";
-      lens.style.left = (img.offsetLeft + x - lw / 2) + "px";
-      lens.style.top = (img.offsetTop + y - lh / 2) + "px";
-      lens.style.opacity = 1;
+      active = img; big.src = img.currentSrc; place(e);
+      requestAnimationFrame(function () { big.classList.add("on"); btn.classList.add("zoomed"); });
     });
-    btn.addEventListener("pointerleave", function () { lens.style.opacity = 0; });
+    btn.addEventListener("pointermove", function (e) { if (e.pointerType === "mouse") place(e); });
+    btn.addEventListener("pointerleave", function () { active = null; big.classList.remove("on"); btn.classList.remove("zoomed"); });
     btn.addEventListener("click", function () {
-      dImg.src = btn.dataset.full; dImg.alt = img.alt;
-      if (dlg.showModal) dlg.showModal(); else window.open(btn.dataset.full, "_blank");
+      active = null; big.classList.remove("on"); btn.classList.remove("zoomed");
+      if (!dlg || !dlg.showModal) { window.open(btn.dataset.full, "_blank"); return; }
+      var d = dlg.querySelector("img"); d.src = btn.dataset.full; d.alt = img.alt; dlg.showModal();
     });
   });
-  dlg.querySelector(".pv-close").addEventListener("click", function () { dlg.close(); });
-  dlg.addEventListener("click", function (e) { if (e.target === dlg) dlg.close(); });
+  addEventListener("scroll", function () { if (active) { big.classList.remove("on"); active = null; } }, { passive: true });
+  if (dlg) {
+    dlg.querySelector(".pv-close").addEventListener("click", function () { dlg.close(); });
+    dlg.addEventListener("click", function (e) { if (e.target === dlg) dlg.close(); });
+  }
 })();
