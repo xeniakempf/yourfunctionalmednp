@@ -71,12 +71,26 @@
         <li><b>Yours to keep, no expiration</b>Download once and reference it anytime, even offline</li>
       </ul>
     </div>
-    <div class="clin-pages">
-      <img src="/images/bhrt-course-chapter.webp" alt="A sample chapter page on prescribing estrogen therapy, covering systemic vs. local estrogen" width="1090" height="1407" loading="lazy">
-      <img src="/images/bhrt-course-rx-pads.webp" alt="A sample chapter page showing Rx pad examples for estradiol patch and gel prescribing" width="1088" height="1410" loading="lazy">
+    <div class="clin-pages-wrap">
+      <div class="clin-pages">
+        <button type="button" class="zoomable" data-full="/images/bhrt-course-chapter.webp" aria-label="Open sample page: prescribing estrogen therapy, systemic vs. local estrogen">
+          <img src="/images/bhrt-course-chapter.webp" alt="A sample chapter page on prescribing estrogen therapy, covering systemic vs. local estrogen" width="1090" height="1407" loading="lazy">
+          <span class="lens" aria-hidden="true"></span>
+        </button>
+        <button type="button" class="zoomable" data-full="/images/bhrt-course-rx-pads.webp" aria-label="Open sample page: Rx pad examples for estradiol patch and gel">
+          <img src="/images/bhrt-course-rx-pads.webp" alt="A sample chapter page showing Rx pad examples for estradiol patch and gel prescribing" width="1088" height="1410" loading="lazy">
+          <span class="lens" aria-hidden="true"></span>
+        </button>
+      </div>
+      <p class="zoom-hint"><span class="hover-only">Hover to magnify. </span>Click a page to read it full size.</p>
     </div>
   </div>
 </section>
+
+<dialog class="page-viewer" id="pageViewer" aria-label="Sample course page">
+  <button type="button" class="q-close pv-close" aria-label="Close">&times;</button>
+  <div class="pv-scroll"><img alt=""></div>
+</dialog>
 
 <!-- HOW IT WORKS -->
 <section class="clin-how" aria-labelledby="how-title">

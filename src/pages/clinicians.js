@@ -27,3 +27,33 @@ window.PAGE = {
       .catch(function () { say("Network error. Please try again.", true); btn.disabled = false; btn.firstChild.nodeValue = "Email me the chart "; });
   });
 })();
+
+/* Course sample pages: magnifying lens on hover (mouse), full-size viewer on click/tap */
+(function () {
+  var items = document.querySelectorAll(".zoomable"), dlg = document.getElementById("pageViewer");
+  if (!items.length || !dlg) return;
+  var dImg = dlg.querySelector("img");
+  items.forEach(function (btn) {
+    var img = btn.querySelector("img"), lens = btn.querySelector(".lens");
+    btn.addEventListener("pointermove", function (e) {
+      if (e.pointerType !== "mouse" || !img.naturalWidth) return;
+      var r = img.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top;
+      if (x < 0 || y < 0 || x > r.width || y > r.height) { lens.style.opacity = 0; return; }
+      var z = Math.max(2, img.naturalWidth / r.width);           // show the page at its real size
+      var lw = lens.offsetWidth, lh = lens.offsetHeight;
+      lens.style.backgroundImage = "url(" + img.currentSrc + ")";
+      lens.style.backgroundSize = (r.width * z) + "px " + (r.height * z) + "px";
+      lens.style.backgroundPosition = (lw / 2 - x * z) + "px " + (lh / 2 - y * z) + "px";
+      lens.style.left = (img.offsetLeft + x - lw / 2) + "px";
+      lens.style.top = (img.offsetTop + y - lh / 2) + "px";
+      lens.style.opacity = 1;
+    });
+    btn.addEventListener("pointerleave", function () { lens.style.opacity = 0; });
+    btn.addEventListener("click", function () {
+      dImg.src = btn.dataset.full; dImg.alt = img.alt;
+      if (dlg.showModal) dlg.showModal(); else window.open(btn.dataset.full, "_blank");
+    });
+  });
+  dlg.querySelector(".pv-close").addEventListener("click", function () { dlg.close(); });
+  dlg.addEventListener("click", function (e) { if (e.target === dlg) dlg.close(); });
+})();
