@@ -3,9 +3,10 @@
   preview/  one self-contained HTML fragment per page for Claude artifact previews
 Run: python3 src/build.py
 """
-import base64, json, os, shutil, sys
+import base64, json, os, re, shutil, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "blog"))
 from render import build_posts
+import schema
 from blog_posts import POSTS
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -167,6 +168,23 @@ VERIFY = ('<meta name="google-site-verification" content="zsnpuefPDw2QS2wUzFH67L
 SITE_URL = "https://www.yourfunctionalmednp.com"
 
 
+def page_meta(p, body):
+    """Social preview tags + schema.org data for a regular page."""
+    url = SITE_URL + ("/" if p["path"] == "/" else p["path"])
+    img = SITE_URL + "/images/xenia.jpg"
+    js_path = os.path.join(SRC, "pages", p["slug"] + ".js")
+    if os.path.exists(js_path):
+        m = re.search(r'hero:\s*"(https://[^"]+)"', open(js_path, encoding="utf-8").read())
+        if m:
+            img = m.group(1)
+    esc = lambda v: v.replace("&", "&amp;").replace('"', "&quot;")
+    return (f'<meta property="og:type" content="website">\n<meta property="og:site_name" content="Your Functional Health">\n'
+            f'<meta property="og:title" content="{esc(p["title"])}">\n<meta property="og:description" content="{esc(p["desc"])}">\n'
+            f'<meta property="og:url" content="{url}">\n<meta property="og:image" content="{esc(img)}">\n'
+            f'<meta name="twitter:card" content="summary_large_image">\n'
+            f'<script type="application/ld+json">{schema.page_graph(p["path"], p["title"], p["desc"], body, p["name"])}</script>\n')
+
+
 def build():
     css, js = read("partials", "style.css"), read("partials", "script.js")
     header, footer = read("partials", "header.html"), read("partials", "footer.html")
@@ -213,6 +231,7 @@ def build():
                f"<title>{p['title']}</title>\n<meta name=\"description\" content=\"{p['desc']}\">\n"
                + ("<meta name=\"robots\" content=\"noindex\">\n" if p.get("noindex") else f"<link rel=\"canonical\" href=\"{canonical}\">\n")
                + (VERIFY if p["path"] == "/" else "")
+               + ("" if p.get("noindex") else page_meta(p, body))
                + "<link rel=\"icon\" type=\"image/png\" href=\"/images/logo.png\">\n"
                f"{FONTS}<link rel=\"stylesheet\" href=\"/assets/site.css\">\n</head>\n<body>\n"
                f"{fill_images(content, False)}{config}<script src=\"/assets/site.js\"></script>\n</body>\n</html>\n")
@@ -254,7 +273,7 @@ def build():
                f"<meta property=\"og:image\" content=\"{esc(p['og_image'])}\">\n"
                "<link rel=\"icon\" type=\"image/png\" href=\"/images/logo.png\">\n"
                f"{FONTS}<link rel=\"stylesheet\" href=\"/assets/site.css\">\n"
-               f"<script type=\"application/ld+json\">{p['jsonld']}</script>\n</head>\n<body>\n"
+               f"<script type=\"application/ld+json\">{schema.post_graph(p['jsonld'], p['path'], p['name'], None)}</script>\n</head>\n<body>\n"
                f"{fill_images(content, False)}<script>window.PAGE={{photos:{{}}}};</script>\n"
                "<script src=\"/assets/site.js\"></script>\n</body>\n</html>\n")
         out = os.path.join(SITE, p["out"])
@@ -279,6 +298,24 @@ def build():
     with open(os.path.join(SITE, "robots.txt"), "w", encoding="utf-8") as f:
         f.write(f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}/sitemap.xml\n")
     print("sitemap:", len(urls), "URLs")
+
+    # llms.txt: plain-language summary for AI assistants (https://llmstxt.org)
+    svc_lines = "".join(f"- [{v['name']}]({SITE_URL}{k}): {v['description']}\n" for k, v in schema.SERVICES.items())
+    post_lines = "".join(f"- [{q[1]}]({SITE_URL}/post/{q[0]})\n" for q in POSTS)
+    with open(os.path.join(SITE, "llms.txt"), "w", encoding="utf-8") as f:
+        f.write("# Your Functional Health\n\n"
+                "> Functional medicine practice in Austin, Texas, led by Xenia Kempf, MSN, APRN, FNP-C. In person in Austin "
+                "and by secure video anywhere in Texas, including Austin, Round Rock, Cedar Park, Georgetown, San Antonio, "
+                "Houston, Dallas, Midland, Odessa, Lubbock, Amarillo, San Angelo, Tyler and Beaumont. Cash-pay with "
+                "published prices; HSA/FSA accepted; superbills for out-of-network reimbursement.\n\n"
+                "Phone or text: 737-336-5959. Free 15-minute discovery call: " + SITE_URL + "/#contact\n\n"
+                "## Services\n\n" + svc_lines +
+                "\n## About\n\n"
+                f"- [About Xenia Kempf, FNP-C]({SITE_URL}/#about)\n"
+                f"- [Frequently asked questions]({SITE_URL}/#faq)\n"
+                f"- [Free guides and health quizzes]({SITE_URL}/resources)\n"
+                f"- [BHRT course and clinical reference app for clinicians]({SITE_URL}/clinicians)\n"
+                "\n## Articles\n\n" + post_lines)
 
 
 if __name__ == "__main__":
