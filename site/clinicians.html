@@ -137,7 +137,7 @@
         <figcaption><b>Rx quick-reference cards</b>Sample Rx pads for estradiol patch and gel</figcaption>
       </figure>
     </div>
-    <p class="zoom-hint"><span class="hover-only">Hover over a page to enlarge it. </span>Click or tap a page to open it full size.</p>
+    <p class="zoom-hint">Click a page to read it full size.</p>
   </div>
 </section>
 
@@ -330,46 +330,17 @@ window.PAGE = {
   });
 })();
 
-/* Course sample pages: on hover (mouse) the whole page enlarges to 125% of the printed page size;
-   on click/tap it opens full size in a viewer. */
+/* Course sample pages: click/tap opens the page full size in a viewer */
 (function () {
   var items = document.querySelectorAll(".zoomable"), dlg = document.getElementById("pageViewer");
   if (!items.length) return;
-  var PAGE_W = 816 * 1.25;          // a US-letter PDF page is 816 CSS px wide at 100%; show it at 125%
-  var big = document.createElement("img");
-  big.className = "page-magnified"; big.alt = ""; big.setAttribute("aria-hidden", "true");
-  document.body.appendChild(big);
-  var active = null;
-
-  function place(e) {
-    if (!active) return;
-    var r = active.getBoundingClientRect(), vw = innerWidth, vh = innerHeight, pad = 16;
-    var w = Math.min(PAGE_W, vw - pad * 2), h = w * (active.naturalHeight / active.naturalWidth);
-    var left = Math.min(Math.max(r.left + r.width / 2 - w / 2, pad), vw - w - pad);
-    var top;
-    if (h <= vh - pad * 2) top = Math.min(Math.max(r.top + r.height / 2 - h / 2, pad), vh - h - pad);
-    else {                            // taller than the screen: pan with the mouse
-      var fy = Math.min(Math.max((e.clientY - r.top) / r.height, 0), 1);
-      top = pad - (h - (vh - pad * 2)) * fy;
-    }
-    big.style.width = w + "px"; big.style.left = left + "px"; big.style.top = top + "px";
-  }
   items.forEach(function (btn) {
-    var img = btn.querySelector("img");
-    btn.addEventListener("pointerenter", function (e) {
-      if (e.pointerType !== "mouse" || !img.naturalWidth) return;
-      active = img; big.src = img.currentSrc; place(e);
-      requestAnimationFrame(function () { big.classList.add("on"); btn.classList.add("zoomed"); });
-    });
-    btn.addEventListener("pointermove", function (e) { if (e.pointerType === "mouse") place(e); });
-    btn.addEventListener("pointerleave", function () { active = null; big.classList.remove("on"); btn.classList.remove("zoomed"); });
     btn.addEventListener("click", function () {
-      active = null; big.classList.remove("on"); btn.classList.remove("zoomed");
+      var img = btn.querySelector("img");
       if (!dlg || !dlg.showModal) { window.open(btn.dataset.full, "_blank"); return; }
       var d = dlg.querySelector("img"); d.src = btn.dataset.full; d.alt = img.alt; dlg.showModal();
     });
   });
-  addEventListener("scroll", function () { if (active) { big.classList.remove("on"); active = null; } }, { passive: true });
   if (dlg) {
     dlg.querySelector(".pv-close").addEventListener("click", function () { dlg.close(); });
     dlg.addEventListener("click", function (e) { if (e.target === dlg) dlg.close(); });
