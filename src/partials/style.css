@@ -669,3 +669,9 @@ form.cf{background:var(--white); border-radius:var(--radius); padding:clamp(1.5r
 .rca-disclaimer{font-size:.82rem; color:var(--muted); border-top:1px solid var(--line); padding-top:1rem; margin:1.75rem 0 .5rem}
 .rca-top .eyebrow{min-width:0}
 @media (max-width:560px){ .rca-top .eyebrow{font-size:.7rem; letter-spacing:.14em} }
+/* footer map */
+.foot-about h4{margin-top:2rem}
+.foot-map iframe{display:block; width:100%; height:320px; border:0; border-radius:16px; filter:grayscale(.25) contrast(.95)}
+.foot-map{display:flex; flex-direction:column; gap:.75rem}
+.foot-map-link{font-size:.88rem}
+@media (max-width:980px){ .foot-map{grid-column:1/-1; order:3} .foot-map iframe{height:260px} }
