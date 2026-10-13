@@ -4,8 +4,6 @@ desc: Anxiety and depression - from the functional medicine perspective
 cover: 11062b_e0e488fa69824c65a6209d6bbf8aff7e~mv2.jpeg
 tags: mental health, depression, anxiety, functional medicine
 
-![anxiety and depression can be managed with functional medicine methods through healthy gut flora, sleep optimization, stress reduction and hormone balancing](wix:11062b_e0e488fa69824c65a6209d6bbf8aff7e~mv2.jpeg) {cap: Anxiety and depression - from the functional medicine perspective}
-
 There's an accelerating mental health crisis with rising rates of anxiety, depression, and other conditions. Traditional psychiatric diagnoses are mainly descriptive rather than focusing on root causes. Current psychiatric medications (like SSRIs) often have limited effectiveness and carry side effects
 
 Unlike traditional approaches that focus solely on the symptoms, the functional & integrative medicine approach emphasizes the importance of addressing the underlying factors that contribute to mental health conditions. Anxiety and depression are often the result of imbalances in various bodily systems, including the brain, gut, hormones, and immune system. Below are the primary causes of anxiety and depression:

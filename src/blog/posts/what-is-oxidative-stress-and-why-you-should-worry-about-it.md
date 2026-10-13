@@ -6,7 +6,7 @@ tags: oxidative stress, aging, chronic disease, free radicals
 
 ## Understanding Oxidative Stress
 
-![oxidative stress testing - functional medicine Austin](wix:nsplsh_208f7f64e21d47a2a49fb251f4fc0f4e~mv2.jpg) {cap: Oxidative stress can damage your DNA}
+![Fluorescent blue cells against a dark background](local:inline/what-is-oxidative-stress-and-why-you-should-worry-about-it-0.webp) {cap: Oxidative stress can damage your DNA}
 
 Oxidative stress is a condition that occurs when there is an imbalance between **free radicals** (reactive oxygen species, or ROS) and the body’s ability to neutralize them with **antioxidants** . Free radicals are naturally produced as a byproduct of metabolism, but when their levels become excessive, they can damage cells, proteins, and DNA, contributing to **aging, chronic diseases, and inflammation** .
 
@@ -14,7 +14,7 @@ While oxidative stress is a natural part of life, chronic exposure to it can acc
 
 ## What Causes Oxidative Stress?
 
-![oxidate stress cause by poor diet - functional medicine Austin](wix:11062b_c34ad20e374c4cd78efabd032942a1a3~mv2.jpg)
+![Burger with lettuce and tomatoes](local:inline/what-is-oxidative-stress-and-why-you-should-worry-about-it-1.webp)
 
 Several factors contribute to the overproduction of free radicals and oxidative stress, including:
 
@@ -36,7 +36,7 @@ Several factors contribute to the overproduction of free radicals and oxidative 
 
 Unchecked oxidative stress can contribute to the development of **chronic diseases, premature aging, and cellular dysfunction** . Some of the major health impacts include:
 
-![heart health optimization - Austin functional medicine](wix:11062b_287ab86b466c430bb3b06d21cc11e337~mv2_d_1776_2048_s_2.jpg)
+![Doctor holding a red stethoscope](local:inline/what-is-oxidative-stress-and-why-you-should-worry-about-it-2.webp)
 
 - **Brain Health:** Oxidative stress is linked to cognitive decline, Alzheimer’s, and Parkinson’s disease.
 
@@ -56,7 +56,7 @@ The good news is that **oxidative stress can be managed and reduced** through di
 
 ### 1️⃣ Increase Antioxidant Intake
 
-![green tea antioxidant - functional medicine Austin ](wix:11062b_e99bb54ae63d4b93ba8c0052b02219ef~mv2.jpg)
+![Clear glass mug of green tea](local:inline/what-is-oxidative-stress-and-why-you-should-worry-about-it-3.webp)
 
 Antioxidants neutralize free radicals and protect against oxidative damage. Boost your intake of:
 
@@ -80,7 +80,7 @@ Antioxidants neutralize free radicals and protect against oxidative damage. Boos
 
 ### 3️⃣ Manage Stress & Prioritize Sleep
 
-![sleep optimization in Austin with peptides - functional medicine Austin](wix:11062b_7520f20eb33a4feda17d576bebd6467d~mv2.jpg)
+![A person sleeping in bed](local:inline/what-is-oxidative-stress-and-why-you-should-worry-about-it-4.webp)
 
 - Practice **meditation, deep breathing, and mindfulness** to reduce stress-induced oxidative stress.
 

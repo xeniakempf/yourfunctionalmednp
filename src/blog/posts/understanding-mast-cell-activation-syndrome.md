@@ -4,8 +4,6 @@ desc: Struggling with eczema, hives, or brain fog? Learn what causes Mast Cell A
 cover: 01b06b_f7767c93280f4e8cb9588ad7efbc51fe~mv2.jpg
 tags: MCAS, mast cell activation syndrome, mast cells
 
-![mast cells in a cluster under microscope](wix:01b06b_f7767c93280f4e8cb9588ad7efbc51fe~mv2.jpg)
-
 Do you suffer from unexplained skin rashes, itching, brain fog, food sensitivities, or sudden anxiety — and no one seems to know why? You might be dealing with a lesser-known but increasingly common condition called **Mast Cell Activation Syndrome (MCAS).**
 
 **MCAS** is a chronic condition where the body’s **mast cells** — a type of immune cell — become overly reactive, releasing **histamine** and other inflammatory mediators in response to triggers that shouldn’t normally cause a reaction. The result? A wide range of symptoms that can affect nearly every system in the body.
@@ -22,7 +20,7 @@ But in MCAS, these mast cells misfire — reacting to harmless stimuli like food
 
 MCAS symptoms are often misdiagnosed because they can mimic other conditions. Some of the most common include:
 
-![woman scratching her back](wix:11062b_694b1e153d59443aa0bbc0742b7db759~mv2.jpeg)
+![Woman stretching her neck and shoulders](local:inline/understanding-mast-cell-activation-syndrome-1.webp)
 
 - **Skin** : rashes, hives, eczema, itching, flushing
 
@@ -52,7 +50,7 @@ Toxic mold exposure is one of the most common overlooked drivers of MCAS. Mycoto
 
 Your gut is home to 70% of your immune system. When dysbiosis (imbalance in gut bacteria) or intestinal permeability (“leaky gut”) is present, food particles and toxins can leak into the bloodstream, triggering immune responses and mast cell activation.
 
-![pollution from smoke with sunset in background](wix:nsplsh_415f415178477a397a3549~mv2_d_3276_4096_s_4_2.jpg)
+![Smokestacks against an orange sunset](local:inline/understanding-mast-cell-activation-syndrome-2.webp)
 
 ### 4. Environmental Triggers
 

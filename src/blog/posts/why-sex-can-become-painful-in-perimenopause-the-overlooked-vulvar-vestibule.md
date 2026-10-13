@@ -24,7 +24,7 @@ The good news: this is **biologic, explainable, and treatable** .
 
 The area surrounding the urethral and vaginal opening is made of specialized mucosal tissue, not regular skin.
 
-![vulvar vestibule - reason for pain with sex](wix:01b06b_c56ec6e092664f04a54d362e46a1b409~mv2.png)
+![vulvar vestibule - reason for pain with sex](local:inline/why-sex-can-become-painful-in-perimenopause-the-overlooked-vulvar-vestibule-0.webp)
 
 This tissue:
 
@@ -120,7 +120,7 @@ Internal pelvic exams are often normal. Urine cultures are frequently negative.
 
 ## Why It’s Often Misdiagnosed
 
-![pain with sex or urination in menopause](wix:5f4dc3032abb4309aae5663830f81cae.jpg)
+![Woman talking with her doctor in a clinic](local:inline/why-sex-can-become-painful-in-perimenopause-the-overlooked-vulvar-vestibule-1.webp)
 
 Because the tissue looks subtlety changed (or sometimes normal), symptoms are frequently labeled as:
 
@@ -188,7 +188,7 @@ These therapies address the root cause rather than masking symptoms.
 
 ## Supportive Measures That Enhance Healing
 
-![women sexual health provider Austin TX](wix:11062b_ebb917fbb01f4ec2b14b2abe783b8dfd~mv2.jpg)
+![A close up of two people holding hands](local:inline/why-sex-can-become-painful-in-perimenopause-the-overlooked-vulvar-vestibule-2.webp)
 
 - Pelvic floor physical therapy
 

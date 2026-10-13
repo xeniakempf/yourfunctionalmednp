@@ -4,8 +4,6 @@ desc: Explore the link between environmental exposures & mental health. Learn ho
 cover: nsplsh_36786544495a676f506177~mv2_d_8688_5792_s_4_2.jpg
 tags: mental health, mental wellness, depression, anxiety
 
-![Role of Pollution in mental health](wix:01b06b_6891ab7996934830a50c8eae94caabbb~mv2.jpg)
-
 ### How Heavy Metals, Chemicals, and Toxins Can Worsen Anxiety, Depression & Fatigue
 
 At **Your Functional Health in Austin** , we recognize that mental health isn’t just shaped by thoughts or emotions—it’s also shaped by your *environment* . Every day, we’re exposed to substances that can subtly affect brain chemistry, hormones, and detox pathways.
@@ -38,7 +36,7 @@ These effects are often misunderstood or mislabeled as “purely psychological,�
 
 ### 1. Heavy Metals (Mercury, Lead, Arsenic, Cadmium)
 
-![Ocean pollution and heavy metal contamination in fish](wix:nsplsh_d6520a54b48048ba83e5feeba1ee8a83~mv2.jpg)
+![Fresh fish on ice](local:inline/environmental-toxins-the-hidden-influences-on-mental-health-1.webp)
 
 - Accumulate in the brain and nervous system, disrupting neurotransmitter signaling.
 
@@ -60,7 +58,7 @@ We often use tests like **Great Plains MycoTOX** or **RealTime Labs Mycotoxin Pr
 
 ### 3. Pesticides & VOCs (Volatile Organic Compounds)
 
-![spraying pesticides](wix:11062b_faf778f52941483caad034058d8e3cb7~mv2.jpeg)
+![Tractor driving through a dusty field at sunset](local:inline/environmental-toxins-the-hidden-influences-on-mental-health-2.webp)
 
 - Found in household cleaners, synthetic fragrances, and lawn chemicals.
 
@@ -128,7 +126,7 @@ You may benefit from toxicity screening if you experience:
 
 - Get tested here: [https://www.yourfunctionalmednp.com/environmental-toxin-testing](https://www.yourfunctionalmednp.com/environmental-toxin-testing)
 
-![two women laughing](wix:515d48fe802e4089a8965dfe58ae48c1.jpg)
+![Woman hugging another woman while smiling at the beach](local:inline/environmental-toxins-the-hidden-influences-on-mental-health-3.webp)
 
 ## Healing the Mind by Healing the Environment
 

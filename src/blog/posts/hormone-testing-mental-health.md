@@ -10,7 +10,7 @@ At **Your Functional Health in Austin** , we know that mental health doesn’t b
 
 Through **stress and hormone testing** , we can evaluate how cortisol, thyroid, and reproductive hormones are impacting your emotional and physical well-being—and design a plan that restores balance from the inside out.
 
-![blonde woman on couch ](wix:11062b_fc98493ad2cb4e3fa443482c93ef504b~mv2_d_6720_4480_s_4_2.jpg)
+![Woman in a pink jacket lying on a gray couch](local:inline/hormone-testing-mental-health-0.webp)
 
 ## The Hormone–Mood Connection
 
@@ -72,7 +72,7 @@ By mapping these patterns, we can uncover how stress, sleep, and nutrition are i
 
 ## Restoring Balance: The Functional Psychiatry Approach
 
-![black couple meditating](wix:11062b_f70e05cd64fd461096a7beaf2b18ba6e~mv2.jpg)
+![Two people relaxing on a sofa near a window](local:inline/hormone-testing-mental-health-1.webp)
 
 Instead of masking symptoms, we address the
 

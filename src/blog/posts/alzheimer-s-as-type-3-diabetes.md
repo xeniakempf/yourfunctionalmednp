@@ -6,7 +6,7 @@ tags: mental health, Alzheimer's, diebetes, type 3 diabetes
 
 ## Why is Alzheimer’s Called Type 3 Diabetes?
 
-![type 3 diabetes is Alzheimer's - functional medicine Austin](wix:11062b_7decc5e4c98f466faae73df206b2fb62~mv2.jpeg)
+![Elderly woman reading a book on a couch](local:inline/alzheimer-s-as-type-3-diabetes-0.webp)
 
 Alzheimer’s disease is often referred to as **Type 3 Diabetes** because of its strong connection to **insulin resistance and metabolic dysfunction in the brain** . Research suggests that **impaired glucose metabolism, chronic inflammation, and insulin resistance** contribute to the development and progression of Alzheimer’s.
 
@@ -16,7 +16,7 @@ Do you have family history of dementia or Alzheimer's? Get tested today for a ge
 
 ## How Insulin Resistance Contributes to Alzheimer’s
 
-![processed sugars contribute to Alzheimer's disease development - functional medicine Austin](wix:3c85e3d3cb7e4401b56dde494fcd3fa8.jpg)
+![Sugar cubes and a spoon on a red surface](local:inline/alzheimer-s-as-type-3-diabetes-1.webp)
 
 - **Chronic High Blood Sugar (Hyperglycemia)** – Excess glucose leads to **oxidative stress and inflammation** , damaging brain cells.
 
@@ -72,7 +72,7 @@ If you are concerned about your health and developing Alzheimer's disease, conta
 
 ### 4️⃣ Improve Brain Health & Cognitive Function
 
-![brain health - functional medicine Austin](wix:11062b_248aae69aef44ef7a320af986c51c346~mv2.jpg)
+![Person holding a crossword puzzle](local:inline/alzheimer-s-as-type-3-diabetes-2.webp)
 
 - Stimulate your brain with **learning, puzzles, and new experiences** .
 

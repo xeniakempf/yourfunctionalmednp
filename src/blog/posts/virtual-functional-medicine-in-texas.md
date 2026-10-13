@@ -4,8 +4,6 @@ desc: Virtual functional medicine for Texas. Personalized root-cause care and we
 cover: 01b06b_cb14b131f23c461daaa4d013695ff1f5~mv2.jpg
 tags: 
 
-![Personalized functional medicine in Texas](wix:01b06b_cb14b131f23c461daaa4d013695ff1f5~mv2.jpg) {cap: Xenia, Your Functional Med NP}
-
 Looking for **functional medicine in Texas** that meets you *where you are* —literally? At **Your Functional Health** , we provide **virtual functional medicine consults for Texans across the state** , making expert root-cause care accessible whether you’re in **Austin, Dallas, Houston, San Antonio, or anywhere in Texas** .
 
 ## What Is Functional Medicine?
@@ -88,7 +86,7 @@ You’ll receive 1-on-1 attention and a plan that's *tailored* to you—not a ge
 
 We proudly serve clients throughout Texas, including:
 
-![Virtual functional medicine Texas](wix:01b06b_3c4bd1fa6f934433a95275ae72b29655~mv2.jpg) {cap: Xenia, Your Holistic Practitioner}
+![Virtual functional medicine Texas](local:inline/virtual-functional-medicine-in-texas-1.webp) {cap: Xenia, Your Holistic Practitioner}
 
 ✅ Austin
 

@@ -6,7 +6,7 @@ tags:
 
 When we think of hormones that change during menopause, estrogen and progesterone usually take center stage. Yet, there’s another key hormone that deserves attention: **testosterone** . Though often labeled a “male hormone,” testosterone is vital for **female health, metabolism, mood, and sexual wellbeing** —and its decline during perimenopause and menopause can profoundly impact quality of life.
 
-![Testosterone therapy for women in Texas](wix:11062b_f7edf6f29dfd4a658f1e2ac0f2e49205~mv2.jpg)
+![Smiling woman sitting at a wooden table](local:inline/the-role-of-testosterone-in-women-during-0.webp)
 
 ### Testosterone: Not Just a Male Hormone
 
@@ -32,7 +32,7 @@ Clinical research and decades of clinical observation show that properly dosed t
 
 Low testosterone is linked with reduced vitality, apathy, and difficulty completing tasks. Restoring optimal levels often brings back **drive, stamina, and overall zest for life** .
 
-![Improved libido for women in texas](wix:11062b_d2ac20db9b394b28b0c2bc47a2ed5d41~mv2.jpg)
+![Man and woman hugging each other](local:inline/the-role-of-testosterone-in-women-during-1.webp)
 
 ### 2. Enhanced Sexual Health
 
@@ -64,7 +64,7 @@ At *Your Functional Health* , testosterone replacement is never given in isolati
 
 Testosterone is not optional—it’s essential. For women in **perimenopause and menopause** , testing and optimizing testosterone can mean the difference between “just getting through the day” and feeling strong, motivated, and fully alive. When thoughtfully prescribed and monitored, testosterone therapy is both **safe and transformative** .
 
-![Expert hormone therapy for women in Texas](wix:01b06b_b69f272df1954e58b652f0f9e391bb32~mv2.jpg)
+![Expert hormone therapy for women in Texas](local:inline/the-role-of-testosterone-in-women-during-2.webp)
 
 ### If you’re in Texas and wondering whether testosterone therapy might be right for you…
 

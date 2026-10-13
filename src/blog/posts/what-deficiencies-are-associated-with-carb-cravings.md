@@ -4,8 +4,6 @@ desc: Struggling with carb cravings? Discover the surprising reasons behind your
 cover: nsplsh_33657752586a4665736749~mv2.jpg
 tags: carb cravings, nutrient deficiency, nutrient imbalance
 
-![glazed donuts with chocolate](wix:nsplsh_57584a3333484f727a7645~mv2_d_2837_3546_s_4_2.jpg)
-
 Craving **carbs and sugar** is often a sign of underlying **nutrient deficiencies, blood sugar imbalances, stress, or gut dysbiosis** . Here are the key **insufficiencies linked to carb cravings** and how to correct them.
 
 ## 1. Magnesium Deficiency (Blood Sugar & Stress Regulation)
@@ -110,7 +108,7 @@ Craving **carbs and sugar** is often a sign of underlying **nutrient deficiencie
 
 - **Sleep 7-9 hours per night** to regulate **cortisol and blood sugar** .
 
-![assorted colorful pastries](wix:3c85e3d3cb7e4401b56dde494fcd3fa8.jpg)
+![A bakery filled with baked goods](local:inline/what-deficiencies-are-associated-with-carb-cravings-1.webp)
 
 ### Final Thoughts: Fixing Carb Cravings at the Root
 

@@ -10,7 +10,7 @@ Rather than offering a one-size-fits-all solution, peptides work with your body'
 
 ### How Peptides Support Aging, Wellness and Vitality
 
-![man and woman doing hit workout jumping onto boxes](wix:11062b_6dd398ab02d94398a90f9887386707e6~mv2.jpg)
+![Woman jumping onto a wooden box in a gym](local:inline/the-future-of-longevity-how-peptides-enhance-vitality-and-wellness-0.webp)
 
 - **Tissue Repair and Regeneration**
 
@@ -44,7 +44,7 @@ Rather than offering a one-size-fits-all solution, peptides work with your body'
 
 - Antioxidant, DNA repair, and anti-inflammatory properties
 
-![vial and syringe close up](wix:758ce0fc2a7646ffbe847c97958d7f3e.jpg)
+![Insulin-style injection pen with a drop at the tip](local:inline/the-future-of-longevity-how-peptides-enhance-vitality-and-wellness-1.webp)
 
 #### 4. Thymosin Alpha-1 (Tα1)
 
@@ -82,7 +82,7 @@ Rather than offering a one-size-fits-all solution, peptides work with your body'
 
 - Increases BDNF, ideal for brain fog, ADHD, and neuro-inflammation
 
-![female physician counseling woman across the table](wix:11062b_5c073c07295a4d46a05c51714b7b12c4~mv2.jpg)
+![Doctor writing on a patient's chart](local:inline/the-future-of-longevity-how-peptides-enhance-vitality-and-wellness-2.webp)
 
 ### How to Incorporate Peptides Safely
 

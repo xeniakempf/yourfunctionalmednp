@@ -4,8 +4,6 @@ desc: Discover how elevated homocysteine impacts mental health, contributing to 
 cover: 11062b_2a55fdcdab4e4e9aa893887b5612bebf~mv2.jpeg
 tags: depression, anxiety, Alzheimer's, dementia, OCD
 
-![Alleviate depression with the help of functional medicine in Austin](wix:11062b_2a55fdcdab4e4e9aa893887b5612bebf~mv2.jpeg) {cap: Depression is an epidemic}
-
 When it comes to mental health, we often focus on neurotransmitters like serotonin and dopamine, but an overlooked factor in conditions such as depression, anxiety, OCD, and dementia is **homocysteine. Homocysteine and mental health have a close relationship.** It is an amino acid that plays a critical role in brain function. Elevated homocysteine levels can disrupt brain chemistry, contribute to inflammation, and impair detoxification, all of which can impact mental well-being.
 
 ### What is Homocysteine?
@@ -38,7 +36,7 @@ Several factors contribute to high homocysteine levels, including:
 
 ### How to Lower Homocysteine and Support Mental Health
 
-![](wix:4644b8b4a44a4812b459ad77ac37dd14.jpg)
+![Sunny side up eggs on a black ceramic plate](local:inline/elevated-homocysteine-the-hidden-link-to-mental-health-disorders-1.webp)
 
 1. **Increase B Vitamin Intake** - Eat more **leafy greens** , eggs, grass-fed meat, and fish. - Consider a high-quality B-complex supplement, especially if you have an MTHFR mutation.
 
@@ -50,7 +48,7 @@ Several factors contribute to high homocysteine levels, including:
 
 ### The Bottom Line
 
-![Functional medicine can help alleviate the symptoms of depression, anxiety and mental decline](wix:be1e0572c7d64aaf84d2aaed223e6770.jpg)
+![Long black haired woman smiling, close-up](local:inline/elevated-homocysteine-the-hidden-link-to-mental-health-disorders-2.webp)
 
 If you or a loved one struggle with **depression, anxiety, OCD, or cognitive decline** , it may be worth checking homocysteine levels. Functional & integrative medicine offers a **root-cause approach** to mental health, addressing nutritional and metabolic imbalances that contribute to symptoms. By optimizing homocysteine metabolism through diet, supplementation, and lifestyle changes, you can support **brain health, mood stability, and long-term cognitive function** . [Read more here.](https://foodforthebrain.org/the-home-test-to-help-prevent-mental-illness/)
 

@@ -4,8 +4,6 @@ desc: Learn about how gut dysbiosis can cause hormonal imbalances and what you c
 cover: 11062b_1fadc31857fd4d4d93ab5a881700aa46~mv2_d_5085_3390_s_4_2.jpg
 tags: 
 
-![functional and holistic medicine can help with gut dysbiosis and SIBO and SIFO](wix:11062b_1fadc31857fd4d4d93ab5a881700aa46~mv2_d_5085_3390_s_4_2.jpg) {cap: Gut imbalances can cause hormonal issues}
-
 Many health issues—especially those involving hormones—can be traced back to gut health. The most common symptoms are weight gain despite no changes in diet or lifestyle, fatigue, mood changes (irritability, anxiety), and lower stress tolerance; whatever the patient present with, there is often something going on in the gut that is causing or worsening their symptoms.
 
 Once we address gut imbalances, inflammation, or pathogens, we may not even have to address the initial symptoms because they often resolve themselves.
@@ -56,7 +54,7 @@ For women in perimenopause and menopause, poor sleep is compounded by declining 
 
 ### Recommendations for Supporting Sleep Hygiene
 
-![sleep is vital for good gut health as per your functional health in austin tx](wix:nsplsh_465652544c4b6751373030~mv2_d_6016_4016_s_4_2.jpg)
+![A n unmade bed with a white comforter](local:inline/gut-dysbiosis-and-female-hormonal-imbalances-1.webp)
 
 - **Maintain a consistent sleep-wake routine** to stabilize circadian rhythms.
 
@@ -74,7 +72,7 @@ Estrogen metabolism depends on gut and liver function, as estrogen must be prope
 
 **Key gut bacteria producing β-glucuronidase include:**
 
-![prebiotics and probiotics are vital to a healthy gut flora - functional medicine provider austin tx](wix:nsplsh_506861544a506474614355~mv2.jpg)
+![Bowl of yogurt topped with strawberries](local:inline/gut-dysbiosis-and-female-hormonal-imbalances-2.webp)
 
 - *Bifidobacterium*
 

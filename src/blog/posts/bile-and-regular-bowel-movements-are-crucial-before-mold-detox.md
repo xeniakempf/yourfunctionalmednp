@@ -22,7 +22,7 @@ Bile is a digestive fluid produced by the liver and stored in the gallbladder. W
 
 When bile flow is sluggish — due to poor liver function, gallbladder congestion, or a low-fat diet — these toxins can be **reabsorbed** , triggering inflammation and “detox reactions” such as brain fog, nausea, or fatigue.
 
-![Regular bowel movements in mold detox](wix:nsplsh_3188fd97e1d44bb7b6a226e3645a774b~mv2.jpg)
+![Two bowls of oatmeal with fruits](local:inline/bile-and-regular-bowel-movements-are-crucial-before-mold-detox-0.webp)
 
 ## Why Regular Bowel Movements Matter
 
@@ -42,7 +42,7 @@ Supporting bowel regularity ensures that once toxins are bound, they actually **
 
 ## How to Support Elimination Before Starting Mold Detox
 
-![mold detox Austin TX](wix:f09995d80376386f8b02e668822b7415.jpg)
+![A pile of chia seeds on a white surface](local:inline/bile-and-regular-bowel-movements-are-crucial-before-mold-detox-1.webp)
 
 ### 1. Support Bile Production and Flow
 

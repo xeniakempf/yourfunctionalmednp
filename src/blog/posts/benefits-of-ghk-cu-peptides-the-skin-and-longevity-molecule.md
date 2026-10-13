@@ -4,8 +4,6 @@ desc: Explore the science of GHK-Cu peptides—skin rejuvenation, wound healing,
 cover: 11062b_6bcdc7f909734ddb8c04806ce1ac8927~mv2.jpg
 tags: peptides, anti-aging, skin health
 
-![dark hair woman applying skin serum under eye](wix:11062b_6bcdc7f909734ddb8c04806ce1ac8927~mv2.jpg)
-
 In the rapidly growing world of regenerative medicine and biohacking, few molecules have generated as much buzz as **GHK-Cu (glycyl-L-histidyl-L-lysine copper)** . Originally discovered in human plasma in the 1970s, this naturally occurring copper-binding peptide is now being recognized not just for its powerful **skin rejuvenation properties** , but also for its **potential in wound healing, tissue regeneration, and anti-aging** at the cellular level.
 
 ### What is GHK-Cu?
@@ -18,13 +16,13 @@ GHK-Cu is a tri-peptide that tightly binds copper ions and plays a key role in c
 
 GHK-Cu stimulates collagen and glycosaminoglycan synthesis, improving skin firmness, elasticity, and hydration. It also reduces fine lines, photo damage, and hyperpigmentation, making it a favorite in anti-aging skin serums and micro-needling protocols.
 
-![skin before and after of woman](wix:11062b_d8e10d1a29194e44828298452026733e~mv2.jpg)
+![A woman with a towel on her head applying face cream](local:inline/benefits-of-ghk-cu-peptides-the-skin-and-longevity-molecule-1.webp)
 
 #### 2. Wound Healing and Tissue Regeneration
 
 This peptide accelerates healing and cellular repair by promoting angiogenesis (new blood vessel formation), modulating inflammation, and stimulating fibroblast activity. Studies show faster healing of skin ulcers, burns, and post-surgical wounds when GHK-Cu is applied.
 
-![applying hair serum GHK-Cu peptide - AUSTIN TEXAS](wix:11062b_ee7e9b55c41a43dcbac538d575ac1fb3~mv2.jpg)
+![Woman with long wavy hair against a pink wall](local:inline/benefits-of-ghk-cu-peptides-the-skin-and-longevity-molecule-2.webp)
 
 #### 3. Hair Growth Support
 

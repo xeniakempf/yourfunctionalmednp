@@ -10,7 +10,7 @@ But on **November 10, 2025** , the FDA announced a major shift: many menopausal 
 
 This decision marks a significant milestone in the conversation around menopause care — and a step toward correcting nearly two decades of confusion, fear, and misinformation.
 
-![hormone therapy for women in austin tx](wix:01b06b_0679aa6dc45040779b7f3cc85bbee438~mv2.png)
+![hormone therapy for women in austin tx](local:inline/the-fda-removes-the-black-box-warning-on-estrogen-and-why-it-matters-0.webp)
 
 ## Why Did the FDA Remove the Black-Box Warning from Estrogen Products?
 
@@ -58,8 +58,6 @@ Large follow-up studies have shown that:
 
 The FDA’s revised stance reflects this modern understanding.
 
-![hormone replacement for women in Austin TX](wix:01b06b_2d53f9fe8c22487d8b09aded0ebc5bfa~mv2.png)
-
 ### 3. It Supports Better Treatment Options for Women
 
 Many women suffer unnecessarily through menopausal symptoms that impact:
@@ -100,7 +98,7 @@ Women still need:
 
 But the change does mean women and clinicians can talk openly — without a decades-old warning overshadowing nuanced medical decision-making.
 
-![menopause clinic austin tx](wix:11062b_11d592001bc243cf93d110e6fac89462~mv2.jpg)
+![A smiling doctor in a white coat talking to a patient in a clinic](local:inline/the-fda-removes-the-black-box-warning-on-estrogen-and-why-it-matters-2.webp)
 
 ## A Turning Point for Menopause Care
 

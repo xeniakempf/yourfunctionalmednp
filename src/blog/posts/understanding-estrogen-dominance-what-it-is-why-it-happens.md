@@ -6,8 +6,6 @@ tags: gut health, estrogen, estrogen dominance, endometriosis
 
 Hormones are like the body’s messengers, keeping everything from your metabolism to your mood in balance. But when one hormone gets too high in relation to others—especially estrogen—it can throw the whole system off. This is what we call **estrogen dominance** , and it’s more common than you might think, particularly in women in their 30s, 40s, and even postmenopausal years.
 
-![Hormones spelled out on a green leaf](wix:01b06b_5a1b9e3a08c54bd48f4696aeb724830b~mv2.jpg)
-
 ## What Is Estrogen Dominance?
 
 Estrogen dominance doesn’t necessarily mean you have high estrogen levels—though that can be the case. It means estrogen is **high *relative* to progesterone** , its natural counterbalance. When progesterone is too low, even a normal level of estrogen can have dominant effects on the body.
@@ -40,7 +38,7 @@ Estrogen dominance doesn’t necessarily mean you have high estrogen levels—th
 
 ### 1. Chronic Stress (Low Progesterone)
 
-![Stressed woman at work with curly hair](wix:f4a2eb10b3154a8a8c1bcda2e37e94c0.jpg)
+![Stressed woman with her head in her hands at a laptop](local:inline/understanding-estrogen-dominance-what-it-is-why-it-happens-1.webp)
 
 When your body is under constant stress, it prioritizes making **cortisol** (your stress hormone) over **progesterone** —a process called "pregnenolone steal." This shift causes progesterone levels to drop, giving estrogen the upper hand.
 
@@ -54,7 +52,7 @@ The gut helps eliminate used hormones via stool. Dysbiosis (an imbalance in gut 
 
 ### 4. Xenoestrogens (Environmental Estrogens)
 
-![Foundation and pressed powder cosmetics](wix:e4be345d06e640489b3f9b90896434e0.jpg) {cap: Every day beauty products can be high in endocrine disrupting chemicals}
+![A ssorted makeup products on a gray surface](local:inline/understanding-estrogen-dominance-what-it-is-why-it-happens-2.webp) {cap: Every day beauty products can be high in endocrine disrupting chemicals}
 
 We’re constantly exposed to estrogen-mimicking chemicals found in plastics (BPA), pesticides, personal care products, and household cleaners. These **xenoestrogens** bind to estrogen receptors and amplify estrogenic effects in the body.
 
@@ -64,7 +62,7 @@ Many forms of birth control introduce synthetic estrogen (and progestins) into t
 
 ### 6. Obesity or Excess Body Fat
 
-![Two feet standing on a white scale](wix:nsplsh_c90b588d75084a299e0e208c3fa45e75~mv2.jpg) {cap: Excess adipose tissue produces estrogen creating more estrogen dominance}
+![A bathroom scale on a wooden floor](local:inline/understanding-estrogen-dominance-what-it-is-why-it-happens-3.webp) {cap: Excess adipose tissue produces estrogen creating more estrogen dominance}
 
 Fat cells don’t just store fat—they **produce estrogen** . More fat tissue = more estrogen in circulation, creating a vicious cycle. This is especially true with belly fat, which is metabolically active.
 

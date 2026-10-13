@@ -4,8 +4,6 @@ desc: Discover how the functional medicine approach can help decrease ADHD sympt
 cover: 11062b_f48fb4aec3134241b2ea9a4907ae937e~mv2.jpg
 tags: 
 
-![Xenia, a functional medicine provider in Austin can help decrease ADHD symptoms naturally](wix:11062b_f48fb4aec3134241b2ea9a4907ae937e~mv2.jpg)
-
 Attention-deficit/hyperactivity disorder (ADHD) is often thought of as a childhood condition, but many adults continue to struggle with symptoms like inattention, impulsivity, and restlessness. While conventional treatments often focus on medication, **functional medicine** takes a **root-cause approach** , addressing the underlying imbalances that contribute to ADHD symptoms. If you’ve been searching for a **functional & integrative medicine provider in Austin** , look no further! I can help you decrease your symptoms with simple interventions. You may be surprised at how much lifestyle, diet, and metabolic health can influence your focus and mental clarity. Read below how functional medicine can decrease ADHD symptoms without the use of stimulants.
 
 ## Understanding the Root Causes of ADHD Symptoms
@@ -24,7 +22,7 @@ ADHD symptoms can be influenced by a variety of biological and environmental fac
 
 ## How can I, a Functional & Integrative Medicine Provider in Austin help?
 
-![Functional Medicine Austin by Xenia Kempf NP](wix:01b06b_fc6ebfcd418742b68b6953704b5c1220~mv2.jpg)
+![Functional Medicine Austin by Xenia Kempf NP](local:inline/how-functional-medicine-can-decrease-adhd-symptoms-1.webp)
 
 Unlike conventional approaches that rely solely on medication, **functional medicine focuses on identifying and addressing these underlying issues** . A functional medicine provider will often use **comprehensive and specialty lab testing** to uncover imbalances and create a customized treatment plan that may include:
 

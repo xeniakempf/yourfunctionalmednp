@@ -6,7 +6,7 @@ tags: gut health, weight loss, prediabetes, insulin resistance
 
 ## Why Is Losing Weight So Difficult?
 
-![weight loss Austin Texas functional Medicine](wix:nsplsh_d9f5fddf654e434a9d53dd6a0d636eec~mv2.jpg) {cap: Why is it a struggle to lose weight?}
+![Woman biting a pencil in front of her laptop](local:inline/the-hidden-connection-between-weight-loss-struggles-gut-health-and-metabolic-imbalances-0.webp) {cap: Why is it a struggle to lose weight?}
 
 For many people, weight loss isn’t just about eating less and exercising more. If you’ve been struggling to shed excess weight despite following a healthy diet and workout routine, there may be an **underlying issue with gut health and metabolism** .
 
@@ -14,7 +14,7 @@ Many patients are frustrated because traditional weight loss advice just doesn�
 
 ## How Gut Health Impacts Weight Loss
 
-![weight loss Austin optimizing gut health Austin Texas](wix:nsplsh_202549b5e8244fc4ac5ffa50740c5110~mv2.jpg)
+![Shelves of jars with fermented vegetables](local:inline/the-hidden-connection-between-weight-loss-struggles-gut-health-and-metabolic-imbalances-1.webp)
 
 Your gut microbiome—a collection of trillions of bacteria living in your digestive tract—plays a crucial role in metabolism, digestion, and fat storage. When the balance of gut bacteria is disrupted (a condition known as **dysbiosis** ), it can lead to:
 
@@ -30,7 +30,7 @@ I, as a **functional medicine** practitioner here in Austin, Texas, focus on **r
 
 ## Metabolic Imbalances That Prevent Weight Loss
 
-![Austin functional medicine weight loss ](wix:0fcca294c9056f5b8c988b58dc8f1feb.jpg)
+![Two green apples with a measuring tape around them](local:inline/the-hidden-connection-between-weight-loss-struggles-gut-health-and-metabolic-imbalances-2.webp)
 
 Your metabolism is controlled by a delicate balance of hormones and biochemical processes. When your metabolic function is impaired, your body may **store fat instead of burning it** . Common metabolic imbalances that contribute to weight loss resistance include:
 
@@ -48,7 +48,7 @@ Addressing these metabolic issues with my **functional medicine approach** we ca
 
 ## How Functional Medicine Approaches Weight Loss
 
-![functional medicine lab testing Austin TX](wix:11062b_82c21cee9f4b4f188533cb5f12eb56e3~mv2.jpeg)
+![Rows of medical blood collection tubes with colorful caps in a laboratory rack](local:inline/the-hidden-connection-between-weight-loss-struggles-gut-health-and-metabolic-imbalances-3.webp)
 
 At **my functional medicine** clinic, I take a **root-cause approach** to weight loss by addressing **gut health, hormone balance, and metabolic function** . Instead of focusing solely on calorie restriction; I evaluate factors such as:
 

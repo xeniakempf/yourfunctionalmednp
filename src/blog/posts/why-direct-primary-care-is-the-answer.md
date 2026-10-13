@@ -4,8 +4,6 @@ desc: Direct Primary Care in Texas gives you same-day access, longer visits & a 
 cover: 01b06b_be9b1baccbfb413b9e776bcca7b8f25f~mv2.png
 tags: Direct Primary Care
 
-![Xenia Kempf NP - Integrative Primary Care](wix:01b06b_be9b1baccbfb413b9e776bcca7b8f25f~mv2.png)
-
 If you live in West Texas, the Panhandle, East Texas, or the Permian Basin, you already know what it feels like to need a doctor and not be able to get one. Appointments booked out for weeks. Long drives to the nearest clinic. Rushed 10-minute visits that leave you with more questions than answers. This is not a failure of the people — it is a failure of the system. And for hundreds of thousands of Texans, **Direct Primary Care** is the way out.
 
 ## Texas Has a Primary Care Crisis — And It's Getting Worse
@@ -52,7 +50,7 @@ DPC visits typically run 30 minutes. Your doctor has time to listen. Time to ask
 
 ### 3. Direct Access to Your Doctor
 
-![Direct Primary Care for Texas Patients](wix:11062b_eb520e88ccff49838d7abb5e00db94c0~mv2.jpeg)
+![Doctor in scrubs with a stethoscope using a phone](local:inline/why-direct-primary-care-is-the-answer-1.webp)
 
 DPC members typically have their physician's direct phone number or messaging contact. You can text a question about a medication. Send a photo of a rash. Get lab results explained in plain language. Have a tele-health call from your truck between job sites.
 

@@ -8,7 +8,7 @@ People in the *Blue Zones* —regions where people live significantly longer, of
 
 #### 1. Natural Movement
 
-![functional and holistic medicine recommends movement and exercise](wix:48d1ff110bab4dde99ef3313ca1e837c.jpg) {cap: Tai Chi - Gentle Movement}
+![People practicing tai chi together in a park](local:inline/the-power-9-lifestyle-in-the-blue-zones-0.webp) {cap: Tai Chi - Gentle Movement}
 
 Unlike modern exercise routines, Blue Zone centenarians incorporate physical activity into their daily lives without consciously thinking about it. Their movement is woven into their environment and routines:
 
@@ -36,7 +36,7 @@ People in the Blue Zones wake up each day with a sense of purpose. In Okinawa, J
 
 #### 3. Stress Reduction
 
-![Functional medicine can help with stress and anxiety](wix:11062b_59a923cd037b4bc49c063b72636ef169~mv2.jpg) {cap: Meditation - Great for Stress Relief}
+![People meditating on mats in a park](local:inline/the-power-9-lifestyle-in-the-blue-zones-1.webp) {cap: Meditation - Great for Stress Relief}
 
 While stress is a part of life everywhere, Blue Zone inhabitants have ways to manage and mitigate its effects. Chronic stress leads to inflammation and age-related diseases, so they practice daily stress-relief rituals:
 
@@ -62,7 +62,7 @@ Okinawans follow the Confucian principle *Hara Hachi Bu* , which reminds them to
 
 #### 5. Plant-Based Diet
 
-![whole food nutrition is a foundation of health and recommended by functional medicine in austin](wix:11062b_4b1fb3f5326c4e46a47586a651dea372~mv2.jpg) {cap: Plant Based Whole Foods}
+![Bowl of mixed dried beans](local:inline/the-power-9-lifestyle-in-the-blue-zones-2.webp) {cap: Plant Based Whole Foods}
 
 The diet in Blue Zones consists primarily of plant-based foods, with small amounts of meat. Their meals are rich in:
 
@@ -92,7 +92,7 @@ With the exception of Loma Linda (where many are Seventh-day Adventists and abst
 
 #### 7. Community and Belonging
 
-![community support is key of a healthy lifestyle](wix:31e2e9a7bf5b465887db7407f729ddb8.jpg)
+![A group of people sharing food around a table](local:inline/the-power-9-lifestyle-in-the-blue-zones-3.webp)
 
 People in Blue Zones are part of strong, faith-based, or social communities that provide emotional and social support.
 
@@ -118,7 +118,7 @@ Blue Zone centenarians emphasize **strong family bonds** and prioritize spending
 
 #### 9. Strong Social Circles ("Moai") "Find the Right Tribe"
 
-![social support is key to a happy and healthy lifestyle](wix:11062b_e36bb1a7a3ae453e9f721751e9517ca3~mv2.jpg)
+![Elderly people playing cards together outdoors](local:inline/the-power-9-lifestyle-in-the-blue-zones-4.webp)
 
 A *Moai* is a social support group in Okinawa that remains together for life. In other Blue Zones, people also surround themselves with like-minded individuals who reinforce healthy behaviors.
 

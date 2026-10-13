@@ -8,7 +8,7 @@ Hair loss is a common issue that many people face, and we need to consider vario
 
 ## 1. Nutrient Deficiencies
 
-![hair loss functional medicine approach addressing root causes of hair loss](wix:11062b_ee7e9b55c41a43dcbac538d575ac1fb3~mv2.jpg)
+![A woman holding a hair brush](local:inline/main-causes-of-hair-loss-0.webp)
 
 Nutrient imbalances are one of the most common causes of hair loss. There are several key nutrients that are essential for healthy hair growth, and deficiencies in these nutrients can lead to thinning or loss of hair. Some of the most critical nutrients for hair health include:
 

@@ -12,7 +12,7 @@ Hormone imbalances are a common concern for women, especially as they transition
 
 While testosterone is often considered a “male hormone,” it plays a crucial role in **women’s health** as well. Women produce testosterone in their **ovaries and adrenal glands** , and optimal levels are essential for:
 
-![muscular woman with ropes HIT](wix:11062b_aae99fae25874216bdd83d8af8ceef50~mv2.jpg)
+![Man exercising with battle ropes outdoors](local:inline/bioidentical-hormone-replacement-therapy-bhrt-in-women-0.webp)
 
 - **Energy & Muscle Mass** : Supports lean muscle tissue and strength.
 
@@ -38,7 +38,7 @@ While testosterone is often considered a “male hormone,” it plays a crucial 
 
 Estrogen is a key hormone in regulating the menstrual cycle and supporting cardiovascular, skin, and bone health. However, when **estrogen levels become excessive relative to progesterone** , women experience **estrogen dominance** , which can lead to:
 
-![white woman with big booty](wix:11062b_e7f2db75b6154c2e8577260c5f787c19~mv2.jpg)
+![Woman stretching on a forest path](local:inline/bioidentical-hormone-replacement-therapy-bhrt-in-women-1.webp)
 
 - **Weight Gain** : Especially around the hips and thighs.
 
@@ -60,7 +60,7 @@ Estrogen is a key hormone in regulating the menstrual cycle and supporting cardi
 
 ### Progesterone: The Calming Hormone
 
-![happy woman with green plants in background](wix:11062b_8199d275df974ab6b5cafd8011436c4b~mv2.jpg)
+![Woman in a white off-shoulder dress smiling](local:inline/bioidentical-hormone-replacement-therapy-bhrt-in-women-2.webp)
 
 Progesterone is essential for **balancing estrogen** , supporting **mood stability** , and promoting **deep sleep** . It also helps prepare the uterus for pregnancy and plays a key role in maintaining cognitive function.
 

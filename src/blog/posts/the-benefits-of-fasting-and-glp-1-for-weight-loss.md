@@ -6,7 +6,7 @@ tags: gut health, weight loss, weight gain, fasting
 
 ## What is Fasting?
 
-![Weight loss with GLP-1 in Austin - Functional Medicine Austin](wix:11062b_e5946d9cad94409383e36c98ab1c80c9~mv2.jpg)
+![A blue plate with green vegetables and a measuring tape](local:inline/the-benefits-of-fasting-and-glp-1-for-weight-loss-0.webp)
 
 Fasting is the practice of **abstaining from food and/or caloric beverages for a specific period of time** , allowing the body to enter a state of metabolic repair. While fasting has been practiced for centuries in various cultures and religions, modern science is uncovering its numerous **health benefits** , ranging from **cellular repair to weight loss and longevity** . Functional medicine integrates fasting as a powerful tool to **support metabolic balance, gut health, and inflammation reduction** .
 
@@ -30,7 +30,7 @@ There are several types of fasting, each with unique benefits:
 
 ## How GLP-1 Micro-Dosing Enhances Fasting & Weight Loss
 
-![GLP-1 weight loss micro-dosing - Austin functional medicine](wix:11062b_e8bcac6541f64207afd6b50505989109~mv2.jpg)
+![Glass of water with lemon and mint](local:inline/the-benefits-of-fasting-and-glp-1-for-weight-loss-1.webp)
 
 GLP-1 receptor agonists, such as **semaglutide and tirzepatide** , work by **reducing hunger signals, improving insulin sensitivity, and slowing gastric emptying** . Micro-dosing GLP-1 peptides while following intermittent fasting can:
 
@@ -76,7 +76,7 @@ This combination allows individuals to **extend fasting windows more comfortably
 
 #### How to Get Started with Fasting & GLP-1 Micro-Dosing
 
-![GLP-1 assisted weight loss Austin - functional medicine Austin](wix:11062b_f3c08723d80f415da1635007c8fd84b7~mv2_d_1974_2961_s_2.jpg)
+![Three meal prep containers with grains and vegetables](local:inline/the-benefits-of-fasting-and-glp-1-for-weight-loss-2.webp)
 
 **Choose a Fasting Method That Fits Your Lifestyle:** Start with **intermittent fasting (12:12)** and gradually increase fasting duration as tolerated.
 

@@ -6,7 +6,7 @@ tags: mold toxicity, detox
 
 ### What is Mold Toxicity?
 
-![mold toxicity treatment Austin TX](wix:01b06b_0d5df8767d20490287cee476fef320f3~mv2.png)
+![mold toxicity treatment Austin TX](local:inline/mold-toxicity-and-recovery-in-austin-0.webp)
 
 Mold toxicity (mycotoxicosis) occurs when exposure to toxic mold (often from water-damaged buildings) leads to the accumulation of **mycotoxins** in the body. These toxins can trigger chronic inflammation, immune dysfunction, and neurological symptoms. Some people are more susceptible, especially those with genetic predispositions (like HLA-DR genes), weakened immune systems, or chronic health conditions.
 
@@ -20,7 +20,7 @@ While mold in soil and water is generally not harmful to most people, individual
 
 ### Common Symptoms of Mold Toxicity
 
-![how to detox from mold functional medicine austin](wix:01b06b_b6aa734f9db449e79ce77027b0ccfc6d~mv2.png)
+![how to detox from mold functional medicine austin](local:inline/mold-toxicity-and-recovery-in-austin-1.webp)
 
 Mold toxicity affects multiple systems in the body, leading to a wide range of symptoms.
 
@@ -62,7 +62,7 @@ Treating mold toxicity involves a combination of eliminating exposure, detoxifyi
 
 ### Remove Mold Exposure
 
-![mold toxicity testing and treatment austin functional medicine doctor](wix:01b06b_01c6a57494024a0ab220e73c131f7e14~mv2.png)
+![mold toxicity testing and treatment austin functional medicine doctor](local:inline/mold-toxicity-and-recovery-in-austin-2.webp)
 
 - **Identify & Eliminate the Source** : Get a professional mold inspection and remediation if necessary.
 

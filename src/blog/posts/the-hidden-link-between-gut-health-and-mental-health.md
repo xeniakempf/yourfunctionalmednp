@@ -10,7 +10,7 @@ At **Your Functional Health in Austin** , we understand that mental health doesn
 
 Through **gut health and inflammation testing** , our functional psychiatry approach identifies the root biological patterns contributing to anxiety, depression, and addiction risk—helping you heal from the inside out.
 
-![woman meditating](wix:11062b_b277c9f0c9184f83abc87a3ab3df2454~mv2.jpg)
+![Woman sitting on a bench overlooking the mountains at sunset](local:inline/the-hidden-link-between-gut-health-and-mental-health-0.webp)
 
 ## The Gut–Brain Axis: A Two-Way Conversation
 
@@ -76,7 +76,7 @@ At **Your Functional Health** , we use advanced functional lab testing to measur
 
 These insights reveal whether inflammation or microbial imbalance is contributing to emotional and cognitive symptoms.
 
-![image of stomach illustration](wix:nsplsh_d5486545150644b280167f23da2d3a17~mv2.jpg)
+![Illustration of the stomach inside the body](local:inline/the-hidden-link-between-gut-health-and-mental-health-1.webp)
 
 ## Balanced Gut Health is the Foundation of Mental Health
 
@@ -116,7 +116,7 @@ Consider functional gut testing if you experience:
 
 - Relapse risk or substance-related mood instability
 
-![happy blonde woman](wix:nsplsh_e69ecddca82744a3b62daac0c9f66ab2~mv2.jpg)
+![Laughing woman with her hair blowing across her face](local:inline/the-hidden-link-between-gut-health-and-mental-health-2.webp)
 
 ## Healing from the Inside Out
 

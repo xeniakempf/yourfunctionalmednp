@@ -8,7 +8,7 @@ Low Dose Naltrexone (LDN) is gaining attention in Functional and Integrative Med
 
 ### What is Low Dose Naltrexone?
 
-![white tablets medications - Low dose naltrexone - functional medicine austin](wix:bd779503fe3e41fa8609988336edac6a.jpg)
+![White oval tablets](local:inline/the-benefits-of-low-dose-naltrexone-0.webp)
 
 LDN works by temporarily blocking opioid receptors, which causes the body to upregulate its own production of endorphins and enkephalins. These natural compounds play key roles in regulating the immune system, reducing pain, and promoting a sense of well-being. By gently nudging the immune system back into balance, LDN can help calm autoimmune activity and reduce chronic inflammation.
 
@@ -18,7 +18,7 @@ LDN works by temporarily blocking opioid receptors, which causes the body to upr
 
 LDN has shown promise in conditions like Hashimoto's thyroiditis, multiple sclerosis, rheumatoid arthritis, and lupus by reducing autoantibody activity and calming immune hyperactivity.
 
-![woman holding neck and upper back in pain - functional medicina austin](wix:85f6bbc82c094fdd8e7f0c9be58b881e.jpg)
+![A woman with her back to the camera, rubbing her neck](local:inline/the-benefits-of-low-dose-naltrexone-1.webp)
 
 #### 2. Chronic Pain and Fibromyalgia Relief
 
@@ -28,7 +28,7 @@ Patients with fibromyalgia, chronic regional pain syndrome (CRPS), and chronic p
 
 LDN may support mood and cognitive clarity by increasing endogenous endorphins and reducing neuro-inflammation, which plays a role in depression and brain fog.
 
-![woman in jeans hold her slim stomach - gut health - functional medicine austin texas](wix:nsplsh_492ade8e6c2f49af98bdb2830a05f592~mv2.jpg)
+![A black and white photo of a woman holding her stomach](local:inline/the-benefits-of-low-dose-naltrexone-2.webp)
 
 #### 4. Digestive and Immune Health
 

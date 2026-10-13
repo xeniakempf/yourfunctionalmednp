@@ -4,8 +4,6 @@ desc: Discover what methylation is, why it’s vital for detox, mood, and energy
 cover: nsplsh_4aa573e5e1b041208b8df4da4ce2bfed~mv2.jpg
 tags: 
 
-![DNA double helix](wix:5e937ac9c1d942b696c30c38a4cc06eb.jpg)
-
 Have you ever heard the term *methylation* and wondered what it actually means? Don’t worry—you’re not alone! While it sounds complex, methylation is one of the most **essential processes in your body** . It's happening in **every cell, every second** , quietly keeping you healthy and balanced.
 
 ## What Is Methylation?
@@ -46,7 +44,7 @@ Controls homocysteine levels, which if elevated, can increase the risk of heart 
 
 When methylation is out of balance—too slow or too fast—it can contribute to a wide range of health issues, such as:
 
-![Functional medicine coach Austin](wix:nsplsh_4aa573e5e1b041208b8df4da4ce2bfed~mv2.jpg)
+![Personal trainer helping a man exercise](local:inline/what-is-methylation-1.webp)
 
 ❗ Fatigue and low energy
 
@@ -68,7 +66,7 @@ When methylation is out of balance—too slow or too fast—it can contribute to
 
 Some people have **genetic variations** (SNPs) in methylation-related genes like **MTHFR, COMT, or MTRR** . These don’t *doom* you to illness, but they can make you **more vulnerable** to methylation problems if your diet or lifestyle isn’t supportive. Get your methylation test here: [https://www.yourfunctionalmednp.com/methylation-genomics-testing](https://www.yourfunctionalmednp.com/methylation-genomics-testing)
 
-![healthy salad](wix:11062b_f595ba11e22343a6bf46c7e335f07fa8~mv2.jpeg)
+![Vegetable salad on a white ceramic plate](local:inline/what-is-methylation-2.webp)
 
 ## How Can You Support Healthy Methylation?
 

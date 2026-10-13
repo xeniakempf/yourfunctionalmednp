@@ -28,8 +28,6 @@ Let’s break down what you can expect when you choose this path:
 
 Imagine this like tuning a car engine. If one part is off, the whole system struggles. The functional medicine approach fine-tunes each part to get you running smoothly again.
 
-![Xenia Kempf NP, functional medicine](wix:01b06b_1498edc4279845a3bc6da0b787d075e4~mv2.png)
-
 ## Why This Approach Matters for Chronic Health Issues
 
 Chronic conditions can feel overwhelming. They often come with a mix of symptoms that don’t fit neatly into one diagnosis. The functional medicine approach recognizes this complexity. It doesn’t treat you like a checklist of symptoms but as a whole person.
@@ -64,7 +62,7 @@ Water supports every cell and function in your body.
 
 These small changes can create a foundation for deeper healing when combined with professional guidance.
 
-![Close-up view of a colorful plate of fresh vegetables and lean protein](wix:01b06b_bf5b324dca4f41d09f3022c6494e44c8~mv2.png) {cap: Nutrient-rich meal supporting overall health}
+![Close-up view of a colorful plate of fresh vegetables and lean protein](local:inline/understanding-the-functional-medicine-approach-1.webp) {cap: Nutrient-rich meal supporting overall health}
 
 ## Embracing a New Path to Wellness
 

@@ -4,8 +4,6 @@ desc: Discover the link between MCAS and POTS and explore natural treatments lik
 cover: 5c3f1e5a1ebf435bbc152173d50d7ea9.jpg
 tags: mold toxicity, MCAS, POTS
 
-![immune cells under microscope](wix:5c3f1e5a1ebf435bbc152173d50d7ea9.jpg)
-
 If you’ve been dealing with dizziness, heart palpitations, fatigue, or sudden allergic-like reactions to foods, smells, or supplements, you may have heard the terms **MCAS** and **POTS** . These two syndromes are increasingly recognized in people with complex, chronic health conditions—and they’re more connected than you might think.
 
 Let’s unpack the relationship between **Mast Cell Activation Syndrome (MCAS)** and **Postural Orthostatic Tachycardia Syndrome (POTS)** , and explore **natural treatment options** that can help calm your nervous system and support long-term healing.
@@ -14,7 +12,7 @@ Let’s unpack the relationship between **Mast Cell Activation Syndrome (MCAS)**
 
 **Mast Cell Activation Syndrome** occurs when mast cells—a type of immune cell—become overactive and release excessive amounts of **histamine** and other inflammatory chemicals. This leads to symptoms like:
 
-![Girl blowing nose, dog in background of sofa](wix:11062b_ba3825500c114d35830c1d21a475bf6c~mv2.jpeg)
+![Woman covering her nose with a tissue](local:inline/understanding-the-link-between-mcas-and-pots-1.webp)
 
 - Flushing, hives, or itching
 
@@ -30,7 +28,7 @@ Let’s unpack the relationship between **Mast Cell Activation Syndrome (MCAS)**
 
 **Postural Orthostatic Tachycardia Syndrome** is a form of **dysautonomia** , or dysfunction of the autonomic nervous system. It’s defined by a **heart rate increase of ≥30 bpm** (or ≥40 bpm in teens) within 10 minutes of standing. Common symptoms include:
 
-![woman in bikini placing left hand on heart](wix:nsplsh_784d4e656c5f6f74765773~mv2_d_2896_4344_s_4_2.jpg)
+![Two hands holding a paper heart](local:inline/understanding-the-link-between-mcas-and-pots-2.webp)
 
 - Dizziness or lightheadedness when standing
 
@@ -58,7 +56,7 @@ While medications like antihistamines and beta blockers can be helpful, **many p
 
 #### 1. Nervous System Regulation (Limbic Retraining)
 
-![men meditating in nature with hands on chest with closed eyes](wix:nsplsh_e92d93148abf44e3a253ddfa6da2aab2~mv2.jpg)
+![Man sitting on a rock overlooking a forested valley](local:inline/understanding-the-link-between-mcas-and-pots-3.webp)
 
 - Programs like **DNRS** , **Gupta Program** , or **Primal Trust** can retrain the brain to stop overreacting to benign stimuli.
 
@@ -78,7 +76,7 @@ While medications like antihistamines and beta blockers can be helpful, **many p
 
 #### 4. Electrolyte and Volume Support for POTS
 
-![woman in background blurry holding glass of water](wix:nsplsh_4684b36d08ab4ae485383159dfc4d3d8~mv2.jpg)
+![Person holding a clear glass of water](local:inline/understanding-the-link-between-mcas-and-pots-4.webp)
 
 - Increase fluids (2.5–3L/day)
 

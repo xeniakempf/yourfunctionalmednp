@@ -6,7 +6,7 @@ tags: depression, Brain fog, neuroinflammation, neurology
 
 ## Depression as a Neuroinflammatory Condition
 
-![depression is related to neuroinflammation](wix:11062b_2a55fdcdab4e4e9aa893887b5612bebf~mv2.jpeg)
+![Woman leaning on her bed](local:inline/the-link-between-depression-and-neuroinflammation-0.webp)
 
 Depression is often viewed as a chemical imbalance in the brain, but emerging research shows that **neuroinflammation plays a critical role in mood disorders** . Chronic inflammation in the brain can impair neurotransmitter function, disrupt brain signaling, and contribute to **fatigue, cognitive dysfunction, and emotional dysregulation** .
 
@@ -14,7 +14,7 @@ Neuroinflammation is driven by multiple factors, including **gut health, immune 
 
 ## How Neuroinflammation Contributes to Depression
 
-![neuroinflammation and depression - functional medicine austin](wix:11062b_4ded471c15b34abbb532b0ee4f60e4b3~mv2.jpg)
+![Purple and pink plasma ball resembling a neuron](local:inline/the-link-between-depression-and-neuroinflammation-1.webp)
 
 - **Increased Pro-Inflammatory Cytokines** – Elevated levels of **IL-6, TNF-α, and CRP** are commonly found in individuals with depression, indicating immune system activation in the brain.
 
@@ -28,7 +28,7 @@ Neuroinflammation is driven by multiple factors, including **gut health, immune 
 
 ## Root Causes of Neuroinflammation & Depression
 
-![gut dysbiosis as one reason for neuroinflammation - functional medicine Austin](wix:nsplsh_975cb48a32834c78b17714a017a5be70~mv2.jpg)
+![A bstract arrangement of rounded shapes in blue tones](local:inline/the-link-between-depression-and-neuroinflammation-2.webp)
 
 - **Gut Dysbiosis & Leaky Gut Syndrome** – The gut-brain axis plays a key role in mood regulation. **Imbalanced gut bacteria and intestinal permeability** can trigger systemic inflammation and affect neurotransmitter production.
 
@@ -52,7 +52,7 @@ Neuroinflammation is driven by multiple factors, including **gut health, immune 
 
 ### 2️⃣ Optimize Brain-Boosting Nutrients
 
-![nutritious fish meal - austin functional medicine](wix:nsplsh_436bd3624dc946b1b14bae849c2464a8~mv2.jpg)
+![Grilled fish with cooked vegetables](local:inline/the-link-between-depression-and-neuroinflammation-3.webp)
 
 - Consume **wild-caught fish, flaxseeds, and walnuts** for omega-3s.
 

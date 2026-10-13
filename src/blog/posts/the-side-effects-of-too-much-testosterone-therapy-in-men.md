@@ -6,7 +6,7 @@ tags: hormone health, testosterone, men's health
 
 ## Understanding Testosterone Therapy
 
-![testosterone replacement in men - Austin functional medicine](wix:11062b_a55a3430a862485eba5f95bba8f6de28~mv2.jpg)
+![Doctor writing notes while the patient sits opposite](local:inline/the-side-effects-of-too-much-testosterone-therapy-in-men-0.webp)
 
 Testosterone therapy is commonly used to treat **low testosterone (low T) levels** in men, helping improve **energy, muscle mass, libido, and overall well-being** . However, excessive or prolonged testosterone supplementation can lead to **hormonal imbalances and unwanted side effects** . While testosterone is essential for male health, **too much can be just as harmful as too little** .
 
@@ -20,7 +20,7 @@ In this article, we’ll explore the **negative side effects of excess testoster
 
 - 🛏️ **Sleep Disruptions & Worsened Sleep Apnea** High testosterone levels can exacerbate **sleep apnea** , causing **poor sleep quality, fatigue, and increased health risks** .
 
-- **Hair Loss & Acne Breakouts** Increased testosterone often leads to higher **DHT (dihydrotestosterone) levels** , which can accelerate **male pattern baldness** and cause **oily skin, acne, and clogged pores** . ![male pattern balding with testosterone replacement - functional medicine Austin](wix:11062b_d2f2e3d4a6324eddba3e22609f018a43~mv2.jpeg)
+- **Hair Loss & Acne Breakouts** Increased testosterone often leads to higher **DHT (dihydrotestosterone) levels** , which can accelerate **male pattern baldness** and cause **oily skin, acne, and clogged pores** .
 
 - **Mood Swings & Aggression (“Roid Rage”)** Excess testosterone can alter brain chemistry, leading to **increased irritability, anxiety, impulsivity, and even aggressive behavior** .
 
@@ -28,13 +28,15 @@ In this article, we’ll explore the **negative side effects of excess testoster
 
 - **Suppressed Immune Function** Hormonal imbalances caused by excess testosterone can impact **immune regulation** , increasing susceptibility to **infections and inflammatory conditions** .
 
+![A man examining thinning hair between his fingers](local:inline/the-side-effects-of-too-much-testosterone-therapy-in-men-hair.webp)
+
 ## How to Naturally Balance Testosterone & Optimize Hormones
 
 If you are experiencing symptoms of **hormonal imbalance due to testosterone therapy** , consider these natural ways to **support healthy testosterone levels without the side effects** :
 
 ### 1️⃣ Prioritize Nutrient-Dense Foods
 
-![Healthy fats - functional medicine Austin TX](wix:8ea70678ba8d4725b3ae79d832a5e7cd.jpg) {cap: Healthy Fats}
+![Olive branch with olives](local:inline/the-side-effects-of-too-much-testosterone-therapy-in-men-1.webp) {cap: Healthy Fats}
 
 - **Zinc & Magnesium** – Found in oysters, pumpkin seeds, and leafy greens, these minerals are crucial for testosterone production.
 
@@ -54,7 +56,7 @@ A sluggish liver can cause **testosterone to convert into estrogen** , leading t
 
 ### 3️⃣ Manage Stress & Cortisol Levels
 
-![meditation is a form of stress management - functional medicine Austin](wix:11062b_5e8d00358d2a4b75853438cb1a95ecd4~mv2.jpg)
+![Person sitting on a hillside overlooking the mountains](local:inline/the-side-effects-of-too-much-testosterone-therapy-in-men-2.webp)
 
 Chronic stress raises **cortisol** , which suppresses testosterone production.
 
@@ -68,7 +70,7 @@ Chronic stress raises **cortisol** , which suppresses testosterone production.
 
 Strength training and high-intensity workouts boost testosterone, but **excessive cardio or overtraining** can have the opposite effect.
 
-![weight lifting to naturally increase testosterone levels - austin functional medicine](wix:11062b_027d1f60d75141949c9f3832a87f6137~mv2.jpg)
+![Man doing a heavy deadlift in a gym](local:inline/the-side-effects-of-too-much-testosterone-therapy-in-men-3.webp)
 
 - Lift **heavy weights 3-4 times per week** .
 

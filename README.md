@@ -29,6 +29,6 @@ Hosted on Netlify, which publishes the `site/` folder automatically whenever thi
 ## Notes
 
 - Pages are served at their exact old Wix addresses (e.g. `/store`, `/post/brain-fog`); old addresses that no longer exist are redirected in `site/_redirects` (generated from `OLD_TO_NEW` in `src/build.py`).
-- Blog images still load from Wix's image server and must be moved into this repository before the domain is switched away from Wix. The Resources and DNA sample PDFs are already hosted here (`src/assets/downloads/`).
+- All blog images are hosted here: article covers in `src/assets/blog/covers/<slug>.webp` (the same picture is used on the blog page and at the top of the article; sources in `src/blog/covers.json`) and photos inside articles in `src/assets/blog/inline/`. In an article file, an image is written `![description](local:inline/<file>.webp)`, optionally followed by `{cap: caption}`. Stock photos are from Unsplash (free licence). The Resources and DNA sample PDFs are also hosted here (`src/assets/downloads/`).
 - Forms: the home page contact form uses Netlify Forms; the quizzes post to Formspree.
 - Clinicians page (`src/pages/clinicians.html`): the two pricing buttons use the same Stripe payment links as learn.bhrt.app. If a payment link or price changes in Stripe, update it here too. The free estradiol chart form on that page emails the PDF through `netlify/functions/chart-request.js` (Resend; needs the RESEND_API_KEY environment variable in Netlify).

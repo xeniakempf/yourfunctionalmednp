@@ -14,7 +14,7 @@ You might wonder, "How do I know if mold is affecting me?" That’s where this g
 
 Here are some common symptoms to watch for:
 
-![Brain fog? It could be mold toxicity - get tested in Austin TX](wix:7c0e26400511e6221cd3224550667e7a.jpg)
+![A woman sitting at a table with a laptop, looking tired](local:inline/recognizing-symptoms-of-mold-toxicity-0.webp)
 
 - Persistent headaches or migraines
 
@@ -32,7 +32,7 @@ Here are some common symptoms to watch for:
 
 These symptoms can overlap with other health problems, so it’s important to consider your environment and any recent changes, like water damage or musty smells in your home.
 
-![Close-up view of mold growing on a damp wall corner](wix:01b06b_ceb796aca40342fb977dce0a78760f29~mv2.png) {cap: Mold growth on damp wall corner}
+![Close-up view of mold growing on a damp wall corner](local:inline/recognizing-symptoms-of-mold-toxicity-1.webp) {cap: Mold growth on damp wall corner}
 
 ## Does Mold Cause Coughing?
 
@@ -50,7 +50,7 @@ This immune reaction can cause inflammation throughout your body. You might feel
 
 If you find yourself getting sick more often or your usual allergies seem worse, mold might be playing a role. It’s like your immune system is stuck in overdrive, trying to fight off an invisible enemy.
 
-![Eye-level view of a humid basement corner with visible mold spots](wix:01b06b_cf12e83fddee468dbee6ce95a4dcc9f9~mv2.png) {cap: Mold spots in a humid basement corner}
+![Eye-level view of a humid basement corner with visible mold spots](local:inline/recognizing-symptoms-of-mold-toxicity-2.webp) {cap: Mold spots in a humid basement corner}
 
 ## What To Do If You Suspect Mold Exposure
 

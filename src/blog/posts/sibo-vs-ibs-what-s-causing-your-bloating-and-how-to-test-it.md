@@ -4,8 +4,6 @@ desc: Discover the difference between SIBO and IBS, what’s behind your bloatin
 cover: nsplsh_528e08d12d774768a40ba9ff7b068a8b~mv2.jpg
 tags: 
 
-![woman in shorts on bed holding her stomach in pain](wix:nsplsh_528e08d12d774768a40ba9ff7b068a8b~mv2.jpg)
-
 Bloating, gas, abdominal pain, and irregular bowel movements—sound familiar? If you’ve been told you have Irritable Bowel Syndrome (IBS), you’re not alone. IBS affects an estimated 10–15% of the population. But what if your IBS diagnosis is actually masking something deeper—like SIBO?
 
 Small Intestinal Bacterial Overgrowth (SIBO) is an often-overlooked root cause of IBS-like symptoms. Understanding the difference between SIBO and IBS is essential for effective treatment and long-term relief. Let’s break it down.
@@ -26,7 +24,7 @@ IBS is considered a "diagnosis of exclusion," meaning it’s diagnosed when no s
 
 ## What is SIBO?
 
-![photo of intestines on blue background](wix:nsplsh_58f85b737844410fac54312cbb58d797~mv2.jpg)
+![Model of the human intestines on a blue background](local:inline/sibo-vs-ibs-what-s-causing-your-bloating-and-how-to-test-it-1.webp)
 
 SIBO stands for Small Intestinal Bacterial Overgrowth. It occurs when bacteria that normally reside in the large intestine start multiplying in the small intestine—where they don't belong. This bacterial overgrowth ferments carbohydrates prematurely, leading to:
 

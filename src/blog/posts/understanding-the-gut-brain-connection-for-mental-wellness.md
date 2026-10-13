@@ -6,7 +6,7 @@ tags: mental health, mental wellness, wellness, gut-brain connection
 
 ## The Link Between Gut Health and Mental Well-Being
 
-![Austin functional medicine, gut health, gut brain axis](wix:11062b_2949ee9603334bfeb15044e0eb443ab4~mv2.jpg) {cap: Gut health plays a role in mental well-being}
+![Woman eating a healthy meal at a cafe](local:inline/understanding-the-gut-brain-connection-for-mental-wellness-0.webp) {cap: Gut health plays a role in mental well-being}
 
 Did you know that your **gut health** plays a significant role in your **mental wellness** ? Scientists refer to the gut as the **“second brain”** because it is directly connected to the **central nervous system (CNS)** through the **gut-brain axis** . This connection influences mood, cognitive function, and even conditions like anxiety and depression.
 
@@ -16,7 +16,7 @@ At Your Functional Health, we specialize in **functional & integrative medicine,
 
 The gut and brain communicate through **three primary pathways** :
 
-![got health play a role in mental health, functional medicine austin](wix:64acc7feb20b4af059b6fd66a28e5509.jpg)
+![Fruits, vegetables and a bottle of water on a green surface](local:inline/understanding-the-gut-brain-connection-for-mental-wellness-1.webp)
 
 - **The Vagus Nerve:** This nerve acts as a direct communication highway between the gut and the brain, sending signals that influence mood and emotions.
 
@@ -30,7 +30,7 @@ When gut health is compromised due to **poor diet, chronic stress, infections, o
 
 If your gut is out of balance, you might experience **both digestive and mental health symptoms** , including:
 
-![dysbiosis and gut imbalances will negatively affect mental health - functional medicine austin](wix:nsplsh_43c5ee77057645339c4efbe9b886791f~mv2.jpg)
+![Woman sitting on her bed holding her stomach](local:inline/understanding-the-gut-brain-connection-for-mental-wellness-2.webp)
 
 - **Digestive Issues:** Bloating, gas, constipation, diarrhea, or acid reflux
 
@@ -48,7 +48,7 @@ Many patients who experienced positive change through the power of **functional 
 
 ## How Holistic Approach Supports the Gut-Brain Axis
 
-![nutrition in mental health, austin functional medicine](wix:nsplsh_973109e74a9b4dea9c03533c2dde384c~mv2.jpg)
+![Bowl of vegetable salad](local:inline/understanding-the-gut-brain-connection-for-mental-wellness-3.webp)
 
 The **functional medicine** approach addresses the root causes of gut and brain imbalances to restore optimal health. Here are the key strategies used:
 

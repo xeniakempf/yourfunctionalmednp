@@ -6,7 +6,7 @@ tags: mental health, mental wellness
 
 ### How Stress, Relationships, and Daily Habits Shape Emotional Well-Being
 
-![Happy couple outdoors](wix:3f81091106c84c9eb14e61ee9b085d54.jpg)
+![Couple walking in the snow near trees](local:inline/lifestyle-the-missing-piece-in-mental-health-care-0.webp)
 
 At **Your Functional Health in Austin** , we believe mental health is never just about brain chemistry—it’s about *the whole person* . While labs, genetics, and hormones provide vital data, lasting recovery requires understanding how your **lifestyle, social environment, and past experiences** shape your mental and emotional health.
 
@@ -32,7 +32,7 @@ Common lifestyle factors that affect mental health include:
 
 These influences can drive anxiety, depression, fatigue, and attention problems—even in the absence of major biochemical abnormalities.
 
-![Happy women in sunflower field](wix:nsplsh_05900c32cace49c599e412f46721e8dc~mv2.jpg)
+![Woman standing in a field of yellow sunflowers](local:inline/lifestyle-the-missing-piece-in-mental-health-care-1.webp)
 
 ## How Relationships Shape Mental and Emotional Health
 
@@ -70,7 +70,7 @@ A **Functional Psychiatry assessment** at *Your Functional Health* goes beyond s
 
 This 360° perspective helps us identify the behavioral and environmental triggers that perpetuate mental health symptoms.
 
-![woman drinking morning coffee](wix:11062b_3f58e4966e1a4863ac1b3d520112e2ff~mv2.jpeg)
+![Woman drinking from a white coffee cup](local:inline/lifestyle-the-missing-piece-in-mental-health-care-2.webp)
 
 ## Integrating Lifestyle into Treatment
 

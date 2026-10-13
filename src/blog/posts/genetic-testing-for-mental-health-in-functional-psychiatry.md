@@ -10,7 +10,7 @@ At **Your Functional Health in Austin** , we believe mental health care should b
 
 Rather than relying on trial and error, genetic testing helps us uncover *why* certain therapies work better for some people than others.
 
-![illustration of dna strand](wix:nsplsh_208f7f64e21d47a2a49fb251f4fc0f4e~mv2.jpg)
+![A stylized DNA double helix with teal and copper segments against a dark background](local:inline/genetic-testing-for-mental-health-in-functional-psychiatry-0.webp)
 
 ## The Science Behind Genetic Testing in Psychiatry
 
@@ -70,7 +70,7 @@ Understanding your genetic makeup helps us:
 
 This precision approach reduces side effects, improves treatment response, and prevents relapse by addressing your unique vulnerabilities.
 
-![mental health consultation](wix:11062b_11d592001bc243cf93d110e6fac89462~mv2.jpg)
+![Woman in a denim jacket sitting, hands folded](local:inline/genetic-testing-for-mental-health-in-functional-psychiatry-1.webp)
 
 ## Functional Psychiatry in Action
 

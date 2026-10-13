@@ -18,7 +18,7 @@ Without enough bile flow or dietary fiber, mycotoxins can **recirculate** , lead
 
 ## 1. Fibers That Help Bind and Remove Mycotoxins
 
-![Mold detox Dallas TX](wix:11062b_ef3e52d6c0754a58919427f777eb1d26~mv2.jpg)
+![A bowl of cereal with milk and fruit](local:inline/top-fibers-and-foods-to-support-bile-flow-and-bind-mycotoxins-during-mold-detox-0.webp)
 
 ### Soluble Fiber (the gentle binder)
 
@@ -38,7 +38,7 @@ Soluble fiber dissolves in water and forms a gel-like substance that binds toxin
 
 ### Insoluble Fiber (the mover)
 
-![Mold detox in Austin TX](wix:nsplsh_7332383573447735496b63~mv2.jpg)
+![A pile of flax seeds on a white surface](local:inline/top-fibers-and-foods-to-support-bile-flow-and-bind-mycotoxins-during-mold-detox-1.webp)
 
 Insoluble fiber adds bulk to stool and keeps things moving, helping prevent toxin reabsorption. **Top sources:**
 
@@ -52,7 +52,7 @@ Insoluble fiber adds bulk to stool and keeps things moving, helping prevent toxi
 
 These foods also feed beneficial gut bacteria that produce **short-chain fatty acids (SCFAs)** , which repair the intestinal barrier — crucial in recovery from “leaky gut” caused by mold exposure.
 
-![Mold Detox in Texas](wix:nsplsh_7b69e0290728413b91bc136557911d97~mv2.jpg)
+![Wooden chopping board with fresh vegetables](local:inline/top-fibers-and-foods-to-support-bile-flow-and-bind-mycotoxins-during-mold-detox-2.webp)
 
 ## 2. Foods That Support Healthy Bile Flow
 
@@ -72,7 +72,7 @@ Bitters trigger bile release and enhance digestion of fats. **Try adding:**
 
 Bile flow helps carry toxins out through the stool, making these foods foundational for every mold detox program.
 
-![Mold illness testing Austin TX](wix:11062b_f53452b4875b46888e85af2559aeb02d~mv2.jpg)
+![Plate of arugula salad](local:inline/top-fibers-and-foods-to-support-bile-flow-and-bind-mycotoxins-during-mold-detox-3.webp)
 
 ### Healthy Fats (build bile and support liver function)
 
@@ -88,7 +88,7 @@ You need some dietary fat to signal bile release — extremely low-fat diets can
 
 - Coconut oil in small amounts (antifungal and energy support)
 
-![Mold Detox Houston TX](wix:11062b_a7e9a6226ae04887b406957ee587011e~mv2.jpg)
+![Olive tree branches in the sunlight](local:inline/top-fibers-and-foods-to-support-bile-flow-and-bind-mycotoxins-during-mold-detox-4.webp)
 
 ### Sulfur-Rich Foods (liver phase II detox support)
 

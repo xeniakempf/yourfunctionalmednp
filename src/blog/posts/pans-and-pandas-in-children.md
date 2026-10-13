@@ -8,7 +8,7 @@ tags: pediatrics, PANDAS, PANS
 
 ### What Are PANS and PANDAS?
 
-![microorganisms under microscope](wix:nsplsh_94947ca4da0e4e3f9df240c281c610ed~mv2.jpg)
+![Microscope image of bacteria](local:inline/pans-and-pandas-in-children-0.webp)
 
 - **PANDAS** specifically refers to cases triggered by **Group A Streptococcal infections** .
 
@@ -18,7 +18,7 @@ Both conditions involve a **sudden onset** of obsessive-compulsive behaviors, an
 
 ### Common Signs and Symptoms
 
-![mom holding her child](wix:11062b_b4c7021a4df14e079dfed48186a32ee3~mv2.jpg)
+![Smiling woman carrying her baby](local:inline/pans-and-pandas-in-children-1.webp)
 
 - Sudden onset of **Obsessive-Compulsive Disorder (OCD)**
 
@@ -74,7 +74,7 @@ A successful approach is based on a **3-pronged strategy** :
 
 ### 3. Behavioral, Neurological & Limbic System Work
 
-![female doctor high fiving child](wix:11062b_7898ab21fa2f4be3a52fe1d86c7a9831~mv2.jpeg)
+![A young child being examined by a doctor](local:inline/pans-and-pandas-in-children-2.webp)
 
 - **Cognitive Behavioral Therapy (CBT) and Exposure and Response Prevention (ERP) therapy** for OCD and anxiety
 

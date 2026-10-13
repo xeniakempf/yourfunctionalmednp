@@ -4,8 +4,6 @@ desc: Discover how systemic estrogen therapy supports bone health during menopau
 cover: 11c9c1cfe4ea4cf1b177d01c1cf2910d.jpg
 tags: 
 
-![Hormone Clinic Austin, Texas](wix:11062b_b31b54839424418cb44b0e9b83b7aa29~mv2.jpeg)
-
 Menopause is a natural phase in every woman’s life, but it often brings challenges that can impact overall health—especially bone health. One of the most significant changes during menopause is the decrease in estrogen levels. At our women’s health clinic in Austin, TX, we prioritize educating our patients about the protective benefits of systemic estrogen for bone health during menopause.
 
 **Why Does Bone Health Decline After Menopause?**
@@ -28,7 +26,7 @@ Key benefits of systemic estrogen therapy include:
 
 If you are experiencing menopause symptoms and concerned about your bone health, our Austin women’s health clinic offers personalized consultations. We assess your risk factors, medical history, and help you decide if systemic estrogen therapy is the best option for you.
 
-![BHRT Clinic in Austin Texas for women](wix:11062b_8dce6ebd57d14fd9a30dac0456ebcee7~mv2.jpg)
+![Woman lifting dumbbells in a gym](local:inline/estrogen-therapy-for-bone-health-1.webp)
 
 **Other Ways to Support Bone Health During Menopause**
 

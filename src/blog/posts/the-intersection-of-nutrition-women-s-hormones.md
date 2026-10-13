@@ -4,8 +4,6 @@ desc: Explore how nutrition, stress, and DUTCH testing reveal insights into wome
 cover: nsplsh_31f6a61ed14e485abd98440426ce7344~mv2.jpg
 tags: 
 
-![BHRT in Austin Texas](wix:nsplsh_3b932bbcd9dd4088aef95213c4a288a7~mv2.jpg)
-
 For many women, hormonal health feels like a mystery. Symptoms like fatigue, weight changes, mood swings, PMS, and sleep disturbances are common—but often brushed off or treated piecemeal without addressing **the root causes.**
 
 Nutrition, stress, and hormone balance are deeply interconnected. And today’s advanced testing options, like the [**DUTCH Test**](https://labs.rupahealth.com/store/storefront_kn6Mb97?storefrontProduct=strprod_OKAXdlM), can give us a far more comprehensive picture of what’s really going on.
@@ -54,7 +52,7 @@ One of the most critical systems impacting women’s hormones is the **HPA axis*
 
 Low nutrient reserves make it even harder for your body to maintain balanced hormones.
 
-![BHRT in entire Texas virtually](wix:nsplsh_fc27a8ddf1854319a31568dcf7092c19~mv2.jpg)
+![A vocado toast with tomato and a slice of lemon](local:inline/the-intersection-of-nutrition-women-s-hormones-1.webp)
 
 ## How Stress Impacts Hormonal Balance and Weight Loss
 

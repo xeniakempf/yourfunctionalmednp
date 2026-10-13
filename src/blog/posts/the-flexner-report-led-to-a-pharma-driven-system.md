@@ -6,7 +6,7 @@ tags:
 
 ## What Was the Flexner Report?
 
-![Austin functional medicine](wix:11062b_b6dc57ef0de34853bf0a83b322e1a35c~mv2.jpeg)
+![Library shelves filled with old books](local:inline/the-flexner-report-led-to-a-pharma-driven-system-0.webp)
 
 In 1910, Abraham Flexner published the **Flexner Report** , a groundbreaking document that reshaped the U.S. healthcare system. Commissioned by the **Carnegie Foundation** , the report aimed to **standardize medical education** by closing down poorly run schools and promoting a scientific, research-based approach to medicine. While this led to improvements in medical training, it also had **lasting negative consequences** —especially for **homeopathic, osteopathic, and natural medicine** practitioners. The shift paved the way for a **pharmaceutical-driven healthcare system** , prioritizing drugs over holistic healing approaches. Are you taking too many drugs and are not feeling better? Reach out to Xenia, your go to functional medicine provider in Austin, Texas to discuss how functional medicine can help you!
 
@@ -28,7 +28,7 @@ The outcome? A **profit-driven healthcare system** where pharmaceuticals became 
 
 ### The Rise of Pharma-Driven System and Medicine
 
-![pharma-driven medical system ](wix:f8fe7ef82da74db4b5726e60f902c36e.jpg)
+![Bright pharmacy interior with shelves of products](local:inline/the-flexner-report-led-to-a-pharma-driven-system-1.webp)
 
 With the elimination of **natural and integrative medicine** from mainstream medical education, **Big Pharma gained unprecedented influence** over healthcare. Doctors were trained to focus on **symptom management** rather than addressing the **root cause** of diseases.
 
@@ -56,7 +56,7 @@ Rather than focusing on **disease prevention, holistic health, and root-cause me
 
 ### Moving Back Toward a Holistic Approach
 
-![holistic medicine - functional medicine Austin](wix:11062b_66a02114d49e4a379901e6834800668a~mv2.jpg)
+![Herbal tea with dried herbs and flowers](local:inline/the-flexner-report-led-to-a-pharma-driven-system-2.webp)
 
 While the **Flexner Report shaped modern medicine** , many people are now **seeking alternative and functional medicine** approaches to regain control of their health. **Functional medicine, naturopathy, and integrative health** are making a comeback as patients demand:
 

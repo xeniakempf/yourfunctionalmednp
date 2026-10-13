@@ -10,7 +10,7 @@ That’s where **functional medicine** comes in. At *Your Functional Health* , w
 
 ### What Is Eczema?
 
-![dry hand with eczema close up](wix:nsplsh_3bf1d24c2e324d5ea2394dc272f5b442~mv2.jpg)
+![A smear of white cosmetic cream on a plain white background](local:inline/functional-medicine-for-eczema-0.webp)
 
 Eczema (also known as **atopic dermatitis** ) is a chronic inflammatory skin condition characterized by:
 

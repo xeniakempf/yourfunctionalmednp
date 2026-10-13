@@ -4,8 +4,6 @@ desc: Struggling with perimenopause symptoms? Learn how functional medicine help
 cover: nsplsh_77a6557b617543f4b9da123dbf814538~mv2.jpg
 tags: BHRT, HRT, perimenopause, menopause
 
-![woman in black lingerie waking up](wix:nsplsh_2cbd0df2770d4b9eab8ec0fc3f2e7c66~mv2.jpg)
-
 Most women expect menopause to begin in their 50s — and it does. But what many don’t realize is that the **transition starts much earlier** , often as early as your **mid-to-late 30s** . This stage is called **perimenopause** , and it can bring a **wave of vague, frustrating symptoms** that are easy to misattribute to stress, parenting, aging, or “just life.”
 
 If you’ve felt like your body isn’t quite your own lately, this may be the missing link — and **low-dose hormone replacement therapy (HRT)** could be the key to feeling strong, vibrant, and in control again.
@@ -20,7 +18,7 @@ This hormonal instability can last for **several years** , often starting in the
 
 Perimenopause doesn’t always announce itself with hot flashes or missed periods. More often, it shows up as:
 
-![woman in white shirt and black shorts in beg covering her face](wix:nsplsh_e5932e129a114353aa562147c9dbd6c0~mv2.jpg)
+![Woman resting her head on the bed](local:inline/perimenopause-as-early-as-your-30s-1.webp)
 
 - **Fatigue** that isn’t fixed by sleep
 

@@ -8,7 +8,7 @@ What if your DNA could help you fine-tune your diet, improve your energy, avoid 
 
 ## What Are SNPs, and Why Do They Matter?
 
-![double helix DNA strand](wix:5e937ac9c1d942b696c30c38a4cc06eb.jpg)
+![Illustration of a DNA double helix](local:inline/the-power-of-snp-genetic-testing-how-your-dna-can-help-you-live-longer-healthier-0.webp)
 
 SNPs (pronounced "snips") are small variations in your DNA — tiny genetic "typos" that can affect how your body:
 
@@ -28,7 +28,7 @@ SNPs (pronounced "snips") are small variations in your DNA — tiny genetic "typ
 
 While each SNP is subtle on its own, their combined effects can significantly influence your risk of disease, your response to diet and exercise, and your aging process.
 
-![black scientist lady lab testing](wix:nsplsh_30f83a6560bf483f92b64e62d2012b2c~mv2.jpg)
+![A scientist in a white lab coat using a laptop in a laboratory](local:inline/the-power-of-snp-genetic-testing-how-your-dna-can-help-you-live-longer-healthier-1.webp)
 
 ### What Is SNP Genetic Testing?
 
@@ -54,7 +54,7 @@ The goal? Not to predict your fate — but to **optimize your future** .
 
 ### Benefits of SNP Testing for Longevity & Health Span
 
-![avocado cut in half](wix:11062b_f53452b4875b46888e85af2559aeb02d~mv2.jpg)
+![A n avocado cut in half with a knife](local:inline/the-power-of-snp-genetic-testing-how-your-dna-can-help-you-live-longer-healthier-2.webp)
 
 #### 1. Personalized Nutrition
 
@@ -96,7 +96,7 @@ You can’t change your genes — but you can **change how they express** . Know
 
 ### How 3X4 Genetics Makes It Actionable
 
-![DNA double helix on black background](wix:nsplsh_36ba9e462ad744c3b5cb152f8494042e~mv2.jpg)
+![A glowing white DNA double helix structure floating against a dark background](local:inline/the-power-of-snp-genetic-testing-how-your-dna-can-help-you-live-longer-healthier-3.webp)
 
 3X4 Genetics goes beyond the raw data. Their reports:
 

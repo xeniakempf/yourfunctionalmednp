@@ -12,7 +12,7 @@ One of the most well-documented benefits of BPC-157 is its ability to promote wo
 
 ### 2. Gut Health and Digestive Support
 
-![Benefits of BPC-157 in gut health - Functional Medicine Austin](wix:11062b_0da56823899b498ca4a4e0232b376d02~mv2.jpg)
+![Bowl of homemade vegetable soup](local:inline/the-benefits-of-bpc-157-a-powerful-peptide-for-healing-and-recovery-0.webp)
 
 BPC-157 has demonstrated protective effects on the gastrointestinal (GI) tract. It may help treat conditions such as **gastric ulcers, leaky gut syndrome, and inflammatory bowel disease (IBD)** . A study found that BPC-157 accelerates the repair of **intestinal and stomach lining damage** , making it a promising therapy for gut-related disorders ( [Sikiric et al., 2016)](https://pubmed.ncbi.nlm.nih.gov/https://pubmed.ncbi.nlm.nih.gov/27138887/).
 
@@ -26,7 +26,7 @@ Emerging research suggests that BPC-157 may have neuroprotective effects, potent
 
 ### 5. Improved Joint and Bone Health
 
-![Benefits of BPC-157 in tissue injury and athletic performance - Functional Medicine Austin](wix:11062b_95f271f26f4b46649bacd3041d40004e~mv2.jpg)
+![Person wearing a knee brace](local:inline/the-benefits-of-bpc-157-a-powerful-peptide-for-healing-and-recovery-1.webp)
 
 BPC-157 has been studied for its role in **joint and bone repair** , particularly in cases of arthritis and fractures. Research suggests that it **enhances collagen production** and stimulates the healing of **damaged cartilage and bones** ( [Chang et al., 2020](https://pubmed.ncbi.nlm.nih.gov/31907414/) ).
 

@@ -4,8 +4,6 @@ desc: Discover why bioidentical hormone therapy is safer, better tolerated, and 
 cover: 01b06b_2585c5bf187e4903a13f8d7a1124a2f2~mv2.jpg
 tags: 
 
-![BRHT - bioidentical hormone replacement therapy in Austin and Texas](wix:01b06b_b31215c116354e398da3ff2ee48e8de7~mv2.jpg)
-
 If you're considering hormone therapy to manage menopause symptoms, you're probably wondering: **“Is it safe?”**
 
 The good news is that **Bioidentical Hormone Replacement Therapy (BHRT) is widely considered to be a safe, effective, and well-tolerated option for many women** —especially when it's personalized and carefully monitored.
@@ -49,8 +47,6 @@ Transdermal (skin-applied) bioidentical estrogen has also been shown to:
 ⭐ Avoid “first-pass” liver metabolism, which lowers clotting risks
 
 When used **at the right dose and time** , BHRT can safely reduce menopause symptoms *while also supporting bone health, brain function, sleep, mood, and even joint health.*
-
-![BRTH online in Texas, Austin, Houston, San Antonio, and Dallas](wix:01b06b_2585c5bf187e4903a13f8d7a1124a2f2~mv2.jpg)
 
 ## Personalized Medicine = Safer Medicine
 

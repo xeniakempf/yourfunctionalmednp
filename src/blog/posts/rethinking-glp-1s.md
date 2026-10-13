@@ -26,7 +26,7 @@ Examples include **semaglutide (Ozempic, Wegovy), tirzepatide (Mounjaro, Zepboun
 
 They’ve proven effective not only for **blood sugar management** but also for **significant weight loss** , making them popular among women struggling with **insulin resistance, PCOS, or menopause-related weight gain. If you live in Austin, or anywhere in Texas, you can get started on GLP-1 therapy for weight loss. Contact us today!**
 
-![weight loss clinic - Austin TX](wix:11062b_cdb5eca22701439290d6b3945524255a~mv2.jpg)
+![Poached eggs on avocado toast](local:inline/rethinking-glp-1s-0.webp)
 
 ## Risks and Benefits of GLP-1 Medications
 

@@ -4,8 +4,6 @@ desc: Discover the benefits of GLP-1/GIP medications and learn how they support 
 cover: 01b06b_dd7d7bd6971c4dd680b300225064c668~mv2.jpg
 tags: weight loss, GLP-1, tirzepatide, semaglutide
 
-![person standing on scale only feet and scale are visible - weight loss GLP-1 austin texas](wix:nsplsh_c90b588d75084a299e0e208c3fa45e75~mv2.jpg)
-
 In recent years, GLP-1 (glucagon-like peptide-1) receptor agonists—and now the dual agonist GLP-1/GIP (gastric inhibitory polypeptide) medications like tirzepatide (Mounjaro or Zepbound) —have risen to prominence primarily as tools for blood sugar management and weight loss. But in the realm of Functional Medicine, we always ask a deeper question: ***What else might these molecules be doing to support whole-body health?*** Emerging science is beginning to answer with a resounding: ***A lot more than we thought*.**
 
 Let’s explore the lesser-known, system-wide benefits of GLP-1/GIP therapies that make them promising tools for more than just metabolic syndrome.
@@ -14,7 +12,7 @@ Let’s explore the lesser-known, system-wide benefits of GLP-1/GIP therapies th
 
 GLP-1 receptor activation has been shown to **reduce systemic inflammation** . This includes down regulating pro-inflammatory cytokines such as IL-6 and TNF-α, which are implicated in autoimmune diseases, cardiovascular risk, and chronic pain. For patients with chronic inflammatory conditions, this anti-inflammatory cascade may offer meaningful symptom relief.
 
-![old happy couple on white background](wix:nsplsh_a00128fdaec544e89e68e619cfaaad76~mv2.jpg)
+![Older man and woman laughing together near a tree](local:inline/health-benefits-of-glp-1-medications-1.webp)
 
 ## 2. Neuroprotective Effects
 
@@ -24,7 +22,7 @@ GLP-1 receptors are expressed in the brain, where activation has shown promise i
 
 Clinical trials like LEADER and SUSTAIN have demonstrated that GLP-1 receptor agonists **reduce major cardiovascular events, including heart attacks and strokes** . These drugs improve endothelial function, reduce blood pressure, and positively affect lipid profiles. This is a game-changer for individuals at high cardiovascular risk.
 
-![hans on stomach, lean slim female](wix:11062b_0da56823899b498ca4a4e0232b376d02~mv2.jpg)
+![A stethoscope and a heart on a table](local:inline/health-benefits-of-glp-1-medications-2.webp)
 
 ## 4. Gut and Microbiome Health
 
@@ -38,7 +36,7 @@ Non-alcoholic fatty liver disease (NAFLD) and its more severe form, NASH, are co
 
 By improving insulin sensitivity and reducing visceral adiposity, GLP-1/GIP therapies **indirectly support hormonal balance** . Women with PCOS, for instance, may benefit from weight-independent improvements in ovulatory function and androgen excess.
 
-![happy young woman](wix:nsplsh_4472564a6b314561505363~mv2_d_3798_6000_s_4_2.jpg)
+![A woman standing with her arms crossed in front of a white wall](local:inline/health-benefits-of-glp-1-medications-3.webp)
 
 ## 7. Mood and Emotional Health
 

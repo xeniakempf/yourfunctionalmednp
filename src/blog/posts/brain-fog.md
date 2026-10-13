@@ -4,8 +4,6 @@ desc: Common reasons for brain fog from the perspective of functional medicine
 cover: 23c6ed3f5e614c09b28a14d774acf206.jpg
 tags: Brain fog, memory issues
 
-![How does functional medicine treat brain fog. Could it be the result of mold toxicity](wix:599d5afdcec7458e9a131b2189cfd232.jpg) {cap: Brain fog - from the functional medicine perspective}
-
 Brain fog is a term commonly used to describe a range of cognitive impairments such as poor memory, difficulty concentrating, mental fatigue, and a general sense of mental cloudiness. While it can occur due to various conditions, functional medicine—an integrative and personalized approach to health—addresses the root causes of brain fog. Brain fog is often a sign of underlying imbalances in the body and can be traced to several factors related to diet, lifestyle, environmental exposures, and chronic health issues. Common reasons for brain fog:
 
 ## 1. Chronic Inflammation

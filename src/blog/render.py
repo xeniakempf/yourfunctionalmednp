@@ -150,7 +150,7 @@ def fmt(t):
 
 
 # ---------- blocks ----------
-IMG_RE = re.compile(r"^!\[(.*?)\]\(wix:([^)]+)\)\s*(?:\{cap:\s*(.*)\})?\s*$")
+IMG_RE = re.compile(r"^!\[(.*?)\]\((?:wix|local):([^)]+)\)\s*(?:\{cap:\s*(.*)\})?\s*$")
 
 
 def list_item(s):
@@ -291,19 +291,13 @@ def build_posts():
         slug, title, d, mid, topic = p
         meta, body_md = parse(os.path.join(HERE, "posts", slug + ".md"))
         cover = meta.get("cover") or mid
-        cap = ""
-        first = IMG_RE.match(body_md.lstrip().split("\n", 1)[0])
-        if first:  # the post opens with a photo: use it as the header image instead of a second, separate cover
-            cover, cap = first.group(2).strip(), (first.group(3) or "").strip()
         CURRENT["primary"] = POST_SERVICES[slug][0]
-        body_html, imgs = render_body(body_md, skip_first_image=cover)
-        if cover not in imgs:
-            imgs = [cover] + imgs
+        body_html, imgs = render_body(body_md)
         body_html = strip_signoff(body_html)
         mins = max(1, math.ceil(words(body_html) / 230))
         desc = meta.get("desc") or re.sub(r"<[^>]+>", "", body_html)[:155]
         color = TOPIC_COLOR[topic]
-        hero_img = img_url(cover, w=1600)
+        hero_img = cover_url(slug, cover)  # same picture as the blog card
         tags = [t.strip() for t in meta.get("tags", "").split(",") if t.strip()]
         rel = "\n".join(card(r) for r in related(slug, topic))
         svc_btns = "\n".join(
@@ -331,7 +325,7 @@ def build_posts():
     </div>
   </header>
   <div class="wrap">
-    <figure class="art-cover"><img src="{hero_img}" alt="{escape(first.group(1)) if first else ''}" fetchpriority="high" onerror="this.parentNode.remove()"></figure>{f'<p class="art-cap">{inline(cap)}</p>' if cap else ''}
+    <figure class="art-cover"><img src="{hero_img}" alt="" fetchpriority="high" onerror="this.parentNode.remove()"></figure>
     <div class="prose">
 {body_html}
     </div>

@@ -6,13 +6,13 @@ tags: gut health, weight loss, microbiome
 
 ## Understanding the Microbiome & Its Role in Weight Regulation
 
-![gut microbiome balancing - functional medicine Austin](wix:nsplsh_506861544a506474614355~mv2.jpg) {cap: Trillions of organisms live in your gut}
+![Bacterial colonies growing in a petri dish](local:inline/the-gut-microbiome-influences-your-weight-0.webp) {cap: Trillions of organisms live in your gut}
 
 Your **gut microbiome** is a complex community of **trillions of bacteria, fungi, and other microorganisms** living in your digestive tract. These microbes do much more than help digest food—they play a **critical role in metabolism, hormone regulation, and weight management** . Research shows that **imbalances in gut bacteria** (dysbiosis) can lead to **weight gain, insulin resistance, and difficulty losing fat** , while a healthy microbiome promotes **a leaner, more metabolically efficient body** . If you would like to learn more how to balance your microbiome, please reach out to Xenia, your go to functional & integrative medicine provider in Austin, Texas.
 
 ### How the Microbiome Affects Weight
 
-![gut microbiome affects weight - weight loss in austin](wix:nsplsh_fc27a8ddf1854319a31568dcf7092c19~mv2.jpg)
+![Colorful bowl with salmon, cucumber and edamame](local:inline/the-gut-microbiome-influences-your-weight-1.webp)
 
 - **Regulates Metabolism** – The gut microbiome influences **how efficiently you burn calories and store fat** .
 
@@ -28,7 +28,7 @@ Your **gut microbiome** is a complex community of **trillions of bacteria, fungi
 
 **Struggling to lose weight despite eating healthy?** Your gut bacteria might be to blame! Common signs of microbiome imbalance include:
 
-![gut microbiome regulates weight loss and weight gain - functional medicine austin](wix:nsplsh_7795920c94dd4619b79ea736372d89e9~mv2.jpg)
+![Close-up of a person's abdomen](local:inline/the-gut-microbiome-influences-your-weight-2.webp)
 
 ⚠️ Frequent bloating & gas
 
@@ -72,7 +72,7 @@ If you experience these symptoms, it’s time to **optimize your gut for weight 
 
 #### 4️⃣ Increase Polyphenol-Rich Foods
 
-![colorful fruits and vegetables are rich in polyphenols - functional medicine austin](wix:11062b_66408f3caf8d43d38e814e7bfc5965aa~mv2.jpg)
+![A ssorted fruits and vegetables at the market](local:inline/the-gut-microbiome-influences-your-weight-3.webp)
 
 **Why?** Polyphenols are plant compounds that help beneficial gut bacteria thrive.
 
@@ -90,7 +90,7 @@ If you experience these symptoms, it’s time to **optimize your gut for weight 
 
 #### 6️⃣ Exercise Regularly
 
-![exercise and healthy eating can help with rebalancing the microbiome - austin functional medicine](wix:11062b_f7edf6f29dfd4a658f1e2ac0f2e49205~mv2.jpg)
+![A woman in silhouette running on a trail against a low sun](local:inline/the-gut-microbiome-influences-your-weight-4.webp)
 
 **Why?** Physical activity helps balance gut bacteria and improves metabolic health.
 

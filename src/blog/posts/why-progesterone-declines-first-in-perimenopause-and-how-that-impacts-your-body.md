@@ -28,7 +28,7 @@ Understanding this pattern can explain many “mystery symptoms” and help guid
 
 ## Progesterone’s Role in the Female Body
 
-![menopause clinic austin](wix:0c3b0b8fee344b97a6478e3abd4acc11.jpg)
+![Woman with eyes closed embracing herself in the forest](local:inline/why-progesterone-declines-first-in-perimenopause-and-how-that-impacts-your-body-0.webp)
 
 Progesterone is produced primarily by the ovaries after ovulation each cycle. While it’s best known for supporting pregnancy, its influence extends far beyond reproduction.
 
@@ -66,7 +66,7 @@ This imbalance drives many early perimenopausal symptoms.
 
 ## How Low Progesterone Affects the Brain
 
-![hormone clinic austin](wix:599d5afdcec7458e9a131b2189cfd232.jpg)
+![Woman in a brown top standing beside a wall, thinking](local:inline/why-progesterone-declines-first-in-perimenopause-and-how-that-impacts-your-body-1.webp)
 
 Progesterone is converted into neuroactive metabolites that interact with GABA receptors — the brain’s primary calming pathway.
 
@@ -92,7 +92,7 @@ This explains why many women develop anxiety during perimenopause even without p
 
 ## Progesterone and Sleep Quality
 
-![perimenopause clinic Austin](wix:11062b_98a8ae0e93f14b5c89516ed1ddbce5ed~mv2.jpg)
+![A woman sleeping on a bed with a blue blanket](local:inline/why-progesterone-declines-first-in-perimenopause-and-how-that-impacts-your-body-2.webp)
 
 Progesterone naturally supports deeper, more restorative sleep.
 
@@ -128,7 +128,7 @@ Clotting and worsened PMS are also common.
 
 ## Mood and Emotional Regulation
 
-![hormone clinic Austin TX](wix:nsplsh_fab269802ad34aa7a9dd0c9fa2c2de15~mv2.jpg)
+![Woman looking out a rainy window, deep in thought](local:inline/why-progesterone-declines-first-in-perimenopause-and-how-that-impacts-your-body-3.webp)
 
 Progesterone plays a role in emotional buffering.
 
@@ -220,7 +220,7 @@ Dosing, timing, and delivery method matter and should be individualized.
 
 ## Bioidentical Progesterone vs Synthetic Progestins
 
-![hormone replacement BHRT Austin](wix:e21b7bec30ff45e28e5cbd7b4260993c.jpg)
+![A ssorted medication pills and capsules](local:inline/why-progesterone-declines-first-in-perimenopause-and-how-that-impacts-your-body-4.webp)
 
 Bioidentical progesterone is chemically identical to the hormone your body produces.
 

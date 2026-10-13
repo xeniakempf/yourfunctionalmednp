@@ -24,7 +24,7 @@ Functional medicine takes a fresh approach to health by investigating the root c
 
 For example, individuals may benefit from personalized meal plans rich in omega-3 fatty acids, probiotics, and dietary fiber. Foods such as fatty fish, yogurt, and legumes can effectively promote a healthy microbiome. The impact of such changes can be profound; studies show that consistently consuming probiotics may reduce depressive symptoms by up to 25%.
 
-![High angle view of vibrant gut-healthy foods on a wooden table - functional medicine Austin](wix:01b06b_6170cb7f42d047aaadea12e6f6339893~mv2.webp) {cap: A variety of fresh & gut-friendly foods}
+![High angle view of vibrant gut-healthy foods on a wooden table - functional medicine Austin](local:inline/the-gut-brain-connection-0.webp) {cap: A variety of fresh & gut-friendly foods}
 
 ### Dietary Strategies to Enhance Gut-Brain Communication
 
@@ -50,7 +50,7 @@ Beyond diet, many lifestyle factors can affect gut health. Stress, sleep, and ph
 
 ### The Therapeutic Potential of Gut Microbiota
 
-![functional medicine approach to mental health through diet and probiotics - functional medicine austin](wix:fe8c5ac0dace48d095e45c2156df863d.jpg) {cap: Herbs and probiotics to help with microbiome}
+![A group of white pills](local:inline/the-gut-brain-connection-1.webp) {cap: Herbs and probiotics to help with microbiome}
 
 Exciting new research is exploring microbiome-based therapies for mental health conditions. The potential for these treatments is promising. The future may see personalized probiotics or dietary supplements that aim to enhance gut diversity and improve mental wellness.
 
@@ -60,7 +60,7 @@ As this research evolves, there is hope that targeted microbiome treatments coul
 
 Gaining a deeper understanding of the gut-brain connection is essential for anyone seeking to improve their mental wellness. Xenia, a functional medicine practitioner in Austin, is using an integrative approach, considering both dietary and lifestyle adjustments to cultivate digestive well-being.
 
-![Eye-level view of a peaceful natural landscape promoting wellness](wix:01b06b_3c5ecf96262d40d3a3beeaf809006777~mv2.webp) {cap: A serene landscape that promotes wellness and mental peace.}
+![Eye-level view of a peaceful natural landscape promoting wellness](local:inline/the-gut-brain-connection-2.webp) {cap: A serene landscape that promotes wellness and mental peace.}
 
 Prioritizing gut health can lead to significant emotional and cognitive benefits. By embarking on a functional medicine journey, individuals can enhance their gut-brain communication. This holistic approach allows for a healthier mind and body, paving the way for improved mental health.
 

@@ -20,7 +20,7 @@ Functional lab testing helps identify these imbalances early—before they evolv
 
 ### 1. B Vitamins (B6, B12, Folate)
 
-![green leafy vegetables](wix:72d361bcc7ce410bbf69fb3239f4a629.jpg)
+![Close-up of kale leaves](local:inline/nutritional-metabolic-diagnostics-the-missing-link-in-mental-health-0.webp)
 
 These vitamins play a central role in methylation and neurotransmitter synthesis (serotonin, dopamine, and GABA).
 
@@ -60,7 +60,7 @@ Zinc and copper must stay in balance to support neurotransmitter metabolism.
 
 ### 5. Iron & Ferritin
 
-![raw beef meat with herbs](wix:412eb594283e4fd4948ea2f9cca932a3.jpg)
+![Raw steak with herbs on a wooden table](local:inline/nutritional-metabolic-diagnostics-the-missing-link-in-mental-health-1.webp)
 
 Iron is essential for oxygen transport and dopamine synthesis.
 

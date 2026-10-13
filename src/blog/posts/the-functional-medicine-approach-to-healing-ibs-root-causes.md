@@ -4,8 +4,6 @@ desc: Explore the Functional Medicine approach to IBS — uncover root causes, p
 cover: 11062b_6dfe8d1146b348539dd0dfea8ea11c8a~mv2.jpg
 tags: gut health, food sensitivity, IBS
 
-![woman on bed in pain](wix:11062b_6dfe8d1146b348539dd0dfea8ea11c8a~mv2.jpg)
-
 Irritable Bowel Syndrome (IBS) is one of the most commonly diagnosed gastrointestinal conditions, yet many patients are left with more questions than answers. Characterized by symptoms such as bloating, abdominal pain, constipation, diarrhea, or a mix of both, IBS is often considered a "diagnosis of exclusion" in conventional medicine.
 
 In Functional Medicine, we see IBS not as a final diagnosis, but as a **symptom of underlying imbalance** . Our goal is to uncover the root causes of IBS that drive these symptoms and create a personalized roadmap for healing the gut, calming the immune system, and restoring microbial harmony.
@@ -16,7 +14,7 @@ In Functional Medicine, we see IBS not as a final diagnosis, but as a **symptom 
 
 Imbalances in gut flora, especially overgrowth in the small intestine, can ferment carbohydrates and produce gas, leading to bloating, pain, and altered bowel habits. Testing for SIBO via breath tests or stool analysis is often key.
 
-![colorful pastries](wix:11062b_229a9d0faae84dc0a6d9d766fd2ce383~mv2.jpg)
+![French macarons in different colors](local:inline/the-functional-medicine-approach-to-healing-ibs-root-causes-1.webp)
 
 #### 2. Food Sensitivities and Intolerances
 
@@ -38,7 +36,7 @@ History of food poisoning or traveler's diarrhea may lead to persistent gut dysr
 
 Fluctuations in estrogen, progesterone, and thyroid hormones (especially in women) can impact bowel motility and sensitivity.
 
-![science woman looking into microscope](wix:11062b_fa537c11813f457ba4831cbb5e0d1123~mv2.jpeg)
+![Woman looking into a microscope](local:inline/the-functional-medicine-approach-to-healing-ibs-root-causes-2.webp)
 
 ### Functional Medicine Testing for IBS
 

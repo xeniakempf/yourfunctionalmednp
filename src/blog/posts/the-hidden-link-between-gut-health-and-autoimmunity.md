@@ -4,8 +4,6 @@ desc: Discover how gut health impacts autoimmune conditions. Learn the role of l
 cover: nsplsh_9b2c6ebe27ed41ed8b715e8982c201f1~mv2.jpg
 tags: gut health, autoimmunity
 
-![woman in blue PJ holding her stomach](wix:11062b_47c990998a2f43bd8802716203ca0cfd~mv2.jpg)
-
 Autoimmune conditions are on the rise, affecting over 24 million Americans. From Hashimoto’s thyroiditis and rheumatoid arthritis to lupus and multiple sclerosis, these conditions can feel overwhelming, frustrating, and difficult to manage.
 
 But what if the key to calming your immune system isn’t just in your genes or medications—but in your **gut** ?
@@ -40,7 +38,7 @@ The gut lining acts as a protective barrier between the outside world (food, bac
 
 ### Common Gut Triggers for Autoimmunity
 
-![black background blue bacteria](wix:nsplsh_506861544a506474614355~mv2.jpg)
+![Microscope view of bacteria in a blue dish](local:inline/the-hidden-link-between-gut-health-and-autoimmunity-1.webp)
 
 1. **Leaky Gut (Intestinal Permeability):** A “leaky” gut lining can confuse the immune system and promote attacks on self-tissue.
 

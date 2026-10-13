@@ -4,15 +4,13 @@ desc: Explore the benefits of GLP-1 and GIP therapies like tirzepatide (Mounjaro
 cover: nsplsh_c90b588d75084a299e0e208c3fa45e75~mv2.jpg
 tags: weight loss, peptides, GLP-1, metabolic health
 
-![on a blue plate weight loss is spelled out](wix:nsplsh_e40606dd0ea84df786740e7c6e30ec66~mv2.jpg)
-
 GLP-1 receptor agonists like semaglutide (Ozempic, Wegovy), along with dual agonists like tirzepatide (Mounjaro, Zepbound), have recently made headlines for their impressive weight loss effects. But in Functional Medicine, we look deeper than weight. These therapies improve **metabolic flexibility** , **insulin sensitivity** , and even **neuro-inflammation** —making them powerful tools for a wide range of health goals beyond the scale.
 
 ## What Are GLP-1 and GIP?
 
 GLP-1 (Glucagon-Like Peptide-1) and GIP (Gastric Inhibitory Polypeptide) are incretin hormones released in the gut in response to food. They play key roles in:
 
-![medication vial and syringe - GLP-1 weight loss austin texas](wix:758ce0fc2a7646ffbe847c97958d7f3e.jpg)
+![A person in white latex gloves drawing liquid from a vial into a syringe](local:inline/health-benefits-of-glp-1-more-than-just-weight-loss-1.webp)
 
 - Enhancing insulin secretion
 
@@ -44,7 +42,7 @@ Unlike crash diets, these therapies help maintain lean mass while reducing visce
 
 GLP-1 and GIP receptors are found in the vagus nerve and brainstem. Benefits include reduced anxiety, brain fog, and improved mood—especially in insulin-resistant patients.
 
-![transparent heart with vasculature visible](wix:11062b_287ab86b466c430bb3b06d21cc11e337~mv2_d_1776_2048_s_2.jpg)
+![A model of a human heart on a white surface](local:inline/health-benefits-of-glp-1-more-than-just-weight-loss-2.webp)
 
 ### 5. Cardiovascular Protection
 
@@ -78,7 +76,7 @@ GLP-1 and GIP analogs reduce neuroinflammation and may support cognitive resilie
 
 GLP-1 and GIP therapies represent a strategic, root-cause approach to weight management and metabolic healing. Whether you’re addressing insulin resistance, inflammation, or stubborn weight plateaus, these incretin-based therapies—used mindfully—can be a powerful adjunct in Functional Medicine care.
 
-![plus sized model, white woman](wix:11062b_c39729ef829847b7b9eeff89d0e8fb05~mv2.jpg)
+![Black and white portrait of a woman](local:inline/health-benefits-of-glp-1-more-than-just-weight-loss-3.webp)
 
 *Curious if GLP-1 /GIP therapy is right for you? Schedule a personalized metabolic consultation* [*here*](https://www.yourfunctionalmednp.com/weight-loss-with-peptides) *to get started.*
 

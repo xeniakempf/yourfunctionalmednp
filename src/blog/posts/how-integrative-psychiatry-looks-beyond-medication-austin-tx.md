@@ -8,7 +8,7 @@ In today’s fast-paced world, it’s common to treat anxiety, depression, and b
 
 That’s where **integrative psychiatry** comes in.
 
-![Integrative Psychiatry Austin TX](wix:28fed2f3c95f4589a1259daaedda1b0f.jpg)
+![White spiral notebook on a wooden table](local:inline/how-integrative-psychiatry-looks-beyond-medication-austin-tx-0.webp)
 
 ## What Is Integrative Psychiatry in Austin TX?
 
@@ -34,7 +34,7 @@ Many mood and anxiety disorders share underlying biological drivers, including:
 
 By identifying these factors through comprehensive lab testing and history-taking, integrative psychiatry helps patients finally understand *why* they feel the way they do — and how to correct it.
 
-![Integrative, holistic and functional psychiatry Austin TX](wix:nsplsh_782070a74b434de7a36a18ff0f710d92~mv2.jpg)
+![A woman sitting on top of a rock writing in a journal](local:inline/how-integrative-psychiatry-looks-beyond-medication-austin-tx-1.webp)
 
 ## 2. Personalized, Whole-Person Treatment
 
@@ -54,7 +54,7 @@ The focus is on restoring equilibrium — not just suppressing symptoms.
 
 ## 3. Collaboration and Connection
 
-![Integrative Therapy Austin TX](wix:nsplsh_625a514a4c537456595773~mv2_d_4393_2929_s_4_2.jpg)
+![Group stacking hands in colorful sweaters](local:inline/how-integrative-psychiatry-looks-beyond-medication-austin-tx-2.webp)
 
 Integrative psychiatry recognizes that mental health doesn’t exist in isolation.Your provider may collaborate with:
 
@@ -66,7 +66,7 @@ Integrative psychiatry recognizes that mental health doesn’t exist in isolatio
 
 It’s a truly **team-based model** where every part of your care works together to help you heal.
 
-![Integrative psychiatry Austin TX](wix:nsplsh_4472564a6b314561505363~mv2_d_3798_6000_s_4_2.jpg)
+![Two people holding gray mugs at a table](local:inline/how-integrative-psychiatry-looks-beyond-medication-austin-tx-3.webp)
 
 ## 4. Lasting Results Come from Treating the Whole Person
 
