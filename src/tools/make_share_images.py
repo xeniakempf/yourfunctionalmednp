@@ -36,7 +36,8 @@ ACCENT = (186, 185, 180)
 
 # Pages without a hero photo, or where a different picture shares better.
 PAGE_PHOTO = {
-    "/": os.path.join(ASSETS, "photos", "xenia-sunflowers.jpg"),
+    "/": os.path.join(ASSETS, "xenia.jpg"),
+    "/functional-medicine-austin": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",  # mountain ridges at sunrise
     "/store": os.path.join(ASSETS, "photos", "mira-device.jpg"),
     "/clinicians": "app-screens",
     "/pp": "index", "/terms-of-use": "index", "/404": "index",
@@ -87,6 +88,9 @@ def fetch(url, dest):
 
 def page_photo(page):
     p = PAGE_PHOTO.get(page["path"])
+    if p and p.startswith("https://"):
+        pid = re.search(r"photo-[\w-]+", p).group(0)
+        return fetch(p, os.path.join(CACHE, pid + ".jpg"))
     if p == "app-screens":
         return app_screens()
     if p == "index":
