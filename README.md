@@ -29,5 +29,6 @@ Hosted on Netlify, which publishes the `site/` folder automatically whenever thi
 ## Notes
 
 - Pages are served at their exact old Wix addresses (e.g. `/store`, `/post/brain-fog`); old addresses that no longer exist are redirected in `site/_redirects` (generated from `OLD_TO_NEW` in `src/build.py`).
-- Blog images still load from Wix's image server and the Resources PDFs from Wix — both must be moved into this repository before the domain is switched away from Wix.
+- Blog images still load from Wix's image server and must be moved into this repository before the domain is switched away from Wix. The Resources and DNA sample PDFs are already hosted here (`src/assets/downloads/`).
 - Forms: the home page contact form uses Netlify Forms; the quizzes post to Formspree.
+- Clinicians page (`src/pages/clinicians.html`): the two pricing buttons use the same Stripe payment links as learn.bhrt.app. If a payment link or price changes in Stripe, update it here too. The free chart button links to learn.bhrt.app/#free-chart (the sign-up form lives there).
