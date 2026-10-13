@@ -17,13 +17,22 @@ WEBSITE = SITE_URL + "/#website"
 # Where patients can be seen (all services are available by video anywhere in Texas).
 CITIES = [
     # greater Austin
-    "Austin", "Round Rock", "Cedar Park", "Georgetown", "Pflugerville", "Leander", "San Marcos",
+    "Austin", "Round Rock", "Cedar Park", "Georgetown", "Pflugerville", "Leander", "Kyle", "Buda",
+    "Dripping Springs", "San Marcos",
     # other metros
-    "San Antonio", "Houston", "Dallas",
+    "San Antonio", "Houston", "Dallas", "Fort Worth",
+    # Permian Basin
+    "Midland", "Odessa", "Big Spring", "Andrews", "Monahans", "Pecos", "Fort Stockton",
+    # Southeast Texas
+    "Beaumont", "Port Arthur", "Orange", "Nederland", "Port Neches", "Vidor", "Lumberton", "Jasper",
     # West Texas and the Panhandle
-    "Midland", "Odessa", "Lubbock", "Amarillo", "San Angelo",
+    "Lubbock", "Amarillo", "San Angelo", "Abilene", "El Paso",
     # East Texas
-    "Tyler", "Beaumont",
+    "Tyler", "Longview", "Nacogdoches", "Lufkin",
+    # Central Texas
+    "Waco", "Temple", "Killeen", "Bryan", "College Station",
+    # Coastal Bend and South Texas
+    "Corpus Christi", "Victoria", "Rockport", "Laredo", "McAllen", "Harlingen", "Brownsville",
 ]
 TEXAS = {"@type": "State", "name": "Texas", "sameAs": "https://en.wikipedia.org/wiki/Texas"}
 AREA = [TEXAS] + [{"@type": "City", "name": c, "containedInPlace": {"@type": "State", "name": "Texas"}}
