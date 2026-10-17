@@ -30,7 +30,7 @@ PAGES = [
     {"slug": "integrative-primary-care", "path": "/integrative-primary-care",
      "out": "integrative-primary-care.html", "name": "Integrative Primary Care Page",
      "title": "Integrative Direct Primary Care in Texas | Your Functional Health",
-     "desc": "Integrative direct primary care membership for adults across Texas. Same- or next-day virtual visits, unlimited messaging, urgent care, and labs twice a year, from $129/month."},    {"slug": "functional-integrative-psychiatry-texas", "path": "/functional-integrative-psychiatry-texas",
+     "desc": "Integrative direct primary care membership for adults across Texas. Same- or next-day virtual visits, unlimited messaging, urgent care, and labs twice a year, from $159/month."},    {"slug": "functional-integrative-psychiatry-texas", "path": "/functional-integrative-psychiatry-texas",
      "out": "functional-integrative-psychiatry-texas.html", "name": "Integrative Psychiatry Page",
      "title": "Integrative Psychiatry in Austin, TX | Your Functional Health",
      "desc": "Metabolic and integrative psychiatry for anxiety, depression and ADHD in Austin and by video across Texas. Lab-guided, root-cause care with medication only when needed."},    {"slug": "menopause-clinic-texas", "path": "/menopause-clinic-texas",

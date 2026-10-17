@@ -76,8 +76,8 @@ SERVICES = {
         "name": "Integrative Direct Primary Care", "serviceType": "Direct primary care membership",
         "description": "Membership primary care for adults in Texas: virtual primary and urgent care visits, "
                        "unlimited messaging and extensive lab testing twice a year.",
-        "offers": [usd("12-month membership (per month, billed annually at $1,548)", 129),
-                   usd("6-month membership (per month, billed every 6 months at $900)", 150)],
+        "offers": [usd("12-month membership (per month, billed annually at $1,908)", 159),
+                   usd("6-month membership (per month, billed every 6 months at $1,074)", 179)],
     },
     "/functional-integrative-psychiatry-texas": {
         "name": "Integrative Psychiatry", "serviceType": "Metabolic and integrative psychiatry",
