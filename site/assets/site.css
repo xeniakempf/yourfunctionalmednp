@@ -776,3 +776,8 @@ nav.main a,nav.main .drop-btn{white-space:nowrap}
 .pv-scroll{max-height:94vh; overflow:auto}
 .pv-scroll img{display:block; width:100%; height:auto}
 .pv-close{position:absolute; top:.75rem; right:.75rem; z-index:1; background:var(--white)}
+
+/* small text link under hero stats */
+.hero-link{margin:.25rem 0 0; font-size:.98rem}
+.hero-link a{color:var(--teal-deep); text-decoration:underline; text-underline-offset:3px; text-decoration-thickness:1px}
+.hero-link a:hover{color:var(--teal)}
