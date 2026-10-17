@@ -28,7 +28,7 @@ The traditional healthcare system's answer to these shortages has been: wait lon
 
 ## What Is Direct Primary Care?
 
-Direct Primary Care (DPC) is a membership-based healthcare model that removes insurance from the equation for everyday primary care. Instead of billing insurance for each visit, you pay a flat monthly membership fee — typically between $75 and $150 per month for adults — and in return you get direct, unhurried access to your own personal physician.
+Direct Primary Care (DPC) is a membership-based healthcare model that removes insurance from the equation for everyday primary care. Instead of billing insurance for each visit, you pay a flat monthly membership fee — typically between $120 and $350 per month for adults, not including labs — and in return you get direct, unhurried access to your own personal physician.
 
 No copays. No claims. No surprise bills for a routine visit. No sitting in a waiting room for an hour to spend seven minutes with a doctor who has 2,000 other patients.
 
