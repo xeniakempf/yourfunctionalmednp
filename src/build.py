@@ -78,6 +78,13 @@ PAGES = [
 
 # Old Wix addresses -> where that content lives now (permanent 301s; works on any domain).
 OLD_TO_NEW = [
+    # short / ad landing addresses (Google Ads uses /bhrt)
+    ("/bhrt", "/menopause-clinic-texas"), ("/bhrt-texas", "/menopause-clinic-texas"),
+    ("/menopause", "/menopause-clinic-texas"), ("/hormones", "/menopause-clinic-texas"),
+    ("/glp1-weight-loss", "/glp1-weight-loss-texas"), ("/glp1", "/glp1-weight-loss-texas"),
+    ("/mold-detox", "/mold-detox-in-texas"), ("/functional-medicine", "/functional-medicine-austin"),
+    ("/primary-care", "/integrative-primary-care"), ("/psychiatry", "/functional-integrative-psychiatry-texas"),
+    ("/peptides", "/peptide-therapy-austin"), ("/labs", "/functional-medicine-lab-testing"),
     # Wix's sitemap files (search engines have these on record)
     ("/blog-posts-sitemap.xml", "/sitemap.xml"), ("/blog-categories-sitemap.xml", "/sitemap.xml"),
     ("/pricing-plans-sitemap.xml", "/sitemap.xml"), ("/pages-sitemap.xml", "/sitemap.xml"),
