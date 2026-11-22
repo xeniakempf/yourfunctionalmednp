@@ -74,10 +74,10 @@
       "og_desc": "Practitioner-grade supplements, Mira hormone tracking and non-toxic picks, recommended by Xenia Kempf, FNP-C."
     },
     "/clinicians": {
-      "title": "Clinical Reference Apps for Prescribers: BHRT & Antibiotics",
-      "desc": "BHRT Navigator and Antibiotic Guide by Xenia Kempf, FNP-C: point-of-care apps for NPs, PAs and physicians, plus a BHRT course and free estradiol chart.",
+      "title": "Clinical Reference Apps for Prescribers | Xenia Kempf, FNP-C",
+      "desc": "BHRT Navigator and Antibiotic Guide: point-of-care reference apps for NP, PA and physician prescribers, built by Xenia Kempf, FNP-C.",
       "og_title": "Clinical Reference Apps by Xenia Kempf, FNP-C",
-      "og_desc": "BHRT Navigator and Antibiotic Guide: point-of-care reference apps for prescribers, plus a BHRT course and free estradiol chart."
+      "og_desc": "BHRT Navigator and Antibiotic Guide: point-of-care reference apps for prescribers."
     },
     "/functional-medicine-blog": {
       "title": "Functional Medicine Blog | Hormones, Gut & Mental Health",
@@ -101,6 +101,18 @@
       "title": "Page Not Found | Your Functional Health",
       "desc": "This page has moved or no longer exists.",
       "index": false
+    },
+    "/bhrt-navigator": {
+      "title": "BHRT Navigator: Hormone Therapy App & Course",
+      "desc": "Point-of-care BHRT reference app and 184-page course for NP, PA and physician prescribers: protocols, Rx cards, estradiol charts. $149/year.",
+      "og_title": "BHRT Navigator: Prescribe Hormone Therapy with Confidence",
+      "og_desc": "A point-of-care hormone therapy reference app and 184-page course for prescribers, by Xenia Kempf, FNP-C."
+    },
+    "/antibiotic-guide": {
+      "title": "Antibiotic Guide: Empiric & Pediatric Antibiotic Dosing",
+      "desc": "Empiric antibiotics for 100+ conditions, adult and pediatric, with weight-based dosing and ready-to-copy prescriptions. For prescribers. $24.99/year.",
+      "og_title": "Antibiotic Guide: Empiric Antibiotics, Dosed for You",
+      "og_desc": "Pick the condition, enter the weight, get the drug, dose and prescription. By Xenia Kempf, FNP-C."
     }
   },
   "posts": {

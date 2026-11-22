@@ -61,6 +61,12 @@ PAGES = [
     {"slug": "clinicians", "path": "/clinicians", "out": "clinicians.html", "name": "Clinicians Page",
      "title": "Clinical Reference Apps for Prescribers: BHRT & Antibiotics | Your Functional Health",
      "desc": "BHRT Navigator and Antibiotic Guide by Xenia Kempf, FNP-C: point-of-care reference apps for NP, PA and physician prescribers, plus a 184-page BHRT course."},
+    {"slug": "bhrt-navigator", "path": "/bhrt-navigator", "out": "bhrt-navigator.html", "name": "BHRT Navigator",
+     "title": "BHRT Navigator: Hormone Therapy App & Course for Clinicians | Your Functional Health",
+     "desc": "BHRT Navigator by Xenia Kempf, FNP-C: a point-of-care hormone therapy reference app and 184-page course for primary care, NP and PA prescribers."},
+    {"slug": "antibiotic-guide", "path": "/antibiotic-guide", "out": "antibiotic-guide.html", "name": "Antibiotic Guide",
+     "title": "Antibiotic Guide: Empiric Antibiotic & Pediatric Dosing App | Your Functional Health",
+     "desc": "Antibiotic Guide by Xenia Kempf, FNP-C: empiric antibiotic choices for 100+ conditions, weight-based pediatric dosing and ready-to-copy prescriptions."},
     {"slug": "pp", "path": "/pp", "out": "pp.html", "name": "Privacy Policy",
      "title": "Privacy Policy | Your Functional Health",
      "desc": "How the Your Functional Health website collects, uses and protects your information."},
@@ -365,9 +371,9 @@ def build():
                 f"- [Free guides and health quizzes]({SITE_URL}/resources)\n"
                 f"- [Clinical reference apps for clinicians: BHRT Navigator and Antibiotic Guide]({SITE_URL}/clinicians)\n"
                 "\n## Clinical reference apps (for licensed prescribers)\n\n"
-                f"- [BHRT Navigator]({SITE_URL}/clinicians#bhrt): point-of-care hormone therapy reference app (protocols, candidacy screening, Rx cards, estradiol conversion charts, compounding calculator). $149/year; with the 184-page BHRT course, $599. App: https://bhrt.app\n"
-                f"- [Antibiotic Guide]({SITE_URL}/clinicians#abx): empiric antibiotic reference by specialty and condition, adult and pediatric weight-based dosing with ready-to-copy prescriptions. $24.99/year. App: https://abxguide.app\n"
-                f"- [Free estradiol conversion chart]({SITE_URL}/clinicians#free-chart) for prescribers\n"
+                f"- [BHRT Navigator]({SITE_URL}/bhrt-navigator): point-of-care hormone therapy reference app (protocols, candidacy screening, Rx cards, estradiol conversion charts, compounding calculator). $149/year; with the 184-page BHRT course, $599. App: https://bhrt.app\n"
+                f"- [Antibiotic Guide]({SITE_URL}/antibiotic-guide): empiric antibiotic reference for 100+ conditions by specialty, adult and pediatric weight-based dosing with ready-to-copy prescriptions. $24.99/year. App: https://abxguide.app\n"
+                f"- [Free estradiol conversion chart]({SITE_URL}/bhrt-navigator#free-chart) for prescribers\n"
                 "\n## Articles\n\n" + post_lines)
 
 

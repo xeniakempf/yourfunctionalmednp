@@ -24,9 +24,9 @@ Phone or text: 737-336-5959. Free 15-minute discovery call: https://www.yourfunc
 
 ## Clinical reference apps (for licensed prescribers)
 
-- [BHRT Navigator](https://www.yourfunctionalmednp.com/clinicians#bhrt): point-of-care hormone therapy reference app (protocols, candidacy screening, Rx cards, estradiol conversion charts, compounding calculator). $149/year; with the 184-page BHRT course, $599. App: https://bhrt.app
-- [Antibiotic Guide](https://www.yourfunctionalmednp.com/clinicians#abx): empiric antibiotic reference by specialty and condition, adult and pediatric weight-based dosing with ready-to-copy prescriptions. $24.99/year. App: https://abxguide.app
-- [Free estradiol conversion chart](https://www.yourfunctionalmednp.com/clinicians#free-chart) for prescribers
+- [BHRT Navigator](https://www.yourfunctionalmednp.com/bhrt-navigator): point-of-care hormone therapy reference app (protocols, candidacy screening, Rx cards, estradiol conversion charts, compounding calculator). $149/year; with the 184-page BHRT course, $599. App: https://bhrt.app
+- [Antibiotic Guide](https://www.yourfunctionalmednp.com/antibiotic-guide): empiric antibiotic reference for 100+ conditions by specialty, adult and pediatric weight-based dosing with ready-to-copy prescriptions. $24.99/year. App: https://abxguide.app
+- [Free estradiol conversion chart](https://www.yourfunctionalmednp.com/bhrt-navigator#free-chart) for prescribers
 
 ## Articles
 

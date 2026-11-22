@@ -121,8 +121,11 @@ SERVICES = {
 }
 
 
-# Clinician products on /clinicians. Keep prices and Stripe links in step with src/pages/clinicians.html.
+# Clinician products: overview on /clinicians, full pages at /bhrt-navigator and /antibiotic-guide.
+# Keep prices and Stripe links in step with src/pages/bhrt-navigator.html and antibiotic-guide.html.
 CLIN = SITE_URL + "/clinicians"
+BHRT_PAGE = SITE_URL + "/bhrt-navigator"
+ABX_PAGE = SITE_URL + "/antibiotic-guide"
 CLINICIAN_AUDIENCE = {"@type": "MedicalAudience", "audienceType": "Clinician",
                       "name": "Licensed prescribers (MD/DO, NP, PA)"}
 
@@ -136,7 +139,7 @@ def yearly(price, url, name):
 
 def clinician_products():
     bhrt = {
-        "@type": ["SoftwareApplication", "WebApplication"], "@id": CLIN + "#bhrt-navigator",
+        "@type": ["SoftwareApplication", "WebApplication"], "@id": BHRT_PAGE + "#app",
         "name": "BHRT Navigator", "alternateName": "BHRT Clinical Reference App", "url": "https://bhrt.app",
         "applicationCategory": "MedicalApplication", "applicationSubCategory": "Clinical reference",
         "operatingSystem": "Any (web browser on phone, tablet or desktop)",
@@ -153,15 +156,15 @@ def clinician_products():
         "audience": CLINICIAN_AUDIENCE, "author": {"@id": XENIA}, "creator": {"@id": XENIA},
         "provider": {"@id": ORG}, "inLanguage": "en-US", "isAccessibleForFree": False,
         "offers": [yearly(149, "https://buy.stripe.com/eVqcN76LXd4ucwF2gDdUY02", "BHRT Navigator app, 1 year")],
-        "mainEntityOfPage": CLIN + "#bhrt",
+        "mainEntityOfPage": BHRT_PAGE,
     }
     course = {
-        "@type": "Course", "@id": CLIN + "#bhrt-course",
+        "@type": "Course", "@id": BHRT_PAGE + "#course",
         "name": "BHRT Navigator Complete Course + App",
         "description": ("A 184-page structured PDF course on bioidentical hormone therapy for prescribers: chapter "
                         "walkthroughs, Rx quick-reference cards and a quick-reference appendix, plus one year of the "
                         "BHRT Navigator reference app."),
-        "url": CLIN + "#pricing", "provider": {"@id": ORG}, "author": {"@id": XENIA}, "creator": {"@id": XENIA},
+        "url": BHRT_PAGE + "#pricing", "provider": {"@id": ORG}, "author": {"@id": XENIA}, "creator": {"@id": XENIA},
         "audience": CLINICIAN_AUDIENCE, "inLanguage": "en-US", "isAccessibleForFree": False,
         "coursePrerequisites": "Licensed prescriber (MD/DO, NP or PA)",
         "teaches": ["Bioidentical hormone replacement therapy", "Menopause hormone therapy",
@@ -171,17 +174,17 @@ def clinician_products():
         "offers": {"@type": "Offer", "category": "Paid", "name": "Complete course + app", "price": "599",
                    "priceCurrency": "USD", "url": "https://buy.stripe.com/5kQfZjc6hggGdAJ9J5dUY01",
                    "availability": "https://schema.org/InStock"},
-        "isRelatedTo": {"@id": CLIN + "#bhrt-navigator"},
+        "isRelatedTo": {"@id": BHRT_PAGE + "#app"},
     }
     abx = {
-        "@type": ["SoftwareApplication", "WebApplication"], "@id": CLIN + "#antibiotic-guide",
+        "@type": ["SoftwareApplication", "WebApplication"], "@id": ABX_PAGE + "#app",
         "name": "Antibiotic Guide", "url": "https://abxguide.app",
         "applicationCategory": "MedicalApplication", "applicationSubCategory": "Clinical reference",
         "operatingSystem": "Any (web browser on phone, tablet or desktop)",
         "description": ("Point-of-care empiric antibiotic reference for prescribers, by specialty and condition, "
                         "for adults and children. Enter a weight and get the first-line drug, dose, best-fit "
                         "formulation and a ready-to-copy prescription."),
-        "featureList": ["Empiric antibiotic choices by specialty and condition", "Adult and pediatric dosing",
+        "featureList": ["Empiric antibiotic choices for 100+ conditions across 15 specialties", "Adult and pediatric dosing",
                         "Weight-based dose with best-fit formulation", "Ready-to-copy prescription (sig and dispense)",
                         "Search by condition, drug or organism", "Drugs A-Z and calculators"],
         "screenshot": [SITE_URL + "/images/abx-app-home.webp", SITE_URL + "/images/abx-app-peds-dosing.webp",
@@ -190,7 +193,7 @@ def clinician_products():
         "audience": CLINICIAN_AUDIENCE, "author": {"@id": XENIA}, "creator": {"@id": XENIA},
         "provider": {"@id": ORG}, "inLanguage": "en-US", "isAccessibleForFree": False,
         "offers": [yearly("24.99", "https://buy.stripe.com/dRmcN77Q1e8y7cl3kHdUY03", "Antibiotic Guide, 1 year")],
-        "mainEntityOfPage": CLIN + "#abx",
+        "mainEntityOfPage": ABX_PAGE,
     }
     return [bhrt, course, abx]
 
@@ -301,10 +304,19 @@ def page_graph(path, title, desc, page_html, name):
         if svc.get("offers"):
             s["offers"] = svc["offers"]
         graph.append(s)
-    if path != "/":
+    if path in ("/bhrt-navigator", "/antibiotic-guide"):
+        wp["breadcrumb"] = crumbs([("Home", "/"), ("Clinicians", "/clinicians"), (name, path)])
+    if path != "/" and "breadcrumb" not in wp:
         wp["breadcrumb"] = crumbs([("Home", "/"), (re.sub(r"\s+Page$", "", name), path)])
+    if path != "/":
         # every page refers to the practice; give non-home pages the core nodes too, so each page stands alone
         graph = [organization(), person(), website()] + graph
+    if path in ("/bhrt-navigator", "/antibiotic-guide"):
+        bhrt, course, abx = clinician_products()
+        mine = [bhrt, course] if path == "/bhrt-navigator" else [abx]
+        graph += mine
+        wp["mainEntity"] = {"@id": mine[0]["@id"]}
+        wp["about"] = [{"@id": p["@id"]} for p in mine]
     if path == "/clinicians":
         prods = clinician_products()
         graph += prods

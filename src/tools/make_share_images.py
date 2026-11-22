@@ -40,10 +40,14 @@ PAGE_PHOTO = {
     "/functional-medicine-austin": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",  # mountain ridges at sunrise
     "/store": os.path.join(ASSETS, "photos", "mira-device.jpg"),
     "/clinicians": "app-screens",
+    "/bhrt-navigator": "app-screens-bhrt",
+    "/antibiotic-guide": "app-screens-abx",
     "/pp": "index", "/terms-of-use": "index", "/404": "index",
 }
 PAGE_LINE = {
     "/clinicians": "For NPs, PAs and prescribers",
+    "/bhrt-navigator": "App + course for prescribers",
+    "/antibiotic-guide": "For NPs, PAs and prescribers",
     "/functional-medicine-blog": "By Xenia Kempf, FNP-C",
     "/resources": "Free downloads",
     "/store": "Recommended by Xenia Kempf, FNP-C",
@@ -92,7 +96,11 @@ def page_photo(page):
         pid = re.search(r"photo-[\w-]+", p).group(0)
         return fetch(p, os.path.join(CACHE, pid + ".jpg"))
     if p == "app-screens":
-        return app_screens()
+        return app_screens(("bhrt-app-candidacy.webp", "abx-app-peds-dosing.webp"), "_clinicians-app.png")
+    if p == "app-screens-bhrt":
+        return app_screens(("bhrt-app-candidacy.webp", "bhrt-app-rx-card.webp"), "_bhrt-app.png")
+    if p == "app-screens-abx":
+        return app_screens(("abx-app-peds-dosing.webp", "abx-app-home.webp"), "_abx-app.png")
     if p == "index":
         return hero_from_js("index")
     if p:
@@ -100,11 +108,11 @@ def page_photo(page):
     return hero_from_js(page["slug"])
 
 
-def app_screens():
-    """Two BHRT app screens as phones on a light background (Clinicians card)."""
+def app_screens(names, outname):
+    """Two app screens as phones on a light background (Clinicians and app-page cards)."""
     from PIL import ImageFilter
     bg = Image.new("RGB", (PHOTO_W, H), (231, 238, 236))
-    for name, x, y in (("bhrt-app-candidacy.webp", 70, 70), ("bhrt-app-rx-card.webp", 300, 40)):
+    for name, x, y in ((names[0], 70, 70), (names[1], 300, 40)):
         sc = Image.open(os.path.join(ASSETS, "photos", name)).convert("RGB")
         h = 540
         sc = sc.resize((round(sc.width * h / sc.height), h), Image.LANCZOS)
@@ -119,7 +127,7 @@ def app_screens():
         ImageDraw.Draw(fmask).rounded_rectangle((0, 0, frame.width - 1, frame.height - 1), 32, fill=255)
         bg.paste(frame, (x - 8, y - 8), fmask)
         bg.paste(sc, (x, y), mask)
-    out = os.path.join(CACHE, "_clinicians-app.png")
+    out = os.path.join(CACHE, outname)
     os.makedirs(CACHE, exist_ok=True)
     bg.save(out)
     return out

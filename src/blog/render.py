@@ -303,7 +303,7 @@ def build_posts():
         svc_btns = "\n".join(
             f'        <a class="btn {"btn-dark" if i == 0 else "btn-line"}" href="{SERVICES[k][1]}">{escape(SERVICES[k][0])} <span class="arrow">&rarr;</span></a>'
             for i, k in enumerate(POST_SERVICES[slug]))
-        clin_note = ('    <p class="clin-link"><b>For prescribers:</b> I built <a href="/clinicians#bhrt">BHRT Navigator</a>, '
+        clin_note = ('    <p class="clin-link"><b>For prescribers:</b> I built <a href="/bhrt-navigator">BHRT Navigator</a>, '
                      'a point-of-care hormone therapy reference app and course for NPs, PAs and physicians.</p>\n'
                      if "BHRT" in POST_SERVICES[slug] else "")
         canonical = f"{SITE_URL}/post/{slug}"
