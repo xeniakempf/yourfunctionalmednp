@@ -121,6 +121,80 @@ SERVICES = {
 }
 
 
+# Clinician products on /clinicians. Keep prices and Stripe links in step with src/pages/clinicians.html.
+CLIN = SITE_URL + "/clinicians"
+CLINICIAN_AUDIENCE = {"@type": "MedicalAudience", "audienceType": "Clinician",
+                      "name": "Licensed prescribers (MD/DO, NP, PA)"}
+
+
+def yearly(price, url, name):
+    return {"@type": "Offer", "name": name, "price": str(price), "priceCurrency": "USD", "url": url,
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {"@type": "UnitPriceSpecification", "price": str(price), "priceCurrency": "USD",
+                                   "billingDuration": "P1Y", "unitText": "year"}}
+
+
+def clinician_products():
+    bhrt = {
+        "@type": ["SoftwareApplication", "WebApplication"], "@id": CLIN + "#bhrt-navigator",
+        "name": "BHRT Navigator", "alternateName": "BHRT Clinical Reference App", "url": "https://bhrt.app",
+        "applicationCategory": "MedicalApplication", "applicationSubCategory": "Clinical reference",
+        "operatingSystem": "Any (web browser on phone, tablet or desktop)",
+        "description": ("Point-of-care hormone therapy reference app for prescribers: female and male protocols, "
+                        "candidacy screening, searchable Rx cards with doses and sigs, estradiol conversion charts "
+                        "and a compounding dose calculator."),
+        "featureList": ["Female protocols: perimenopause, menopause, MHT, PHRT, non-hormonal options, breast health",
+                        "Male protocols: testosterone deficiency workup, fertility-preserving and standard TRT, prostate monitoring",
+                        "Candidacy screening", "Searchable Rx cards with doses and sigs",
+                        "Estradiol conversion charts", "Compounding dose calculator (Topi-Click, MD Pump)"],
+        "screenshot": [SITE_URL + "/images/bhrt-app-candidacy.webp", SITE_URL + "/images/bhrt-app-rx-card.webp",
+                       SITE_URL + "/images/bhrt-app-calculator.webp"],
+        "image": SITE_URL + "/images/bhrt-app-candidacy.webp",
+        "audience": CLINICIAN_AUDIENCE, "author": {"@id": XENIA}, "creator": {"@id": XENIA},
+        "provider": {"@id": ORG}, "inLanguage": "en-US", "isAccessibleForFree": False,
+        "offers": [yearly(149, "https://buy.stripe.com/eVqcN76LXd4ucwF2gDdUY02", "BHRT Navigator app, 1 year")],
+        "mainEntityOfPage": CLIN + "#bhrt",
+    }
+    course = {
+        "@type": "Course", "@id": CLIN + "#bhrt-course",
+        "name": "BHRT Navigator Complete Course + App",
+        "description": ("A 184-page structured PDF course on bioidentical hormone therapy for prescribers: chapter "
+                        "walkthroughs, Rx quick-reference cards and a quick-reference appendix, plus one year of the "
+                        "BHRT Navigator reference app."),
+        "url": CLIN + "#pricing", "provider": {"@id": ORG}, "author": {"@id": XENIA}, "creator": {"@id": XENIA},
+        "audience": CLINICIAN_AUDIENCE, "inLanguage": "en-US", "isAccessibleForFree": False,
+        "coursePrerequisites": "Licensed prescriber (MD/DO, NP or PA)",
+        "teaches": ["Bioidentical hormone replacement therapy", "Menopause hormone therapy",
+                    "Testosterone therapy", "Estrogen and progesterone prescribing"],
+        "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "Online",
+                              "courseWorkload": "Self-paced", "instructor": {"@id": XENIA}},
+        "offers": {"@type": "Offer", "category": "Paid", "name": "Complete course + app", "price": "599",
+                   "priceCurrency": "USD", "url": "https://buy.stripe.com/5kQfZjc6hggGdAJ9J5dUY01",
+                   "availability": "https://schema.org/InStock"},
+        "isRelatedTo": {"@id": CLIN + "#bhrt-navigator"},
+    }
+    abx = {
+        "@type": ["SoftwareApplication", "WebApplication"], "@id": CLIN + "#antibiotic-guide",
+        "name": "Antibiotic Guide", "url": "https://abxguide.app",
+        "applicationCategory": "MedicalApplication", "applicationSubCategory": "Clinical reference",
+        "operatingSystem": "Any (web browser on phone, tablet or desktop)",
+        "description": ("Point-of-care empiric antibiotic reference for prescribers, by specialty and condition, "
+                        "for adults and children. Enter a weight and get the first-line drug, dose, best-fit "
+                        "formulation and a ready-to-copy prescription."),
+        "featureList": ["Empiric antibiotic choices by specialty and condition", "Adult and pediatric dosing",
+                        "Weight-based dose with best-fit formulation", "Ready-to-copy prescription (sig and dispense)",
+                        "Search by condition, drug or organism", "Drugs A-Z and calculators"],
+        "screenshot": [SITE_URL + "/images/abx-app-home.webp", SITE_URL + "/images/abx-app-peds-dosing.webp",
+                       SITE_URL + "/images/abx-app-ent.webp"],
+        "image": SITE_URL + "/images/abx-app-peds-dosing.webp",
+        "audience": CLINICIAN_AUDIENCE, "author": {"@id": XENIA}, "creator": {"@id": XENIA},
+        "provider": {"@id": ORG}, "inLanguage": "en-US", "isAccessibleForFree": False,
+        "offers": [yearly("24.99", "https://buy.stripe.com/dRmcN77Q1e8y7cl3kHdUY03", "Antibiotic Guide, 1 year")],
+        "mainEntityOfPage": CLIN + "#abx",
+    }
+    return [bhrt, course, abx]
+
+
 def organization():
     return {
         "@type": ["MedicalClinic", "MedicalBusiness"],
@@ -182,7 +256,8 @@ def person():
              "credentialCategory": "degree"},
         ],
         "knowsAbout": ["Functional medicine", "Bioidentical hormone replacement therapy", "Menopause",
-                       "Integrative psychiatry", "Gut health", "Mold illness", "GLP-1 weight loss"],
+                       "Integrative psychiatry", "Gut health", "Mold illness", "GLP-1 weight loss",
+                       "Antibiotic prescribing", "Clinical reference app development"],
         "sameAs": PROFILES_XENIA,
     }
 
@@ -230,6 +305,13 @@ def page_graph(path, title, desc, page_html, name):
         wp["breadcrumb"] = crumbs([("Home", "/"), (re.sub(r"\s+Page$", "", name), path)])
         # every page refers to the practice; give non-home pages the core nodes too, so each page stands alone
         graph = [organization(), person(), website()] + graph
+    if path == "/clinicians":
+        prods = clinician_products()
+        graph += prods
+        wp["about"] = [{"@id": p["@id"]} for p in prods]
+        wp["mainEntity"] = {"@type": "ItemList", "name": "Clinical reference apps by Xenia Kempf, FNP-C",
+                            "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": {"@id": p["@id"]}}
+                                                for i, p in enumerate(prods)]}
     graph.append(wp)
     q = faqs(page_html)
     if q:

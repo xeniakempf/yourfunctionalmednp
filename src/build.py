@@ -364,6 +364,10 @@ def build():
                 f"- [Frequently asked questions]({SITE_URL}/#faq)\n"
                 f"- [Free guides and health quizzes]({SITE_URL}/resources)\n"
                 f"- [Clinical reference apps for clinicians: BHRT Navigator and Antibiotic Guide]({SITE_URL}/clinicians)\n"
+                "\n## Clinical reference apps (for licensed prescribers)\n\n"
+                f"- [BHRT Navigator]({SITE_URL}/clinicians#bhrt): point-of-care hormone therapy reference app (protocols, candidacy screening, Rx cards, estradiol conversion charts, compounding calculator). $149/year; with the 184-page BHRT course, $599. App: https://bhrt.app\n"
+                f"- [Antibiotic Guide]({SITE_URL}/clinicians#abx): empiric antibiotic reference by specialty and condition, adult and pediatric weight-based dosing with ready-to-copy prescriptions. $24.99/year. App: https://abxguide.app\n"
+                f"- [Free estradiol conversion chart]({SITE_URL}/clinicians#free-chart) for prescribers\n"
                 "\n## Articles\n\n" + post_lines)
 
 
