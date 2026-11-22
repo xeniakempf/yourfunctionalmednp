@@ -721,6 +721,7 @@ form.cf{background:var(--white); border-radius:var(--radius); padding:clamp(1.5r
 .clin-plan .btn{align-self:flex-start}
 .clin-plan.best{background:var(--teal-deep); color:var(--foot-ink); border-color:var(--teal-deep)}
 .clin-plan.best .eyebrow{color:var(--foot-head)}
+.clin-plan .tag + .eyebrow{padding-right:7.5rem} /* keep the label clear of the "Best value" tag */
 .clin-plan.best .amount{color:var(--white)}
 .clin-plan.best .amount small{color:var(--foot-ink)}
 .clin-plan.best li{border-color:rgba(255,255,255,.18)}
