@@ -59,8 +59,8 @@ PAGES = [
      "title": "Store | Supplements, Mira Hormone Tracking & Wellness Picks | Your Functional Health",
      "desc": "Professional-grade supplements through Fullscript, Mira at-home hormone tracking with a discount code, and the everyday wellness products Xenia recommends."},
     {"slug": "clinicians", "path": "/clinicians", "out": "clinicians.html", "name": "Clinicians Page",
-     "title": "BHRT Course & Clinical Reference App for Clinicians | Your Functional Health",
-     "desc": "BHRT Navigator by Xenia Kempf, FNP-C: a point-of-care hormone therapy reference app and 184-page course for primary care, NP and PA prescribers."},
+     "title": "Clinical Reference Apps for Prescribers: BHRT & Antibiotics | Your Functional Health",
+     "desc": "BHRT Navigator and Antibiotic Guide by Xenia Kempf, FNP-C: point-of-care reference apps for NP, PA and physician prescribers, plus a 184-page BHRT course."},
     {"slug": "pp", "path": "/pp", "out": "pp.html", "name": "Privacy Policy",
      "title": "Privacy Policy | Your Functional Health",
      "desc": "How the Your Functional Health website collects, uses and protects your information."},
@@ -363,7 +363,7 @@ def build():
                 f"- [About Xenia Kempf, FNP-C]({SITE_URL}/#about)\n"
                 f"- [Frequently asked questions]({SITE_URL}/#faq)\n"
                 f"- [Free guides and health quizzes]({SITE_URL}/resources)\n"
-                f"- [BHRT course and clinical reference app for clinicians]({SITE_URL}/clinicians)\n"
+                f"- [Clinical reference apps for clinicians: BHRT Navigator and Antibiotic Guide]({SITE_URL}/clinicians)\n"
                 "\n## Articles\n\n" + post_lines)
 
 

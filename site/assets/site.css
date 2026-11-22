@@ -739,6 +739,21 @@ form.cf{background:var(--white); border-radius:var(--radius); padding:clamp(1.5r
   .clin-features{grid-template-columns:repeat(2,minmax(0,1fr))}
   .clin-course{grid-template-columns:1fr}
 }
+/* Clinicians: apps overview rows */
+.clin-apps{padding-top:clamp(3rem,6vw,5rem)}
+.app-row{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:clamp(2rem,6vw,5.5rem); align-items:center; padding:clamp(2.5rem,5vw,4rem) 0}
+.app-row+.app-row{border-top:1px solid rgba(21,88,99,.14)}
+.app-row.rev .app-shots{order:2}
+.app-shots{display:flex; justify-content:center; align-items:flex-start; gap:clamp(.9rem,2vw,1.5rem)}
+.app-shots .phone{width:min(220px,44%)}
+.app-shots .phone+.phone{margin-top:2.5rem}
+.app-kicker{font:600 .82rem var(--sans); letter-spacing:.04em; color:#8a6a1f; margin:0 0 .6rem}
+.app-copy h2{font-size:clamp(2.4rem,4.6vw,3.6rem); margin:0 0 1.1rem}
+.app-copy p{margin:0 0 1.75rem; max-width:34em}
+.app-block{scroll-margin-top:90px}
+@media (max-width:860px){
+  .app-row{grid-template-columns:1fr} .app-row.rev .app-shots{order:0}
+}
 @media (max-width:760px){
   .clin-phones{grid-template-columns:1fr} .clin-phones .phone{max-width:240px}
   .clin-steps,.clin-plans{grid-template-columns:1fr}
