@@ -281,6 +281,31 @@ def faqs(page_html):
     return out
 
 
+def lab_catalog(page_html):
+    """OfferCatalog of the lab tests and prices shown on the Lab Testing page (read from the page, so it can't drift)."""
+    items = []
+    for name, meta, prices in re.findall(
+            r'<h3>(.*?)</h3>\s*(?:<p class="meta">(.*?)</p>)?.*?<ul class="prices">(.*?)</ul>', page_html, re.S):
+        name = _html.unescape(re.sub(r"<[^>]+>", "", name)).strip()
+        for label, amount in re.findall(r"<span>(.*?)</span><b>(.*?)</b>", prices):
+            m = re.search(r"\$([\d,]+)", amount)
+            if not m:
+                continue
+            o = {"@type": "Offer", "name": f"{name}: {_html.unescape(label)}", "priceCurrency": "USD",
+                 "itemOffered": {"@type": "MedicalTest", "name": name}}
+            if amount.strip().lower().startswith("from"):
+                o["priceSpecification"] = {"@type": "PriceSpecification", "minPrice": m.group(1).replace(",", ""),
+                                           "priceCurrency": "USD"}
+            else:
+                o["price"] = m.group(1).replace(",", "")
+            if meta:
+                o["itemOffered"]["description"] = _html.unescape(re.sub(r"<[^>]+>", "", meta)).strip()
+            items.append(o)
+    if not items:
+        return None
+    return {"@type": "OfferCatalog", "name": "At-home functional lab tests", "itemListElement": items}
+
+
 def crumbs(items):
     return {"@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": i + 1, "name": n, "item": SITE_URL + u} for i, (n, u) in enumerate(items)]}
@@ -303,6 +328,10 @@ def page_graph(path, title, desc, page_html, name):
                                   "serviceUrl": url}}
         if svc.get("offers"):
             s["offers"] = svc["offers"]
+        if path == "/functional-medicine-lab-testing":
+            cat = lab_catalog(page_html)
+            if cat:
+                s["hasOfferCatalog"] = cat
         graph.append(s)
     if path in ("/bhrt-navigator", "/antibiotic-guide"):
         wp["breadcrumb"] = crumbs([("Home", "/"), ("Clinicians", "/clinicians"), (name, path)])

@@ -355,7 +355,25 @@ def build():
     print("sitemap:", len(urls), "URLs")
 
     # llms.txt: plain-language summary for AI assistants (https://llmstxt.org)
-    svc_lines = "".join(f"- [{v['name']}]({SITE_URL}{k}): {v['description']}\n" for k, v in schema.SERVICES.items())
+    def _price(o):
+        if "price" in o:
+            return f"${o['price']}"
+        ps = o["priceSpecification"]
+        return f"${ps['minPrice']}–${ps['maxPrice']}/{ps['unitText']}"
+
+    def _prices(v):
+        offers = v.get("offers") or []
+        if not offers:
+            return ""
+        return " Prices: " + "; ".join(f"{o['name']} {_price(o)}" for o in offers) + "."
+
+    svc_lines = "".join(f"- [{v['name']}]({SITE_URL}{k}): {v['description']}{_prices(v)}\n"
+                        for k, v in schema.SERVICES.items())
+    lab_html = open(os.path.join(SRC, "pages", "functional-medicine-lab-testing.html"), encoding="utf-8").read()
+    lab_cat = schema.lab_catalog(lab_html) or {"itemListElement": []}
+    lab_lines = "".join(
+        f"- {o['name']}" + (f" ({o['itemOffered']['description']})" if o["itemOffered"].get("description") else "") + ": " + (f"${o['price']}" if "price" in o else f"from ${o['priceSpecification']['minPrice']}") + "\n"
+        for o in lab_cat["itemListElement"])
     post_lines = "".join(f"- [{q[1]}]({SITE_URL}/post/{q[0]})\n" for q in POSTS)
     with open(os.path.join(SITE, "llms.txt"), "w", encoding="utf-8") as f:
         f.write("# Your Functional Health\n\n"
@@ -364,11 +382,26 @@ def build():
                 "Houston, Dallas, Midland, Odessa, Lubbock, Amarillo, San Angelo, Tyler and Beaumont. Cash-pay with "
                 "published prices; HSA/FSA accepted; superbills for out-of-network reimbursement.\n\n"
                 "Phone or text: 737-336-5959. Free 15-minute discovery call: " + SITE_URL + "/#contact\n\n"
+                "## Quick facts\n\n"
+                "- Insurance: the practice is cash-pay and does not bill insurance. HSA/FSA funds can be used, and a superbill "
+                "is provided after each visit for out-of-network reimbursement. Insurance can still cover outside labs, imaging "
+                "and prescriptions.\n"
+                "- Who can be seen: patients in Texas, in person at the Austin office or by secure video anywhere in Texas. "
+                "You need to be in Texas at the time of the appointment.\n"
+                "- Labs: functional medicine labs are billed separately from visits and are not covered by insurance; basic "
+                "bloodwork can often be run through insurance.\n\n"
                 "## Services\n\n" + svc_lines +
+                f"- [Virtual care across Texas]({SITE_URL}/virtual-care-texas): how video visits, local lab draws and local "
+                "pharmacies work for patients anywhere in Texas, from the Permian Basin to Southeast Texas.\n"
+                "\n## Functional lab test prices\n\n"
+                f"At-home kits ordered at {SITE_URL}/functional-medicine-lab-testing; \"test + interpretation\" includes a "
+                "virtual review with Xenia. HSA/FSA eligible; not covered by insurance.\n\n" + lab_lines +
                 "\n## About\n\n"
                 f"- [About Xenia Kempf, FNP-C]({SITE_URL}/#about)\n"
                 f"- [Frequently asked questions]({SITE_URL}/#faq)\n"
                 f"- [Free guides and health quizzes]({SITE_URL}/resources)\n"
+                f"- [Store: practitioner-grade supplements (Fullscript), Mira hormone tracking and non-toxic picks]({SITE_URL}/store)\n"
+                f"- [Blog]({SITE_URL}/functional-medicine-blog)\n"
                 f"- [Clinical reference apps for clinicians: BHRT Navigator and Antibiotic Guide]({SITE_URL}/clinicians)\n"
                 "\n## Clinical reference apps (for licensed prescribers)\n\n"
                 f"- [BHRT Navigator]({SITE_URL}/bhrt-navigator): point-of-care hormone therapy reference app (protocols, candidacy screening, Rx cards, estradiol conversion charts, compounding calculator). $149/year; with the 184-page BHRT course, $599. App: https://bhrt.app\n"
